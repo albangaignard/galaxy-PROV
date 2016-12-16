@@ -68,7 +68,7 @@
                         <phase>package</phase>
                         <configuration>
                             <descriptorId>jar-with-dependencies</descriptorId>
-                            <archive><manifest><mainClass>fr.uivnantes.galaxyld.Main</mainClass></manifest></archive>
+                            <archive><manifest><mainClass>fr.univnantes.galaxyld.Main</mainClass></manifest></archive>
                         </configuration>
                         <goals><goal>single</goal></goals>
                     </execution>
