@@ -88,6 +88,7 @@ public class GHistAPI {
     }
 
     public String getProv(String histID) throws GalaxyProvenanceException, JSONException {
+        logger.info("Fetching PROV");
         if (histID == null) {
             throw new GalaxyProvenanceException("Null Galaxy history ID");
         }
@@ -116,7 +117,6 @@ public class GHistAPI {
 
         ClientResponse responseHist = service.path("/api/histories").queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         String rH = responseHist.getEntity(String.class);
-        System.out.println(rH);
         JsonArray arrayHist = new JsonParser().parse(rH).getAsJsonArray();
 
         // Navigate though list of histories

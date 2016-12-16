@@ -23,7 +23,12 @@
  */
 package fr.univnantes.galaxyld;
 
-
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Map;
 import java.util.logging.Level;
 import org.apache.commons.cli.BasicParser;
@@ -48,26 +53,23 @@ public class Main {
     private static String gKey;
     private static String gHist;
     private static String gUrl;
-    private static boolean isFull = false;
 
     public static void main(String args[]) {
         Options options = new Options();
         Option listGHistOpt = new Option("l", "listGalaxyHistories", false, "list all available Galaxy histories");
         Option apiKeyOpt = new Option("k", "galaxyApiKey", true, "the Galaxy API Key used as credential");
         Option gUrlOpt = new Option("u", "galaxyUrl", true, "the Galaxy server URL");
-        Option gHistIDOpt = new Option("hi", "galaxyHistoryID", true, "the Galaxy history ID used to extract PROV RDF statements");
-        Option fullOpt = new Option("f", "full_prov", false, "produces a full RDF PROV output");
+        Option gHistIDOpt = new Option("i", "galaxyHistoryID", true, "the Galaxy history ID used to extract PROV RDF statements");
         Option versionOpt = new Option("v", "version", false, "print the version information and exit");
         Option helpOpt = new Option("h", "help", false, "print the help");
         options.addOption(listGHistOpt);
         options.addOption(apiKeyOpt);
         options.addOption(gHistIDOpt);
         options.addOption(gUrlOpt);
-        options.addOption(fullOpt);
         options.addOption(versionOpt);
         options.addOption(helpOpt);
 
-        String header = "Ga2Prov is a tool to extract provenance information from Galaxy workspaces through the PROV-O ontology and a corresponding graphical representation.";
+        String header = "GalaxyLD is a tool to extract provenance information from Galaxy workspaces through the PROV-O ontology.";
         String footer = "\nPlease report any issue to alban.gaignard@univ-nantes.fr";
 
         try {
@@ -76,20 +78,13 @@ public class Main {
 
             if (cmd.hasOption("h")) {
                 HelpFormatter formatter = new HelpFormatter();
-                formatter.printHelp("ga2prov", header, options, footer, true);
+                formatter.printHelp("GalaxyLD", header, options, footer, true);
                 System.exit(0);
             }
 
             if (cmd.hasOption("v")) {
-                logger.info("Ga2Prov version 0.1.0");
+                logger.info("GalaxyLD version 1.0-SNAPSHOT");
                 System.exit(0);
-            }
-
-            if (cmd.hasOption("f")) {
-                Main.isFull = true;
-                logger.debug("full prov");
-            } else {
-                logger.debug("partial prov");
             }
 
             if (cmd.hasOption("k")) {
@@ -113,31 +108,37 @@ public class Main {
             GHistFactory.init(Main.gUrl, Main.gKey);
 
             if (cmd.hasOption("l")) {
+                logger.info("Listing histories :");
                 GHistAPI gAPI;
                 try {
                     gAPI = GHistFactory.getInstance();
                     Map<String, String> histories = gAPI.listHistories();
                     for (String id : histories.keySet()) {
                         String message = String.format("Found history with id %s and name %s", id, histories.get(id));
-                        System.out.println(message);
+                        System.out.println("\t"+message);
                     }
-                } catch (Exception ex) {
+                    System.exit(0);
+                } catch (GalaxyProvenanceException ex) {
                     logger.error("An error occured while connecting to the Galaxy server. Please check the Galaxy server URL and your API key.");
-                    ex.printStackTrace();
                     System.exit(1);
                 }
             }
 
-            if (cmd.hasOption("hi")) {
+            if (cmd.hasOption("i")) {
                 StopWatch sw = new StopWatch();
                 sw.start();
-                
+
                 Main.gHist = cmd.getOptionValue("hi");
-                        
+
                 GHistAPI gAPI = GHistFactory.getInstance();
                 String provTTL = gAPI.getProv(Main.gHist);
                 sw.stop();
-                logger.info("PROV triples retrieved in "+sw.getTime()+" ms");
+                logger.info("PROV triples retrieved in " + sw.getTime() + " ms");
+                File oF = File.createTempFile("PROV-", ".ttl", Paths.get(".").toFile());
+                try (BufferedWriter writer = Files.newBufferedWriter(oF.toPath())) {
+                    writer.write(provTTL);
+                }
+                logger.info("PROV written to " + Paths.get(oF.toURI()).normalize());
 
 //                GraphStore graph = GraphStore.create(false);
 //                QueryProcess exec = QueryProcess.create(graph);
@@ -195,19 +196,32 @@ public class Main {
 //                Path pathProv = Files.createTempFile("provenanceRDF-", ".ttl");
 //                Files.write(pathProv, provTTL.getBytes(), StandardOpenOption.WRITE);
 //                logger.info("RDF provenance written in " + pathProv.toString());
+            } else {
+                // list histories
+                logger.info("Listing histories :");
+                GHistAPI gAPI;
+                try {
+                    gAPI = GHistFactory.getInstance();
+                    Map<String, String> histories = gAPI.listHistories();
+                    for (String id : histories.keySet()) {
+                        String message = String.format("Found history with id %s and name %s", id, histories.get(id));
+                        System.out.println("\t"+message);
+                    }
+                } catch (GalaxyProvenanceException ex) {
+                    logger.error("An error occured while connecting to the Galaxy server. Please check the Galaxy server URL and your API key.");
+                    System.exit(1);
+                }
             }
 
         } catch (GalaxyProvenanceException ex) {
             logger.error("An error occured while connecting to the Galaxy server. Please check the Galaxy server URL and your API key.");
             ex.printStackTrace();
             System.exit(1);
-//        } catch (IOException ex) {
-//            logger.error("An error occured while writing the visualization file.");
-//            ex.printStackTrace();
-//            System.exit(1);
         } catch (ParseException ex) {
             java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (JSONException ex) {
+            java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
             java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
