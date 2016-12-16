@@ -57,5 +57,24 @@
         </dependency> 
         
     </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                            <descriptorId>jar-with-dependencies</descriptorId>
+                            <archive><manifest><mainClass>fr.uivnantes.galaxyld.Main</mainClass></manifest></archive>
+                        </configuration>
+                        <goals><goal>single</goal></goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
         
 </project>
