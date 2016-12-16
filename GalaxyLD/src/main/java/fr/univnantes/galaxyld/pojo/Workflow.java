@@ -21,43 +21,67 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package fr.univnantes.galaxyld.data;
+package fr.univnantes.galaxyld.pojo;
+
+import com.google.gson.annotations.SerializedName;
+import java.util.Map;
 
 /**
  *
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
-public class DatasetDAO {
-    private String fileLabel;
-    private String filePath;
+public class Workflow {
 
-    public DatasetDAO() {
+    private Boolean a_galaxy_workflow;
+    private String annotation;
+    @SerializedName("format-version")
+    private String formatVersion;
+    private String name;
+    private Map<String, Step> steps;
+
+    public Boolean getA_galaxy_workflow() {
+        return a_galaxy_workflow;
     }
 
-    public DatasetDAO(String fileLabel, String filePath) {
-        this.fileLabel = fileLabel;
-        this.filePath = filePath;
+    public void setA_galaxy_workflow(Boolean a_galaxy_workflow) {
+        this.a_galaxy_workflow = a_galaxy_workflow;
     }
 
-    public String getFileLabel() {
-        return fileLabel;
+    public String getAnnotation() {
+        return annotation;
     }
 
-    public void setFileLabel(String fileLabel) {
-        this.fileLabel = fileLabel;
+    public void setAnnotation(String annotation) {
+        this.annotation = annotation;
     }
 
-    public String getFilePath() {
-        return filePath;
+    public String getFormatVersion() {
+        return formatVersion;
     }
 
-    public void setFilePath(String filePath) {
-        this.filePath = filePath;
+    public void setFormatVersion(String formatVersion) {
+        this.formatVersion = formatVersion;
     }
-    
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Map<String, Step> getSteps() {
+        return steps;
+    }
+
+    public void setSteps(Map<String, Step> steps) {
+        this.steps = steps;
+    }
+
     @Override
     public String toString() {
-        return "{start: "+this.fileLabel+", "+"stop: "+this.filePath+"}";
+        return "GalaxyWF{" + "a_galaxy_workflow=" + a_galaxy_workflow + ", annotation=" + annotation + ", formatVersion=" + formatVersion + ", name=" + name + ", steps=" + steps + '}';
     }
-    
+
 }

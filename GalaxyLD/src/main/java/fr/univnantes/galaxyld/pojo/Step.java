@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package fr.univnantes.galaxyld.data;
+package fr.univnantes.galaxyld.pojo;
 
 import fr.univnantes.galaxyld.Connection;
 import java.util.List;
@@ -32,11 +32,11 @@ import java.util.Map;
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
 public class Step {
+
     private String annotation;
-    private int id ;
+    private int id;
     private String name;
     private Map<String, Connection> input_connections;
-//    private Map<String, List<Connection>> input_connections;
     private List<Object> inputs;
     private List<Output> outputs;
     private String tool_id;
@@ -66,16 +66,6 @@ public class Step {
     public void setName(String name) {
         this.name = name;
     }
-
-//    public Map<String, List<Connection>> getInput_connections() {
-//        return input_connections;
-//    }
-//
-//    public void setInput_connections(Map<String, List<Connection>> input_connections) {
-//        this.input_connections = input_connections;
-//    }
-    
-    
 
     public Map<String, Connection> getInput_connections() {
         return input_connections;
@@ -129,4 +119,5 @@ public class Step {
     public String toString() {
         return "Step{" + "annotation=" + annotation + ", id=" + id + ", name=" + name + ", input_connections=" + input_connections + ", inputs=" + inputs + ", outputs=" + outputs + ", tool_id=" + tool_id + ", type=" + type + ", user_outputs=" + user_outputs + '}';
     }
+
 }

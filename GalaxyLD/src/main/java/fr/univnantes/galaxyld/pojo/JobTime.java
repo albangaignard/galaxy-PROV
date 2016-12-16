@@ -21,66 +21,44 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package fr.univnantes.galaxyld.data;
-
-import com.google.gson.annotations.SerializedName;
-import java.util.Map;
+package fr.univnantes.galaxyld.pojo;
 
 /**
  *
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
-public class GalaxyWF {
-    private Boolean a_galaxy_workflow;
-    private String annotation;
-    @SerializedName("format-version")
-    private String formatVersion;
-    private String name;
-    private Map<String,Step> steps;
+public class JobTime {
 
-    public Boolean getA_galaxy_workflow() {
-        return a_galaxy_workflow;
+    private String start;
+    private String stop;
+
+    public JobTime() {
     }
 
-    public void setA_galaxy_workflow(Boolean a_galaxy_workflow) {
-        this.a_galaxy_workflow = a_galaxy_workflow;
+    public JobTime(String start, String stop) {
+        this.start = start;
+        this.stop = stop;
     }
 
-    public String getAnnotation() {
-        return annotation;
+    public String getStart() {
+        return start;
     }
 
-    public void setAnnotation(String annotation) {
-        this.annotation = annotation;
+    public void setStart(String start) {
+        this.start = start;
     }
 
-    public String getFormatVersion() {
-        return formatVersion;
+    public String getStop() {
+        return stop;
     }
 
-    public void setFormatVersion(String formatVersion) {
-        this.formatVersion = formatVersion;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Map<String, Step> getSteps() {
-        return steps;
-    }
-
-    public void setSteps(Map<String, Step> steps) {
-        this.steps = steps;
+    public void setStop(String stop) {
+        this.stop = stop;
     }
 
     @Override
     public String toString() {
-        return "GalaxyWF{" + "a_galaxy_workflow=" + a_galaxy_workflow + ", annotation=" + annotation + ", formatVersion=" + formatVersion + ", name=" + name + ", steps=" + steps + '}';
+        return "{start: " + this.start + ", " + "stop: " + this.stop + "}";
     }
-    
+
 }

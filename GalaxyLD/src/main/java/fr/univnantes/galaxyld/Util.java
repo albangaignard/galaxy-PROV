@@ -23,11 +23,11 @@
  */
 package fr.univnantes.galaxyld;
 
-import fr.univnantes.galaxyld.data.Output;
-import fr.univnantes.galaxyld.data.GalaxyWF;
-import fr.univnantes.galaxyld.data.Step;
-import fr.univnantes.galaxyld.data.DatasetDAO;
-import fr.univnantes.galaxyld.data.JobTimeDAO;
+import fr.univnantes.galaxyld.pojo.Output;
+import fr.univnantes.galaxyld.pojo.Workflow;
+import fr.univnantes.galaxyld.pojo.Step;
+import fr.univnantes.galaxyld.pojo.Dataset;
+import fr.univnantes.galaxyld.pojo.JobTime;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -57,14 +57,14 @@ public class Util {
     // HistoryContentsProvenance hProv = historiesClient.showProvenance(historyId, datasetId);
     
     // TODO
-    // JobTimeDAO jT = Util.getGalaxyJobTime(gURL, gApiKey, hProv.getJobId());
+    // JobTime jT = Util.getGalaxyJobTime(gURL, gApiKey, hProv.getJobId());
     
     
     
     
 
     @Deprecated
-    public static DatasetDAO getGalaxyDatasetInfo(String gURL, String key, String datasetID) {
+    public static Dataset getGalaxyDatasetInfo(String gURL, String key, String datasetID) {
         ProcessBuilder pb = new ProcessBuilder("/usr/local/bin/python", "/Users/gaignard-a/Documents/Publis/tapp-2016/dev/galaxy-dataset-info.py",
                 "-u", gURL, "-k", key, "-d", datasetID);
         pb.redirectErrorStream(true);
@@ -87,7 +87,7 @@ public class Util {
             String sub2 = dataset.substring(dataset.lastIndexOf("file_name : "));
             String path = sub2.substring(12, sub2.indexOf("\n"));
             
-            return new DatasetDAO(label,path);
+            return new Dataset(label,path);
         } catch (StringIndexOutOfBoundsException e) {
             logger.warn("No name found for dataset id " + datasetID);
             System.out.println("-----------");
@@ -98,7 +98,7 @@ public class Util {
     }
 
     @Deprecated
-    public static JobTimeDAO getGalaxyJobTime(String gURL, String key, String jobID) {
+    public static JobTime getGalaxyJobTime(String gURL, String key, String jobID) {
         ProcessBuilder pb = new ProcessBuilder("/usr/local/bin/python", "/Users/gaignard-a/Documents/Publis/tapp-2016/dev/galaxy-job-info.py",
                 "-u", gURL, "-k", key, "-j", jobID);
         pb.redirectErrorStream(true);
@@ -122,7 +122,7 @@ public class Util {
             String subStop = job.substring(job.lastIndexOf(tag2));
             String stop = subStop.substring(tag2.length(), subStop.indexOf("\n"));
 //            System.out.println(res);
-            return new JobTimeDAO(start, stop);
+            return new JobTime(start, stop);
         } catch (StringIndexOutOfBoundsException e) {
             logger.warn("No name found for dataset id " + jobID);
             System.out.println("-----------");
@@ -393,7 +393,7 @@ public class Util {
         return out;
     }
 
-    public static String simulateWfExec(GalaxyWF wf) {
+    public static String simulateWfExec(Workflow wf) {
         StringBuilder toDOT = new StringBuilder();
         StringBuilder toPROV = new StringBuilder();
         toDOT.append("digraph G {\n");

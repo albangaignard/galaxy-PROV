@@ -21,45 +21,44 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package fr.univnantes.galaxyld.data;
+package fr.univnantes.galaxyld.pojo;
 
 /**
  *
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
-public class JobTimeDAO {
-    private String start;
-    private String stop;
+public class Dataset {
 
-    public JobTimeDAO() {
+    private String fileLabel;
+    private String filePath;
+
+    public Dataset() {
     }
 
-    public JobTimeDAO(String start, String stop) {
-        this.start = start;
-        this.stop = stop;
+    public Dataset(String fileLabel, String filePath) {
+        this.fileLabel = fileLabel;
+        this.filePath = filePath;
     }
 
-    public String getStart() {
-        return start;
+    public String getFileLabel() {
+        return fileLabel;
     }
 
-    public void setStart(String start) {
-        this.start = start;
+    public void setFileLabel(String fileLabel) {
+        this.fileLabel = fileLabel;
     }
 
-    public String getStop() {
-        return stop;
+    public String getFilePath() {
+        return filePath;
     }
 
-    public void setStop(String stop) {
-        this.stop = stop;
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
     }
 
     @Override
     public String toString() {
-        return "{start: "+this.start+", "+"stop: "+this.stop+"}";
+        return "{start: " + this.fileLabel + ", " + "stop: " + this.filePath + "}";
     }
-    
-    
     
 }

@@ -21,31 +21,31 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package fr.univnantes.galaxyld.data;
+package fr.univnantes.galaxyld.pojo;
 
 /**
  *
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
-class InFile {
-    private String id ;
-    private String output_name ; 
+public class Output {
 
-    public String getId() {
-        return id;
+    private String name;
+    private String type;
+
+    public String getName() {
+        return name;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getOutput_name() {
-        return output_name;
+    public String getType() {
+        return type;
     }
 
-    public void setOutput_name(String output_name) {
-        this.output_name = output_name;
+    public void setType(String type) {
+        this.type = type;
     }
-    
     
 }
