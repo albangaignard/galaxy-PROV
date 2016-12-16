@@ -21,11 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
@@ -33,18 +30,18 @@ import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
+import fr.univnantes.galaxyld.GalaxyProvenanceException;
+import fr.univnantes.galaxyld.Util;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Map.Entry;
 import org.apache.log4j.Logger;
 import org.codehaus.jettison.json.JSONException;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -54,12 +51,16 @@ import org.junit.Test;
 public class GalaxyApiTest {
 
     private static Logger logger = Logger.getLogger(GalaxyApiTest.class);
+    private static String gURL = null;
+    private static String gApiKey = null;
 
     public GalaxyApiTest() {
     }
 
     @BeforeClass
-    public static void setUpClass() {
+    public static void setUpClass() throws GalaxyProvenanceException {
+        GalaxyApiTest.gURL = Util.getProperty("URL");
+        GalaxyApiTest.gApiKey = Util.getProperty("API-key");
     }
 
     @AfterClass
@@ -72,18 +73,6 @@ public class GalaxyApiTest {
 
     @After
     public void tearDown() {
-    }
-
-    private static String gURL = "https://galaxy-bird.univ-nantes.fr/galaxy/";
-    private static String gApiKey = "dd3b7fce727d53ac00512ea19a8f5d4f";
-
-    public void jsonPP(String json) {
-//        JsonArray o = new JsonParser().parse(json).getAsJsonArray();
-//        JsonObject o = new JsonParser().parse(json).getAsJsonObject();
-
-        Gson gson = new Gson();
-        Object ob = gson.fromJson(json, Object.class);
-        logger.info(new GsonBuilder().setPrettyPrinting().create().toJson(ob));
     }
 
     @Test
@@ -100,63 +89,25 @@ public class GalaxyApiTest {
         ClientResponse responseHist = service.path("/api/histories").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         System.out.println("----------");
         String r = responseHist.getEntity(String.class);
-        jsonPP(r);
+        Util.jsonPP(r);
         System.out.println("----------");
 
 //        /api/tools
         ClientResponse responseTools = service.path("/api/tools").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         System.out.println("----------");
         r = responseTools.getEntity(String.class);
-//        jsonPP(r);
-
-        JsonArray jarray = new JsonParser().parse(r).getAsJsonArray();
-        for (JsonElement e : jarray) {
-            JsonArray toolsArray = e.getAsJsonObject().get("elems").getAsJsonArray();
-            for (JsonElement t : toolsArray) {
-                if (t.getAsJsonObject().get("name") != null) {
-                    System.out.println("\t\t\t" + t.getAsJsonObject().get("name").getAsString());
-                }
-            }
-        }
-        System.out.println("----------");
-
-//        ClientResponse responseJob = service.path("/api/jobs/2773e5acaa7ffd7f").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
-//        System.out.println("----------");
-//        r = responseJob.getEntity(String.class);
-//        jsonPP(r);
-//        System.out.println("----------");
-//
-//        ClientResponse responseJobIn = service.path("/api/jobs/2773e5acaa7ffd7f/inputs").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
-//        System.out.println("----------");
-//        r = responseJobIn.getEntity(String.class);
-//        jsonPP(r);
-//        System.out.println("----------");
-//
-//        ClientResponse responseJobOut = service.path("/api/jobs/2773e5acaa7ffd7f/outputs").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
-//        System.out.println("----------");
-//        r = responseJobOut.getEntity(String.class);
-//        jsonPP(r);
-//        System.out.println("----------");
-//
-//        ClientResponse responseDS = service.path("/api/datasets/694ed270b1759660").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
-//        System.out.println("----------");
-//        r = responseDS.getEntity(String.class);
-//        jsonPP(r);
-//        System.out.println("----------");
+        Util.jsonPP(r);
     }
 
     @Test
     public void listHistories() throws URISyntaxException {
-
-        String gURL = "https://galaxy-bird.univ-nantes.fr/galaxy/";
-        String gKey = "dd3b7fce727d53ac00512ea19a8f5d4f";
 
         ClientConfig config = new DefaultClientConfig();
         Client client = Client.create(config);
         config.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
         WebResource service = client.resource(new URI(gURL));
 
-        ClientResponse responseHist = service.path("/api/histories").queryParam("key", gKey).accept("application/json").type("application/json").get(ClientResponse.class);
+        ClientResponse responseHist = service.path("/api/histories").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         String rH = responseHist.getEntity(String.class);
         JsonArray arrayHist = new JsonParser().parse(rH).getAsJsonArray();
 
@@ -165,40 +116,40 @@ public class GalaxyApiTest {
             String nameH = eH.getAsJsonObject().get("name").getAsString();
             String idH = eH.getAsJsonObject().get("id").getAsString();
 
-            ClientResponse responseHistContent = service.path("/api/histories/" + idH + "/contents").queryParam("key", gKey).accept("application/json").type("application/json").get(ClientResponse.class);
+            ClientResponse responseHistContent = service.path("/api/histories/" + idH + "/contents").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
             String rC = responseHistContent.getEntity(String.class);
 //            jsonPP(rC);
             JsonArray arrayHistContent = new JsonParser().parse(rC).getAsJsonArray();
 
-            // Navigate though datasets for a given history
-            for (JsonElement eC : arrayHistContent) {
-                String idC = eH.getAsJsonObject().get("id").getAsString();
-                String nameC = eH.getAsJsonObject().get("name").getAsString();
+//            // Navigate though datasets for a given history
+//            for (JsonElement eC : arrayHistContent) {
+//                String idC = eH.getAsJsonObject().get("id").getAsString();
+//                String nameC = eH.getAsJsonObject().get("name").getAsString();
+//
+//                ClientResponse responseHistContentProv = service.path("/api/histories/" + idH + "/contents/" + idC + "/provenance").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
+//                String rCProv = responseHistContentProv.getEntity(String.class);
+//                //jsonPP(rCProv);
+//                JsonObject prov = new JsonParser().parse(rCProv).getAsJsonObject();
+//                String jobId = prov.get("job_id").getAsString();
+//                String toolId = prov.get("tool_id").getAsString();
+//
+//                //JobDetails
+//                ClientResponse responseJob = service.path("/api/jobs/2773e5acaa7ffd7f").queryParam("key", gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
+//                String rJob = responseJob.getEntity(String.class);
+//                JsonObject job = new JsonParser().parse(rJob).getAsJsonObject();
+//                String start = job.get("create_time").getAsString();
+//                String stop = job.get("update_time").getAsString();
+//                System.out.println("\t\tSTART=" + start + " | STOP=" + stop);
+//
+//                JsonObject params = prov.get("parameters").getAsJsonObject();
+//
+//                for (Entry e : params.entrySet()) {
+//                    System.out.println("\t\t" + e.getKey().toString() + " | " + e.getValue().toString());
+//                }
+//                System.out.println("");
+//            }
 
-                ClientResponse responseHistContentProv = service.path("/api/histories/" + idH + "/contents/" + idC + "/provenance").queryParam("key", gKey).accept("application/json").type("application/json").get(ClientResponse.class);
-                String rCProv = responseHistContentProv.getEntity(String.class);
-                //jsonPP(rCProv);
-                JsonObject prov = new JsonParser().parse(rCProv).getAsJsonObject();
-                String jobId = prov.get("job_id").getAsString();
-                String toolId = prov.get("tool_id").getAsString();
-
-                //JobDetails
-                ClientResponse responseJob = service.path("/api/jobs/2773e5acaa7ffd7f").queryParam("key", gKey).accept("application/json").type("application/json").get(ClientResponse.class);
-                String rJob = responseJob.getEntity(String.class);
-                JsonObject job = new JsonParser().parse(rJob).getAsJsonObject();
-                String start = job.get("create_time").getAsString();
-                String stop = job.get("update_time").getAsString();
-                System.out.println("\t\tSTART=" + start + " | STOP=" + stop);
-
-                JsonObject params = prov.get("parameters").getAsJsonObject();
-
-                for (Entry e : params.entrySet()) {
-                    System.out.println("\t\t" + e.getKey().toString() + " | " + e.getValue().toString());
-                }
-                System.out.println("");
-            }
-
-            System.out.println("");
+//            System.out.println("");
         }
     }
 }

@@ -24,6 +24,7 @@
 import fr.univnantes.galaxyld.GHistAPI;
 import fr.univnantes.galaxyld.GalaxyProvenanceException;
 import fr.univnantes.galaxyld.Main;
+import fr.univnantes.galaxyld.Util;
 import org.apache.commons.lang.time.StopWatch;
 import org.codehaus.jettison.json.JSONException;
 import org.junit.After;
@@ -39,11 +40,16 @@ import org.junit.Ignore;
  */
 public class TestGalaxAPI {
 
+    private static String gURL;
+    private static String gApiKey;
+
     public TestGalaxAPI() {
     }
 
-    @BeforeClass
-    public static void setUpClass() {
+     @BeforeClass
+    public static void setUpClass() throws GalaxyProvenanceException {
+        TestGalaxAPI.gURL = Util.getProperty("URL");
+        TestGalaxAPI.gApiKey = Util.getProperty("API-key");
     }
 
     @AfterClass
@@ -59,30 +65,8 @@ public class TestGalaxAPI {
     }
 
     @Test
-    public void hello() {
-//         String [] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hID", "df794a04e8de538a", "-f"};
-//         String [] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hID", "df794a04e8de538a"};
-//         String [] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "1766e5ce2d5ac71079cde3b3a83316e7", "-hi", "122d1ac05929ad85"};
-//         String [] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hi", "91b109f0315f2571"}; // RNAseq Mouse (TopHat-HTSeq-Deseq)
-//         String [] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-l"};
-//        String[] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hi", "3e34ed8b1c68cb50"}; // RNAseq Mouse (TopHat-Cufflinks)
-        //java -jar Ga2Prov-1.0-SNAPSHOT-jar-with-dependencies.jar -f -u http://galaxy-bird.univ-nantes.fr/galaxy -k dd3b7fce727d53ac00512ea19a8f5d4f -hi 491a45f0d6ea6596 
-        String[] params = {"-u", "https://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hi", "91b109f0315f2571"}; 
-
-        StopWatch sw = new StopWatch();
-        sw.start();
-        Main.main(params);
-        sw.stop();
-        System.out.println("DONE in " + sw.getTime() + " ms");
-    }
-
-    @Test
-    @Ignore
     public void directApiTest() throws JSONException, GalaxyProvenanceException {
-//        String[] params = {"-u", "http://galaxy-bird.univ-nantes.fr/galaxy/", "-k", "dd3b7fce727d53ac00512ea19a8f5d4f", "-hi", "491a45f0d6ea6596"}; // RNAseq Mouse (TopHat-Cufflinks)
-
         GHistAPI gAPI = new GHistAPI("https://galaxy-bird.univ-nantes.fr/galaxy/", "dd3b7fce727d53ac00512ea19a8f5d4f");
-
         StopWatch sw = new StopWatch();
         sw.start();
         String provTTL = gAPI.getProv("491a45f0d6ea6596");
