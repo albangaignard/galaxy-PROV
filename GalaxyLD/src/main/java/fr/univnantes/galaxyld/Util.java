@@ -23,15 +23,16 @@
  */
 package fr.univnantes.galaxyld;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import fr.univnantes.galaxyld.pojo.Output;
 import fr.univnantes.galaxyld.pojo.Workflow;
 import fr.univnantes.galaxyld.pojo.Step;
-import fr.univnantes.galaxyld.pojo.Dataset;
-import fr.univnantes.galaxyld.pojo.JobTime;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Properties;
 import java.util.regex.Pattern;
 import org.apache.log4j.Logger;
 
@@ -42,93 +43,33 @@ import org.apache.log4j.Logger;
 public class Util {
 
     private static Logger logger = Logger.getLogger(Util.class);
-
     public static String provPrefix = "http://www.w3.org/ns/prov#";
     public static String dataPrefix = "http://data.symetric.org/";
-    
-    
-    // TODO for each history content entry
-    // hProv.getJobId, hProv.getToolId, hProv.getParams, job.getStart, job.getStop, dInfo.getFileLabel(), dInfo.getFilePath()
-    
-    // TODO
-    //  List<HistoryContents> hCont = historiesClient.showHistoryContents(historyId);
-    
-    // TODO
-    // HistoryContentsProvenance hProv = historiesClient.showProvenance(historyId, datasetId);
-    
-    // TODO
-    // JobTime jT = Util.getGalaxyJobTime(gURL, gApiKey, hProv.getJobId());
-    
-    
-    
-    
 
-    @Deprecated
-    public static Dataset getGalaxyDatasetInfo(String gURL, String key, String datasetID) {
-        ProcessBuilder pb = new ProcessBuilder("/usr/local/bin/python", "/Users/gaignard-a/Documents/Publis/tapp-2016/dev/galaxy-dataset-info.py",
-                "-u", gURL, "-k", key, "-d", datasetID);
-        pb.redirectErrorStream(true);
-
-        String dataset = "";
-        try {
-            Process process = pb.start();
-            int errCode = process.waitFor();
-            dataset = output(process.getInputStream());
-        } catch (IOException e) {
-            logger.error(e.getMessage());
-        } catch (InterruptedException e) {
-            logger.error(e.getMessage());
-        }
-        
-        try {
-            String sub = dataset.substring(dataset.lastIndexOf("name : "));
-            String label = sub.substring(7, sub.indexOf("\n"));
-//            System.out.println(res);
-            String sub2 = dataset.substring(dataset.lastIndexOf("file_name : "));
-            String path = sub2.substring(12, sub2.indexOf("\n"));
-            
-            return new Dataset(label,path);
-        } catch (StringIndexOutOfBoundsException e) {
-            logger.warn("No name found for dataset id " + datasetID);
-            System.out.println("-----------");
-            System.out.println(dataset);
-            System.out.println("-----------");
-            return null;
-        }
+    public static void jsonPP(String json) {
+        Gson gson = new Gson();
+        Object ob = gson.fromJson(json, Object.class
+        );
+        logger.info(new GsonBuilder().setPrettyPrinting().create().toJson(ob));
     }
 
-    @Deprecated
-    public static JobTime getGalaxyJobTime(String gURL, String key, String jobID) {
-        ProcessBuilder pb = new ProcessBuilder("/usr/local/bin/python", "/Users/gaignard-a/Documents/Publis/tapp-2016/dev/galaxy-job-info.py",
-                "-u", gURL, "-k", key, "-j", jobID);
-        pb.redirectErrorStream(true);
-
-        String job = "";
+    public static String getProperty(String key) throws GalaxyProvenanceException {
+        Properties prop = new Properties();
+        InputStream input = null;
         try {
-            Process process = pb.start();
-            int errCode = process.waitFor();
-            job = output(process.getInputStream());
-        } catch (IOException e) {
-            logger.error(e.getMessage());
-        } catch (InterruptedException e) {
-            logger.error(e.getMessage());
-        }
-        try {
-            String tag1 = "create_time : ";
-            String subStart = job.substring(job.lastIndexOf(tag1));
-            String start = subStart.substring(tag1.length(), subStart.indexOf("\n"));
-
-            String tag2 = "update_time : ";
-            String subStop = job.substring(job.lastIndexOf(tag2));
-            String stop = subStop.substring(tag2.length(), subStop.indexOf("\n"));
-//            System.out.println(res);
-            return new JobTime(start, stop);
-        } catch (StringIndexOutOfBoundsException e) {
-            logger.warn("No name found for dataset id " + jobID);
-            System.out.println("-----------");
-            System.out.println(job);
-            System.out.println("-----------");
-            return null;
+            input = Util.class.getClassLoader().getResourceAsStream("config.properties");
+            prop.load(input);
+            return prop.getProperty(key);
+        } catch (IOException ex) {
+            throw new GalaxyProvenanceException("Impossible to retrieve configuration from config.properties");
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    throw new GalaxyProvenanceException("Impossible to retrieve configuration from config.properties");
+                }
+            }
         }
     }
 

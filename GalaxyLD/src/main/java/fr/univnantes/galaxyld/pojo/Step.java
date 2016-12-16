@@ -23,7 +23,6 @@
  */
 package fr.univnantes.galaxyld.pojo;
 
-import fr.univnantes.galaxyld.Connection;
 import java.util.List;
 import java.util.Map;
 
