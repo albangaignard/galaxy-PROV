@@ -40,6 +40,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Level;
 import org.apache.log4j.Logger;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
@@ -49,53 +50,53 @@ import org.codehaus.jettison.json.JSONObject;
  * @author Alban Gaignard <alban.gaignard@univ-nantes.fr>
  */
 public class GHistAPI {
-
+    
     private static Logger logger = Logger.getLogger(GHistAPI.class);
     private static String gURL;
     private static String gApiKey;
     private static WebResource service;
-
+    
     public GHistAPI(String gURL, String gApiKey) {
         try {
             this.gURL = gURL;
             this.gApiKey = gApiKey;
-
+            
             ClientConfig config = new DefaultClientConfig();
             Client client = Client.create(config);
             config.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
-
+            
             this.service = client.resource(new URI(gURL));
         } catch (URISyntaxException ex) {
             logger.error(ex.getMessage());
             ex.printStackTrace();
         }
     }
-
+    
     public Map<String, String> listHistories() {
         HashMap<String, String> res = new HashMap<>();
-
+        
         ClientResponse responseHist = service.path("/api/histories").queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         String rH = responseHist.getEntity(String.class);
         JsonArray arrayHist = new JsonParser().parse(rH).getAsJsonArray();
-
+        
         for (JsonElement eH : arrayHist) {
             String nameH = eH.getAsJsonObject().get("name").getAsString();
             String idH = eH.getAsJsonObject().get("id").getAsString();
             res.put(idH, nameH);
         }
-
+        
         return res;
     }
-
-    public String getProv(String histID) throws GalaxyProvenanceException, JSONException {
+    
+    public String getProv(String histID) throws GalaxyProvenanceException {
         logger.info("Fetching PROV");
         if (histID == null) {
             throw new GalaxyProvenanceException("Null Galaxy history ID");
         }
-
+        
         StringBuilder sb = new StringBuilder();
         SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSSSS");
-
+        
         String s = "@base         <http://fr.symetric> .\n"
                 + "@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .\n"
                 + "@prefix foaf: <http://xmlns.com/foaf/0.1/> .\n"
@@ -112,9 +113,9 @@ public class GHistAPI {
                 + ". \n\n";
 //        logger.debug(s);
         sb.append(s);
-
+        
         ArrayList<String> writtenOutputs = new ArrayList<>();
-
+        
         ClientResponse responseHist = service.path("/api/histories").queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
         String rH = responseHist.getEntity(String.class);
         JsonArray arrayHist = new JsonParser().parse(rH).getAsJsonArray();
@@ -124,9 +125,9 @@ public class GHistAPI {
         for (JsonElement eH : arrayHist) {
             String nameH = eH.getAsJsonObject().get("name").getAsString();
             String idH = eH.getAsJsonObject().get("id").getAsString();
-
+            
             if (idH.equals(histID)) {
-
+                
                 ClientResponse responseHistContent = service.path("/api/histories/" + idH + "/contents").queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
                 String rC = responseHistContent.getEntity(String.class);
                 JsonArray arrayHistContent = new JsonParser().parse(rC).getAsJsonArray();
@@ -135,7 +136,7 @@ public class GHistAPI {
                 for (JsonElement eC : arrayHistContent) {
                     String idC = eC.getAsJsonObject().get("id").getAsString();
                     String nameC = eC.getAsJsonObject().get("name").getAsString();
-
+                    
                     ClientResponse responseHistContentProv = service.path("/api/histories/" + idH + "/contents/" + idC + "/provenance").queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
                     String rCProv = responseHistContentProv.getEntity(String.class);
                     //jsonPP(rCProv);
@@ -143,12 +144,12 @@ public class GHistAPI {
                     String jobId = prov.get("job_id").getAsString();
                     String toolId = prov.get("tool_id").getAsString();
                     JsonObject params = prov.get("parameters").getAsJsonObject();
-
+                    
                     StringBuilder sbActivity = new StringBuilder("<#" + jobId + ">\n"
                             + "    a prov:Activity ;\n"
-//                            + "    prov:wasAssociatedWith <#" + toolId + "> ;\n");
+                            //                            + "    prov:wasAssociatedWith <#" + toolId + "> ;\n");
                             + "    prov:wasAssociatedWith \"" + toolId + "\" ;\n");
-
+                    
                     ClientResponse responseJob = service.path("/api/jobs/" + jobId).queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
                     String rJob = responseJob.getEntity(String.class);
                     JsonObject job = new JsonParser().parse(rJob).getAsJsonObject();
@@ -160,12 +161,12 @@ public class GHistAPI {
                     StringBuilder sbOutput = new StringBuilder("<#" + idC + ">\n"
                             + "    a prov:Entity;\n"
                             + "    prov:wasGeneratedBy <#" + jobId + ">;\n"
-//                            + "    prov:wasAttributedTo <#" + toolId + ">;\n");
+                            //                            + "    prov:wasAttributedTo <#" + toolId + ">;\n");
                             + "    prov:wasAttributedTo \"" + toolId + "\" ;\n");
                     
                     if (eC.getAsJsonObject().get("name") != null) {
                         sbOutput.append("    rdfs:label \"" + eC.getAsJsonObject().get("name").getAsString() + "\";\n");
-
+                        
                     }
                     if (eC.getAsJsonObject().get("download_url") != null) {
                         sbOutput.append("    rdfs:label \"" + eC.getAsJsonObject().get("download_url").getAsString() + "\";\n\n");
@@ -174,70 +175,78 @@ public class GHistAPI {
 //                    logger.debug("\n"+s);
 
                     StringBuilder sbInput = new StringBuilder();
-
+                    
                     writtenOutputs.add(idC);
-
+                    
                     for (Map.Entry e : params.entrySet()) {
 //                        System.out.println("\t\t" + e.getKey().toString() + " | " + e.getValue().toString());
                         String k = e.getKey().toString();
                         if (k.contains("input") || k.contains("rep_factor") || k.contains("file")) {
                             String jsonString = params.get(k).toString();
                             if (jsonString.startsWith("{")) {
-                                JSONObject json = new JSONObject(jsonString);
-
-                                if (json.has("id")) {
-                                    String inputId = (String) json.get("id");
-                                    if (!writtenOutputs.contains(inputId)) {
-
-                                        ClientResponse responseDS = service.path("/api/datasets/" + inputId).queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
-                                        String rDS = responseDS.getEntity(String.class);
-                                        JsonObject ds = new JsonParser().parse(rDS).getAsJsonObject();
-
-                                        writtenOutputs.add(inputId);
-                                        sbInput.append("<#" + inputId + ">\n"
-                                                + "    a prov:Entity;\n");
+                                try {
+                                    JSONObject json = new JSONObject(jsonString);
+                                    
+                                    if (json.has("id")) {
+                                        String inputId = (String) json.get("id");
+                                        if (!writtenOutputs.contains(inputId)) {
+                                            
+                                            ClientResponse responseDS = service.path("/api/datasets/" + inputId).queryParam("key", GHistAPI.gApiKey).accept("application/json").type("application/json").get(ClientResponse.class);
+                                            String rDS = responseDS.getEntity(String.class);
+                                            JsonObject ds = new JsonParser().parse(rDS).getAsJsonObject();
+                                            
+                                            writtenOutputs.add(inputId);
+                                            sbInput.append("<#" + inputId + ">\n"
+                                                    + "    a prov:Entity;\n");
 //                                        logger.debug(ds);
-                                        if (ds.get("name") != null) {
-                                            sbInput.append("    rdfs:label \"" + ds.get("name").getAsString() + "\";\n");
-
-                                        }
+                                            if (ds.get("name") != null) {
+                                                sbInput.append("    rdfs:label \"" + ds.get("name").getAsString() + "\";\n");
+                                                
+                                            }
 //                                        if (ds.get("file_name") != null) {
 //                                            sbInput.append("    rdfs:label \"" + ds.get("file_name").getAsString() + "\";\n\n");
 //                                        }
-                                        if (ds.get("download_url") != null) {
-                                            sbInput.append("    rdfs:label \"" + ds.get("download_url").getAsString() + "\";\n\n");
+                                            if (ds.get("download_url") != null) {
+                                                sbInput.append("    rdfs:label \"" + ds.get("download_url").getAsString() + "\";\n\n");
+                                            }
+                                            sbInput.append(".\n");
                                         }
-                                        sbInput.append(".\n");
+                                        
+                                        sbActivity.append("    prov:used <#" + inputId + ">;\n");
+                                        sbOutput.append("    prov:wasDerivedFrom <#" + inputId + ">;\n");
                                     }
-
-                                    sbActivity.append("    prov:used <#" + inputId + ">;\n");
-                                    sbOutput.append("    prov:wasDerivedFrom <#" + inputId + ">;\n");
+                                } catch (JSONException ex) {
+                                    logger.error("Error while parsing JSON : \n" + jsonString);
                                 }
                             }
                         }
                         if (k.contains("refGenome")) {
                             String jsonString = params.get(k).toString();
                             if (jsonString.startsWith("{")) {
-                                JSONObject json = new JSONObject(jsonString);
-
-                                String genomeId = (String) json.get("index");
-                                if (!writtenOutputs.contains(genomeId)) {
-                                    writtenOutputs.add(genomeId);
-
-                                    sbInput.append("<#" + genomeId + ">\n"
-                                            + "    a prov:Entity;\n"
-                                            + "    rdfs:label \"" + genomeId + "\".\n\n");
+                                try {
+                                    JSONObject json = new JSONObject(jsonString);
+                                    
+                                    String genomeId = (String) json.get("index");
+                                    if (!writtenOutputs.contains(genomeId)) {
+                                        writtenOutputs.add(genomeId);
+                                        
+                                        sbInput.append("<#" + genomeId + ">\n"
+                                                + "    a prov:Entity;\n"
+                                                + "    rdfs:label \"" + genomeId + "\".\n\n");
+                                    }
+                                    
+                                    sbActivity.append("    prov:used <#" + genomeId + ">;\n");
+                                    sbOutput.append("    prov:wasDerivedFrom <#" + genomeId + ">;\n");
+                                } catch (JSONException ex) {
+                                    logger.error("Error while parsing JSON : \n" + jsonString);
                                 }
-
-                                sbActivity.append("    prov:used <#" + genomeId + ">;\n");
-                                sbOutput.append("    prov:wasDerivedFrom <#" + genomeId + ">;\n");
                             }
                         }
                     }
-
+                    
                     sbActivity.append(".\n\n");
                     sbOutput.append(".\n\n");
-
+                    
                     sb.append(sbActivity.toString());
                     sb.append(sbInput.toString());
                     sb.append(sbOutput.toString());

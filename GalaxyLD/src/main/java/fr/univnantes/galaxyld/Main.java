@@ -40,7 +40,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.lang.time.StopWatch;
 import org.apache.log4j.Logger;
-import org.codehaus.jettison.json.JSONException;
 
 /**
  *
@@ -218,8 +217,6 @@ public class Main {
             ex.printStackTrace();
             System.exit(1);
         } catch (ParseException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (JSONException ex) {
             java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
