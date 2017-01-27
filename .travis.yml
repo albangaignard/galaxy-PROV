@@ -1,4 +1,4 @@
-before_script: cd SharpProvToolbox
+before_script: cd GalaxyLD
 language: java
 jdk:
   - oraclejdk8
