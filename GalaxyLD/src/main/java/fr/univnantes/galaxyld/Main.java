@@ -127,7 +127,7 @@ public class Main {
                 StopWatch sw = new StopWatch();
                 sw.start();
 
-                Main.gHist = cmd.getOptionValue("hi");
+                Main.gHist = cmd.getOptionValue("i");
 
                 GHistAPI gAPI = GHistFactory.getInstance();
                 String provTTL = gAPI.getProv(Main.gHist);
