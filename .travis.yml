@@ -1,4 +1,4 @@
-before_script: cd GalaxyLD
+before_script: cd galaxy-PROV
 language: java
 jdk:
   - oraclejdk8
