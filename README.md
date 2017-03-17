@@ -2,9 +2,11 @@
 ## Synopsis
 Galaxy-LD is a tool dedicated to the generation of provenance graphs (RDF, PROV-O ontology) based on Galaxy user histories. The tool is currently available through a command line interface. A web-based user interface is under active development. 
 ## Motivations
+The [Galaxy workflow environment](https://usegalaxy.org) has become very popular in the bioinformatics community. However for now, it is not possible to export provenance metadata through a standard schema and format. To address this issue and to allow the combination of multiple workflow execution traces from PROV-enabled workflow engines, we developed a loosely coupled tool aimed at exporting Galaxy user histories into PROV RDF data. 
 ## Code Example
 ## Quick start
 ## Contributors
+ - Alban Gaignard: alban.gaignard@univ-nantes.fr
 ## License
 MIT License
 
