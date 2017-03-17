@@ -23,8 +23,8 @@
  */
 import fr.univnantes.galaxyld.GHistAPI;
 import fr.univnantes.galaxyld.GalaxyProvenanceException;
-import fr.univnantes.galaxyld.Main;
 import fr.univnantes.galaxyld.Util;
+import java.util.Map;
 import org.apache.commons.lang.time.StopWatch;
 import org.codehaus.jettison.json.JSONException;
 import org.junit.After;
@@ -32,7 +32,6 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.Ignore;
 
 /**
  *
@@ -66,9 +65,16 @@ public class TestGalaxAPI {
 
     @Test
     public void directApiTest() throws JSONException, GalaxyProvenanceException {
-        GHistAPI gAPI = new GHistAPI("https://galaxy-bird.univ-nantes.fr/galaxy/", "dd3b7fce727d53ac00512ea19a8f5d4f");
+        String url = Util.getProperty("URL");
+        String key = Util.getProperty("API-KEY");
+//        GHistAPI gAPI = new GHistAPI("https://galaxy-bird.univ-nantes.fr/galaxy/", "dd3b7fce727d53ac00512ea19a8f5d4f");
+        GHistAPI gAPI = new GHistAPI(url, key);
         StopWatch sw = new StopWatch();
         sw.start();
+        Map<String,String> map = gAPI.listHistories();
+        for (String k : map.keySet()) {
+            System.out.println(map.get(k));
+        }
         String provTTL = gAPI.getProv("491a45f0d6ea6596");
         sw.stop();
         System.out.println("Direct REST : done in " + sw.getTime() + " ms");

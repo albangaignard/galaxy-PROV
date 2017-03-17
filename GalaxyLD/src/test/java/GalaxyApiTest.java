@@ -60,7 +60,7 @@ public class GalaxyApiTest {
     @BeforeClass
     public static void setUpClass() throws GalaxyProvenanceException {
         GalaxyApiTest.gURL = Util.getProperty("URL");
-        GalaxyApiTest.gApiKey = Util.getProperty("API-key");
+        GalaxyApiTest.gApiKey = Util.getProperty("API-KEY");
     }
 
     @AfterClass
