@@ -1,5 +1,6 @@
+dist: trusty
 before_script: cd galaxy-PROV
 language: java
 jdk:
-  - oraclejdk9
+  - oraclejdk8
 script: mvn install -Dmaven.test.skip=true
