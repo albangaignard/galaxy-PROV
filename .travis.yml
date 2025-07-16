@@ -1,3 +1,4 @@
+dist: trusty
 before_script: cd galaxy-PROV
 language: java
 jdk:
