@@ -1,0 +1,1415 @@
+@prefix ns1: <http://edamontology.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<26c75dcccb616ac805985cfe60cccb3d> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac805985cfe60cccb3d",
+        "MultiQC on data 104: Stats" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8cbf4ff7b78ac6ce4> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a9c7753edccd24e3a> .
+
+<26c75dcccb616ac80636a45eef4c433e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac80636a45eef4c433e",
+        "Falco on data 9: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a37673a782a39798d> .
+
+<26c75dcccb616ac809f392345e22fb4e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac809f392345e22fb4e",
+        "Falco on data 8: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab02e44262e3c5e34> .
+
+<26c75dcccb616ac813f284a5871169a5> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac813f284a5871169a5",
+        "Falco on data 7: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3d2f3b8a7efd7da6> .
+
+<26c75dcccb616ac8158736a5962a8723> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8158736a5962a8723",
+        "MultiQC on data 104: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8cbf4ff7b78ac6ce4> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a9c7753edccd24e3a> .
+
+<26c75dcccb616ac825851bb3d4a512e3> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac825851bb3d4a512e3",
+        "Samtools idxstats on data 43" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af09698d5c85053ac> .
+
+<26c75dcccb616ac82743b8b22c78b2cc> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82743b8b22c78b2cc",
+        "Samtools idxstats on data 39" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a6f574bb8f249bcf6> .
+
+<26c75dcccb616ac82b6bc37f5a147d99> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82b6bc37f5a147d99",
+        "Read Distribution on data 94 and data 80: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b29834fa315226b8> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1ec7736aff293bea> .
+
+<26c75dcccb616ac82fa359fad36e59ff> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82fa359fad36e59ff",
+        "Samtools idxstats on data 37" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a33771f673efe181e> .
+
+<26c75dcccb616ac8304a16c3bb39031d> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8304a16c3bb39031d",
+        "Samtools idxstats on data 39" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab46679c5521aad9a> .
+
+<26c75dcccb616ac830e3e6289a652bdb> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac830e3e6289a652bdb",
+        "Read Distribution on data 94 and data 74: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8241b92dba0c90646> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a351b8541053cb99d> .
+
+<26c75dcccb616ac832e7a8600faea70a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac832e7a8600faea70a",
+        "Samtools idxstats on data 45" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a863552fcfcc3ff1d> .
+
+<26c75dcccb616ac834504e4a0ea3f4f6> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac834504e4a0ea3f4f6",
+        "MultiQC on data 83, data 81, and others: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8125e2287107531a0>,
+        <26c75dcccb616ac82fb3327ad4493654>,
+        <26c75dcccb616ac861192a551a8b712f>,
+        <26c75dcccb616ac8a5ddd4169347a34b>,
+        <26c75dcccb616ac8be838481b5ad33c5>,
+        <26c75dcccb616ac8ed0591c7f0e48b4a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a31820d30db107c3a> .
+
+<26c75dcccb616ac836be2363a281d73f> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac836be2363a281d73f",
+        "Samtools idxstats on data 45" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8e955df827de15a3> .
+
+<26c75dcccb616ac8413b94f300f5ec86> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8413b94f300f5ec86",
+        "MultiQC on data 83, data 81, and others: Stats" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8125e2287107531a0>,
+        <26c75dcccb616ac82fb3327ad4493654>,
+        <26c75dcccb616ac861192a551a8b712f>,
+        <26c75dcccb616ac8a5ddd4169347a34b>,
+        <26c75dcccb616ac8be838481b5ad33c5>,
+        <26c75dcccb616ac8ed0591c7f0e48b4a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a31820d30db107c3a> .
+
+<26c75dcccb616ac845bcd181762f4d5e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac845bcd181762f4d5e",
+        "Falco on data 11: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aefba510090ff896f> .
+
+<26c75dcccb616ac846d1412d5834dba7> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac846d1412d5834dba7",
+        "Read Distribution on data 94 and data 82: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8afc011fbca4c3520> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad5bd5d376e36a896> .
+
+<26c75dcccb616ac847642611d2da917b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac847642611d2da917b",
+        "Falco on data 7: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3d2f3b8a7efd7da6> .
+
+<26c75dcccb616ac849ebd8bf7a1d2550> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac849ebd8bf7a1d2550",
+        "Samtools idxstats on data 37" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a26a0ec478190fdb2> .
+
+<26c75dcccb616ac851c94b9bec824472> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac851c94b9bec824472",
+        "HISAT2 on data 10: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a37c7773214af6a56> .
+
+<26c75dcccb616ac8548387acbb4d06dd> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8548387acbb4d06dd",
+        "Falco on data 9: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a37673a782a39798d> .
+
+<26c75dcccb616ac85ca52db5cddd037b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac85ca52db5cddd037b",
+        "MultiQC on data 31, data 28, and others: Stats" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac862a08eeb7515ee3f>,
+        <26c75dcccb616ac870385f00a7871fc0>,
+        <26c75dcccb616ac8ab549ffc84f7831a>,
+        <26c75dcccb616ac8ad8deeba34e7f894>,
+        <26c75dcccb616ac8f207a761cb8dc9b8>,
+        <26c75dcccb616ac8f3ab29d1311fab34> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a10d6b46743dbbfd6> .
+
+<26c75dcccb616ac862a4a01b48f74fac> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac862a4a01b48f74fac",
+        "HISAT2 on data 7: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af12e0dbd67fe1a46> .
+
+<26c75dcccb616ac8643438bda2cefd69> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8643438bda2cefd69",
+        "Samtools idxstats on data 37" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7adcedbc086bbdf6> .
+
+<26c75dcccb616ac865b5696704d06169> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac865b5696704d06169",
+        "Samtools idxstats on data 45" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aefb491fee9f9180d> .
+
+<26c75dcccb616ac86c8f6fc24ad121de> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac86c8f6fc24ad121de",
+        "fasterq-dump log" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac87823d6fca89eaacb> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87823d6fca89eaacb",
+        "MultiQC on data 120, data 118, and others: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac81edaa5b116ec5c60>,
+        <26c75dcccb616ac82ff0b1d57397a5e6>,
+        <26c75dcccb616ac8aafbcd097d47c752>,
+        <26c75dcccb616ac8bbd6c934192f665b>,
+        <26c75dcccb616ac8eac62b1cafe3f6c9>,
+        <26c75dcccb616ac8fda99133df8f9837> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a634c7428d2477283> .
+
+<26c75dcccb616ac8799dceac2f64fa4e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8799dceac2f64fa4e",
+        "MultiQC on data 92, data 91, and others: Stats" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac801764b3004c4bea7>,
+        <26c75dcccb616ac8521cf238b110b2f8>,
+        <26c75dcccb616ac85832a459d40a641a>,
+        <26c75dcccb616ac8658a12b6a1dfb4c5>,
+        <26c75dcccb616ac88c68313c68bd3620>,
+        <26c75dcccb616ac8b3dc304722904d18> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a2cf0943d4377e7a9> .
+
+<26c75dcccb616ac87dcfac306332d0b3> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87dcfac306332d0b3",
+        "MultiQC on data 31, data 28, and others: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac862a08eeb7515ee3f>,
+        <26c75dcccb616ac870385f00a7871fc0>,
+        <26c75dcccb616ac8ab549ffc84f7831a>,
+        <26c75dcccb616ac8ad8deeba34e7f894>,
+        <26c75dcccb616ac8f207a761cb8dc9b8>,
+        <26c75dcccb616ac8f3ab29d1311fab34> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a10d6b46743dbbfd6> .
+
+<26c75dcccb616ac87de879c00e9698a8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87de879c00e9698a8",
+        "Falco on data 6: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf9b062e1920c13e> .
+
+<26c75dcccb616ac883e216510647935a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac883e216510647935a",
+        "Convert GTF to BED12 on data 93: BED12" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a988d13c1f7b02afe> .
+
+<26c75dcccb616ac8875861669987d6d4> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8875861669987d6d4",
+        "Samtools idxstats on data 35" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:wasGeneratedBy <11ac94870d0bb33afe89f89ee5d61776> .
+
+<26c75dcccb616ac88d6aebcb2927c3dc> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac88d6aebcb2927c3dc",
+        "Read Distribution on data 94 and data 78: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac809ae6a52381828dc> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a75f55974005b1d3c> .
+
+<26c75dcccb616ac890054bd723c176cf> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac890054bd723c176cf",
+        "Samtools idxstats on data 43" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a2e252e56cadd5b6b> .
+
+<26c75dcccb616ac8935390a57fd8b5d8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8935390a57fd8b5d8",
+        "Falco on data 10: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5b9be473b33c4d2d> .
+
+<26c75dcccb616ac895db2a4a48a505fb> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac895db2a4a48a505fb",
+        "Falco on data 8: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab02e44262e3c5e34> .
+
+<26c75dcccb616ac8a01e576aa53c8a0b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a01e576aa53c8a0b",
+        "Falco on data 6: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf9b062e1920c13e> .
+
+<26c75dcccb616ac8a7b4609a882c0c6d> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a7b4609a882c0c6d",
+        "Falco on data 11: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aefba510090ff896f> .
+
+<26c75dcccb616ac8acb786b32bde5cec> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8acb786b32bde5cec",
+        "HISAT2 on data 8: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab8b81681f336fc2d> .
+
+<26c75dcccb616ac8ae7605490717f05c> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ae7605490717f05c",
+        "Read Distribution on data 94 and data 76: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8447185c64d55d3f9> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af8f01e0ce8c7301f> .
+
+<26c75dcccb616ac8b1b852c534ec9150> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b1b852c534ec9150",
+        "Samtools idxstats on data 35" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8d4b631e4bee215e> .
+
+<26c75dcccb616ac8bc787911ff7e374e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bc787911ff7e374e",
+        "Falco on data 10: SummaryData" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5b9be473b33c4d2d> .
+
+<26c75dcccb616ac8bd66ab7c27463ba3> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bd66ab7c27463ba3",
+        "HISAT2 on data 9: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33acf4097f1c71aa5ed> .
+
+<26c75dcccb616ac8bf81785b9323b0d2> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bf81785b9323b0d2",
+        "Samtools idxstats on data 35" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a4df1b9003845bc49> .
+
+<26c75dcccb616ac8c077d5d1cc484f34> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8c077d5d1cc484f34",
+        "Samtools idxstats on data 41" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5134d1f99f715aeb> .
+
+<26c75dcccb616ac8cca5c213faba945a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8cca5c213faba945a",
+        "MultiQC on data 92, data 91, and others: Webpage" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac801764b3004c4bea7>,
+        <26c75dcccb616ac8521cf238b110b2f8>,
+        <26c75dcccb616ac85832a459d40a641a>,
+        <26c75dcccb616ac8658a12b6a1dfb4c5>,
+        <26c75dcccb616ac88c68313c68bd3620>,
+        <26c75dcccb616ac8b3dc304722904d18> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a2cf0943d4377e7a9> .
+
+<26c75dcccb616ac8d2a0e44b38fe5a6b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d2a0e44b38fe5a6b",
+        "MultiQC on data 120, data 118, and others: Stats" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
+    prov:wasDerivedFrom <26c75dcccb616ac81edaa5b116ec5c60>,
+        <26c75dcccb616ac82ff0b1d57397a5e6>,
+        <26c75dcccb616ac8aafbcd097d47c752>,
+        <26c75dcccb616ac8bbd6c934192f665b>,
+        <26c75dcccb616ac8eac62b1cafe3f6c9>,
+        <26c75dcccb616ac8fda99133df8f9837> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a634c7428d2477283> .
+
+<26c75dcccb616ac8d4377e1a98ece748> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d4377e1a98ece748",
+        "Samtools idxstats on data 43" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3cebacc1dad1e888> .
+
+<26c75dcccb616ac8d79926460e91fff2> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d79926460e91fff2",
+        "HISAT2 on data 6: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aeaaad6d3d31cfac6> .
+
+<26c75dcccb616ac8dcd19c7cc90723b0> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8dcd19c7cc90723b0",
+        "Samtools idxstats on data 41" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a68845f62f2ce5663> .
+
+<26c75dcccb616ac8e1756e2952decf2a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e1756e2952decf2a",
+        "Column join on data 119, data 117, and others" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8683f63c8d829ea81>,
+        <26c75dcccb616ac87e7482fdf1c53b53>,
+        <26c75dcccb616ac8bc1b7954f682a19e>,
+        <26c75dcccb616ac8d4fb4e6fc4bbb9d3>,
+        <26c75dcccb616ac8e569742db1a63a98>,
+        <26c75dcccb616ac8f9e3086fd8727e80> ;
+    prov:wasGeneratedBy <11ac94870d0bb33afbe06452761cacef> .
+
+<26c75dcccb616ac8e8b6250901961534> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e8b6250901961534",
+        "Samtools idxstats on data 39" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a53b44187dc65c189> .
+
+<26c75dcccb616ac8ec633e53f928bda1> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ec633e53f928bda1",
+        "HISAT2 on data 11: Mapping summary" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a96b66f932bca0cdd> .
+
+<26c75dcccb616ac8ef0ee0e5aa22ab23> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ef0ee0e5aa22ab23",
+        "Read Distribution on data 94 and data 72: stats (TXT)" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1f3adce9639068b3> .
+
+<26c75dcccb616ac8f3c0f751fef4f3f7> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f3c0f751fef4f3f7",
+        "Samtools idxstats on data 41" ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1657ab41b0103e29> .
+
+<26c75dcccb616ac8f6d5ae7cf92922f6> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f6d5ae7cf92922f6",
+        "gencode.vM10.chr_patch_hapl_scaff.annotation.gtf uncompressed" ;
+    prov:wasAttributedTo "CONVERTER_gz_to_uncompressed" ;
+    prov:wasDerivedFrom <26c75dcccb616ac839fcb41169073c31> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3d8bce6f9e806500> .
+
+<11ac94870d0bb33a0c5102267dd59945> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:31.127536"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517690"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8afc011fbca4c3520> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/f/1/6/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/e/7/9/metadata_e79ed283-90c1-45f7-b2a8-eab9a7697016.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027723/outputs/dataset_ba9657c2-98f0-48cc-a553-da2ade3a1d4d.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a0fbf4fd060253764> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:04.482189"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517684"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8447185c64d55d3f9> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/a/1/a/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/6/4/9/metadata_6498cdca-b23b-4d93-92ff-3ee1dd2e9a38.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027720/outputs/dataset_2e4de363-7f74-4adc-a321-4776bbfd311f.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a1657ab41b0103e29> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:44.224961"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879133"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/a/8/6/dataset_a86c2ec6-0ca6-4772-a504-36837bce0631.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/6/f/c/metadata_6fce83d7-47e1-474d-a58d-947d6b75f6db.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019353/outputs/dataset_73a570cb-6d03-4a2a-aa17-567403c2d7d4.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a1ec7736aff293bea> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:19:09.822666"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941297"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b29834fa315226b8> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/a/1/0/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/7/a/5/metadata_7a57b706-9a6a-4451-8de4-a822116c3bdf.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028104/outputs/dataset_bcaffaf0-0d50-4ea5-bdaa-fc792168ddcd.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33a1f3adce9639068b3> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:20:38.728818"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941285"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/b/0/e/metadata_b0ee8210-abe9-4ff8-8a34-1aed6137c279.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028100/outputs/dataset_ecd72205-e63f-411e-86d2-46c3685fa676.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33a26a0ec478190fdb2> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:58:51.697943"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683720"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/9/a/9/dataset_9a96d5db-018e-472b-afb4-2e8cd5da3d1a.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/5/6/0/metadata_560784bc-5f36-45f8-8c35-332432b2e1f9.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016892/outputs/dataset_12720e48-aa2f-400d-a7f1-b13828146826.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a2e252e56cadd5b6b> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:53:17.413439"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879134"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac827c5373544942f4a> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/d/6/6/dataset_d66af26f-699f-4e22-b19d-f8e87e082b22.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/4/4/3/metadata_4430f8b5-8505-4959-a31f-cad85a562500.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019354/outputs/dataset_2da61e77-099b-408f-a87b-f596cf9c872d.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a33771f673efe181e> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:50:53.848608"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128338"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/9/a/9/dataset_9a96d5db-018e-472b-afb4-2e8cd5da3d1a.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/5/6/0/metadata_560784bc-5f36-45f8-8c35-332432b2e1f9.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019301/outputs/dataset_b00e1102-3383-44d6-834c-bfc9cec673f9.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a351b8541053cb99d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:18:37.576863"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941292"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8241b92dba0c90646> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/3/e/5/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/0/d/a/metadata_0dacb6cc-3023-4e92-8d4e-85d6c4797eca.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028101/outputs/dataset_05b5dbcb-2438-47d0-8c26-2e3ae313ceb8.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33a3cebacc1dad1e888> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:59:10.159158"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683726"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac827c5373544942f4a> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/d/6/6/dataset_d66af26f-699f-4e22-b19d-f8e87e082b22.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/4/4/3/metadata_4430f8b5-8505-4959-a31f-cad85a562500.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016895/outputs/dataset_bd1cde8c-f2bd-4b91-8153-9dae64dd8231.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a3d8bce6f9e806500> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:08:43.360990"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:07:56.964828"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac839fcb41169073c31> ;
+    prov:value "cp '/data/jwd08/main/094/028/94028015/configs/tmp3n8xycp6' 'galaxy.json' && gzip -dcf '/data/dnb12/galaxy_db/files/c/d/f/dataset_cdfbdff7-8ae0-4e4c-9787-03670a932868.dat' > '/data/jwd08/main/094/028/94028015/outputs/dataset_a7ff2ab6-3211-4b1f-b91a-33587fa80b83.dat'" ;
+    prov:wasAssociatedWith "CONVERTER_gz_to_uncompressed" .
+
+<11ac94870d0bb33a4df1b9003845bc49> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:58:10.530807"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683716"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/1/d/dataset_e1db5bf1-0563-41c3-bd2b-53f0cf50dd12.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/d/d/e/metadata_dde8fad7-734d-4aef-9122-fa96457ea0b2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016891/outputs/dataset_33b9e1db-0c8b-4d61-876e-16599807e4e6.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a5134d1f99f715aeb> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:59:08.786711"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683724"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/a/8/6/dataset_a86c2ec6-0ca6-4772-a504-36837bce0631.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/6/f/c/metadata_6fce83d7-47e1-474d-a58d-947d6b75f6db.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016894/outputs/dataset_c856dc13-9a8d-4a2f-8f31-2e12d3399297.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a53b44187dc65c189> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:59:10.150011"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683722"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/3/0/dataset_e305106b-27f9-4832-951b-99e313210078.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/3/f/6/metadata_3f6af836-275f-448a-99e2-f8567f811ce2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016893/outputs/dataset_e020b39e-8089-49b0-8ce8-b05d9e73f3e1.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a5411c025bc93575d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:02.056972"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517682"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8241b92dba0c90646> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/3/e/5/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/0/d/a/metadata_0dacb6cc-3023-4e92-8d4e-85d6c4797eca.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027719/outputs/dataset_a3d63307-f631-48d1-a643-386f4737c6b8.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a68845f62f2ce5663> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:39.421438"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128343"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a40933362992b2ed> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/a/8/6/dataset_a86c2ec6-0ca6-4772-a504-36837bce0631.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/6/f/c/metadata_6fce83d7-47e1-474d-a58d-947d6b75f6db.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019303/outputs/dataset_12500be9-085a-44e7-9993-353b6e25f9c2.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a6c329b6ceb5b74fe> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:11.032607"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517688"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b29834fa315226b8> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/a/1/0/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/7/a/5/metadata_7a57b706-9a6a-4451-8de4-a822116c3bdf.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027722/outputs/dataset_f632b96e-9c46-4247-89da-f5073741b907.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a6f574bb8f249bcf6> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:42.130153"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128341"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/3/0/dataset_e305106b-27f9-4832-951b-99e313210078.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/3/f/6/metadata_3f6af836-275f-448a-99e2-f8567f811ce2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019302/outputs/dataset_effd144e-9f74-4fe8-8294-a38bfbdeb272.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a75f55974005b1d3c> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:23:16.627158"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941296"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac809ae6a52381828dc> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/4/e/1/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/3/2/d/metadata_32d7bdc2-0bfd-46a4-b4f8-32d71f0c6b15.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028103/outputs/dataset_7cea4d0d-2836-4f08-906d-27139352d66c.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33a772b4c4a76f93155> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:03.209202"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517677"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/b/0/e/metadata_b0ee8210-abe9-4ff8-8a34-1aed6137c279.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027718/outputs/dataset_ac3e1c54-122b-4cbd-aeab-18bb705a58c6.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a7adcedbc086bbdf6> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:45.640759"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879128"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac863c8f2898f6b8890> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/9/a/9/dataset_9a96d5db-018e-472b-afb4-2e8cd5da3d1a.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/5/6/0/metadata_560784bc-5f36-45f8-8c35-332432b2e1f9.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019351/outputs/dataset_f98657c8-4b0b-4d17-83fe-844302ce608b.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a863552fcfcc3ff1d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:53:01.818963"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879136"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/5/b/1/dataset_5b10fa15-26c0-4f1d-8512-50dc68bfbe74.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/9/3/1/metadata_9318db97-87d2-4b59-8fa7-d198d4d3d889.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019355/outputs/dataset_02519062-90f0-491e-9028-1b297ea2ad12.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a8d4b631e4bee215e> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:50:53.182130"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128317"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/1/d/dataset_e1db5bf1-0563-41c3-bd2b-53f0cf50dd12.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/d/d/e/metadata_dde8fad7-734d-4aef-9122-fa96457ea0b2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019300/outputs/dataset_209ab1de-5935-423b-b40b-d5919e70da64.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a8e193ec0f3f2873b> a prov:Activity ;
+    prov:endedAtTime "2025-12-08T14:29:36.954781"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-08T14:26:01.388054"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd08/main/093/955/93955361/registry.xml' --request-version '1' --request '/data/jwd08/main/093/955/93955361/configs/tmp58y8czf0'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a8e955df827de15a3> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T12:58:39.865796"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T12:57:29.683729"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/5/b/1/dataset_5b10fa15-26c0-4f1d-8512-50dc68bfbe74.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/9/3/1/metadata_9318db97-87d2-4b59-8fa7-d198d4d3d889.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/016/94016896/outputs/dataset_59ee9718-4503-4172-bfdc-9eac040d9177.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a988d13c1f7b02afe> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:10:18.751236"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:07:57.043236"^^xsd:dateTime ;
+    prov:value "gtfToGenePred '/data/dnb12/galaxy_db/files/a/7/f/dataset_a7ff2ab6-3211-4b1f-b91a-33587fa80b83.dat' 'temp.genePred' && genePredToBed 'temp.genePred' '/data/jwd08/main/094/028/94028016/outputs/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357" .
+
+<11ac94870d0bb33ab46679c5521aad9a> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:56:21.622102"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879131"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b24e4986eedbf114> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/3/0/dataset_e305106b-27f9-4832-951b-99e313210078.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/3/f/6/metadata_3f6af836-275f-448a-99e2-f8567f811ce2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019352/outputs/dataset_cc2ef0fa-7e79-4c91-b7d6-73eb72ed691b.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33ad5bd5d376e36a896> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:18:34.958364"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941299"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8afc011fbca4c3520> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/f/1/6/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/e/7/9/metadata_e79ed283-90c1-45f7-b2a8-eab9a7697016.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028105/outputs/dataset_c7ba763e-02ef-4cbf-82d4-4feee510ec9e.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33ae8ee1d9dfdf90778> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:49:34.885234"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:42:47.352686"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/b/0/e/metadata_b0ee8210-abe9-4ff8-8a34-1aed6137c279.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028638/outputs/dataset_3e9f7a77-7e0a-4ab8-8de8-931566c59788.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33aefb491fee9f9180d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:37.944737"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128347"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac893599c39ab6ca3a8> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/5/b/1/dataset_5b10fa15-26c0-4f1d-8512-50dc68bfbe74.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/9/3/1/metadata_9318db97-87d2-4b59-8fa7-d198d4d3d889.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019305/outputs/dataset_c0094578-3737-4d63-a6c9-419a4c800c9f.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33af08e06d9324569ca> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:05:49.473365"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:04:55.682426"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd08/main/094/027/94027978/registry.xml' --request-version '1' --request '/data/jwd08/main/094/027/94027978/configs/tmpslndh6d5'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33af09698d5c85053ac> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:38.885064"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:49:21.128345"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac827c5373544942f4a> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/d/6/6/dataset_d66af26f-699f-4e22-b19d-f8e87e082b22.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/4/4/3/metadata_4430f8b5-8505-4959-a31f-cad85a562500.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019304/outputs/dataset_4bb7dd2b-1482-468f-aa18-12587296c7f2.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33af8f01e0ce8c7301f> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:20:01.098707"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:16:06.941294"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8447185c64d55d3f9> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/a/1/a/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/6/4/9/metadata_6498cdca-b23b-4d93-92ff-3ee1dd2e9a38.dat' 'input.bam.bai' &&  read_distribution.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/9/5/3/dataset_9535b82f-c870-4297-a0ea-5cdcbe6be622.dat' > '/data/jwd08/main/094/028/94028102/outputs/dataset_961b558f-069f-46cd-867e-995686c41f4c.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" .
+
+<11ac94870d0bb33afbe06452761cacef> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:19:18.742844"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:18:35.746437"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8683f63c8d829ea81>,
+        <26c75dcccb616ac87e7482fdf1c53b53>,
+        <26c75dcccb616ac8bc1b7954f682a19e>,
+        <26c75dcccb616ac8d4fb4e6fc4bbb9d3>,
+        <26c75dcccb616ac8e569742db1a63a98>,
+        <26c75dcccb616ac8f9e3086fd8727e80> ;
+    prov:value "sh '/data/jwd08/main/094/029/94029488/configs/tmpptxbyd32'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3" .
+
+<11ac94870d0bb33afd850223f4417a94> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:57:32.340600"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:56:19.517687"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac809ae6a52381828dc> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/4/e/1/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/3/2/d/metadata_32d7bdc2-0bfd-46a4-b4f8-32d71f0c6b15.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/027/94027721/outputs/dataset_4950a86f-8264-47bc-aaef-8f6f7e2aa06c.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33afe89f89ee5d61776> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T13:52:48.924229"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T13:52:05.879122"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b5fc8c2c832a130c> ;
+    prov:value "addthreads=${GALAXY_SLOTS:-1} && (( addthreads-- )) &&   ln -s '/data/dnb12/galaxy_db/files/e/1/d/dataset_e1db5bf1-0563-41c3-bd2b-53f0cf50dd12.dat' infile && ln -s '/data/dnb12/galaxy_db/files/_metadata_files/d/d/e/metadata_dde8fad7-734d-4aef-9122-fa96457ea0b2.dat' infile.bai &&  samtools idxstats -@ $addthreads infile  > '/data/jwd08/main/094/019/94019350/outputs/dataset_44092b80-e495-4a41-ac31-49fe9802b31c.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" .
+
+<11ac94870d0bb33a08dd75b7affcb9a8> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:01:52.158087"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646871"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/3/e/5/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/3/e/5/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat|SRR1923668|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029003/outputs/dataset_96bcf99a-63c8-432c-8013-5ec96b6bdcc6.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/3/e/5/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat|SRR1923668|g' 'output.summary' > '/data/jwd08/main/094/029/94029003/outputs/dataset_e2f2fec2-7e75-4fcd-8778-c87ced2bec74.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a10d6b46743dbbfd6> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:14:28.713165"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:07:38.878631"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac862a08eeb7515ee3f>,
+        <26c75dcccb616ac870385f00a7871fc0>,
+        <26c75dcccb616ac8ab549ffc84f7831a>,
+        <26c75dcccb616ac8ad8deeba34e7f894>,
+        <26c75dcccb616ac8f207a761cb8dc9b8>,
+        <26c75dcccb616ac8f3ab29d1311fab34> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/fastqc_0 &&    mkdir 'multiqc_WDir/fastqc_0/data_0' &&  mkdir 'multiqc_WDir/fastqc_0/data_0/file_0' && ln -s '/data/dnb12/galaxy_db/files/6/9/2/dataset_69238939-ce31-44b5-b8b6-0418bde49919.dat' 'multiqc_WDir/fastqc_0/data_0/file_0/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_1' && ln -s '/data/dnb12/galaxy_db/files/3/9/6/dataset_396f0908-8af2-4a12-b4a4-b79d102cb42f.dat' 'multiqc_WDir/fastqc_0/data_0/file_1/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_2' && ln -s '/data/dnb12/galaxy_db/files/7/b/e/dataset_7be8c393-c019-4729-9651-466fb2d7e12e.dat' 'multiqc_WDir/fastqc_0/data_0/file_2/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_3' && ln -s '/data/dnb12/galaxy_db/files/8/3/8/dataset_838fbf66-00a8-41a3-84df-88dd7f0da6ee.dat' 'multiqc_WDir/fastqc_0/data_0/file_3/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_4' && ln -s '/data/dnb12/galaxy_db/files/d/b/4/dataset_db41c13f-3754-4bd4-bfd3-fce4ea316bd1.dat' 'multiqc_WDir/fastqc_0/data_0/file_4/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_5' && ln -s '/data/dnb12/galaxy_db/files/1/5/a/dataset_15a926e3-6534-46b6-b86f-78449c86612f.dat' 'multiqc_WDir/fastqc_0/data_0/file_5/fastqc_data.txt' &&    multiqc multiqc_WDir --filename 'report'   --flat    && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" .
+
+<11ac94870d0bb33a2519634b954b5e07> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:01:47.634742"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646878"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/f/1/6/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/f/1/6/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat|SRR1923681|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029007/outputs/dataset_2e403eb0-02de-4b2f-a25d-3db8be4b7502.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/f/1/6/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat|SRR1923681|g' 'output.summary' > '/data/jwd08/main/094/029/94029007/outputs/dataset_97c4c06e-4e33-4767-a37b-5393f3cf797e.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a2cf0943d4377e7a9> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:39:43.633399"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:37:30.074751"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac801764b3004c4bea7>,
+        <26c75dcccb616ac8521cf238b110b2f8>,
+        <26c75dcccb616ac85832a459d40a641a>,
+        <26c75dcccb616ac8658a12b6a1dfb4c5>,
+        <26c75dcccb616ac88c68313c68bd3620>,
+        <26c75dcccb616ac8b3dc304722904d18> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/samtools_0 &&    mkdir 'multiqc_WDir/samtools_0/idxstats_0' &&     ln -s '/data/dnb12/galaxy_db/files/a/c/3/dataset_ac3e1c54-122b-4cbd-aeab-18bb705a58c6.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923667_idxstat' &&    ln -s '/data/dnb12/galaxy_db/files/a/3/d/dataset_a3d63307-f631-48d1-a643-386f4737c6b8.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923668_idxstat' &&    ln -s '/data/dnb12/galaxy_db/files/2/e/4/dataset_2e4de363-7f74-4adc-a321-4776bbfd311f.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923669_idxstat' &&    ln -s '/data/dnb12/galaxy_db/files/4/9/5/dataset_4950a86f-8264-47bc-aaef-8f6f7e2aa06c.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923679_idxstat' &&    ln -s '/data/dnb12/galaxy_db/files/f/6/3/dataset_f632b96e-9c46-4247-89da-f5073741b907.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923680_idxstat' &&    ln -s '/data/dnb12/galaxy_db/files/b/a/9/dataset_ba9657c2-98f0-48cc-a553-da2ade3a1d4d.dat' 'multiqc_WDir/samtools_0/idxstats_0/SRR1923681_idxstat' &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" .
+
+<11ac94870d0bb33a31820d30db107c3a> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T17:52:05.494403"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T17:48:56.955557"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8125e2287107531a0>,
+        <26c75dcccb616ac82fb3327ad4493654>,
+        <26c75dcccb616ac861192a551a8b712f>,
+        <26c75dcccb616ac8a5ddd4169347a34b>,
+        <26c75dcccb616ac8be838481b5ad33c5>,
+        <26c75dcccb616ac8ed0591c7f0e48b4a> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/hisat2_0 &&        grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/e/0/3/dataset_e03ce8b0-030e-462e-85c3-379ed098d66a.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923667'\" && ln -s '/data/dnb12/galaxy_db/files/e/0/3/dataset_e03ce8b0-030e-462e-85c3-379ed098d66a.dat' 'multiqc_WDir/hisat2_0/SRR1923667'  &&       grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/f/9/f/dataset_f9f67842-4c2f-44b1-bd71-a689deb7a2c6.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923668'\" && ln -s '/data/dnb12/galaxy_db/files/f/9/f/dataset_f9f67842-4c2f-44b1-bd71-a689deb7a2c6.dat' 'multiqc_WDir/hisat2_0/SRR1923668'  &&       grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/3/f/7/dataset_3f71b8b3-d7af-457a-af33-891b06936541.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923669'\" && ln -s '/data/dnb12/galaxy_db/files/3/f/7/dataset_3f71b8b3-d7af-457a-af33-891b06936541.dat' 'multiqc_WDir/hisat2_0/SRR1923669'  &&       grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/0/f/0/dataset_0f0bf0ce-14d6-49b2-b57b-6a2baa2b7256.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923679'\" && ln -s '/data/dnb12/galaxy_db/files/0/f/0/dataset_0f0bf0ce-14d6-49b2-b57b-6a2baa2b7256.dat' 'multiqc_WDir/hisat2_0/SRR1923679'  &&       grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/8/f/2/dataset_8f2c9b4f-efe0-4c56-a461-f68024d12792.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923680'\" && ln -s '/data/dnb12/galaxy_db/files/8/f/2/dataset_8f2c9b4f-efe0-4c56-a461-f68024d12792.dat' 'multiqc_WDir/hisat2_0/SRR1923680'  &&       grep -Pq 'HISAT2 summary stats:' /data/dnb12/galaxy_db/files/6/9/a/dataset_69a1620b-f5c4-4683-bd69-8c93edb6d95a.dat || die \"Module 'hisat2: 'HISAT2 summary stats:' not found in the file 'SRR1923681'\" && ln -s '/data/dnb12/galaxy_db/files/6/9/a/dataset_69a1620b-f5c4-4683-bd69-8c93edb6d95a.dat' 'multiqc_WDir/hisat2_0/SRR1923681'  &&     multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" .
+
+<11ac94870d0bb33a35a698a9ac5a8fb0> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:53:50.074571"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165263"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/5/b/8/dataset_5b8a0838-14a4-4b85-aa29-e56fc146885d.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021451/outputs/dataset_3e5c3a6b-831e-4951-b06d-a6e229d8c4fd.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33a37c7773214af6a56> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:58:03.364537"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327389"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac86843dea2af97020b> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/a/9/5/dataset_a953f137-bc30-4c10-aef0-589ade4b05b9.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012101/outputs/dataset_d66af26f-699f-4e22-b19d-f8e87e082b22.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33a380e0eba0283079d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:58:41.282931"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165267"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/4/c/5/dataset_4c51efb1-a185-446f-84c5-6e0a5a54aaf9.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021453/outputs/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33a46c42deff60876d4> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:01:46.680639"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646874"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/4/e/1/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/4/e/1/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat|SRR1923679|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029005/outputs/dataset_279656c8-ebad-4c36-a251-730c3edfa7c8.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/4/e/1/dataset_4e10dac5-1a0e-4c93-9360-e916346396b7.dat|SRR1923679|g' 'output.summary' > '/data/jwd08/main/094/029/94029005/outputs/dataset_fc86ee48-897d-4d85-bbf3-b6ffa0e4b5f0.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a517ee058683f6d05> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:03:15.383057"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646876"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/a/1/0/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/a/1/0/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat|SRR1923680|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029006/outputs/dataset_a5858a11-9cb3-4f0d-9552-48cba07a90a8.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/a/1/0/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat|SRR1923680|g' 'output.summary' > '/data/jwd08/main/094/029/94029006/outputs/dataset_a341f040-beb3-46b3-ba33-ecedf8f68003.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a634c7428d2477283> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:12:13.914144"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:09:52.948543"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac81edaa5b116ec5c60>,
+        <26c75dcccb616ac82ff0b1d57397a5e6>,
+        <26c75dcccb616ac8aafbcd097d47c752>,
+        <26c75dcccb616ac8bbd6c934192f665b>,
+        <26c75dcccb616ac8eac62b1cafe3f6c9>,
+        <26c75dcccb616ac8fda99133df8f9837> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/featureCounts_0 &&     if grep -qw Status '/data/dnb12/galaxy_db/files/a/f/d/dataset_afd8e494-b8c5-4fb7-8d18-f99cd57873be.dat'; then ln -s '/data/dnb12/galaxy_db/files/a/f/d/dataset_afd8e494-b8c5-4fb7-8d18-f99cd57873be.dat' 'multiqc_WDir/featureCounts_0/SRR1923667.summary'; else echo -e 'Status\\tSRR1923667' > 'multiqc_WDir/featureCounts_0/SRR1923667.summary'; cat '/data/dnb12/galaxy_db/files/a/f/d/dataset_afd8e494-b8c5-4fb7-8d18-f99cd57873be.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923667.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/e/2/f/dataset_e2f2fec2-7e75-4fcd-8778-c87ced2bec74.dat'; then ln -s '/data/dnb12/galaxy_db/files/e/2/f/dataset_e2f2fec2-7e75-4fcd-8778-c87ced2bec74.dat' 'multiqc_WDir/featureCounts_0/SRR1923668.summary'; else echo -e 'Status\\tSRR1923668' > 'multiqc_WDir/featureCounts_0/SRR1923668.summary'; cat '/data/dnb12/galaxy_db/files/e/2/f/dataset_e2f2fec2-7e75-4fcd-8778-c87ced2bec74.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923668.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/e/b/f/dataset_ebf5e882-fe55-4104-adbc-95866436bcd5.dat'; then ln -s '/data/dnb12/galaxy_db/files/e/b/f/dataset_ebf5e882-fe55-4104-adbc-95866436bcd5.dat' 'multiqc_WDir/featureCounts_0/SRR1923669.summary'; else echo -e 'Status\\tSRR1923669' > 'multiqc_WDir/featureCounts_0/SRR1923669.summary'; cat '/data/dnb12/galaxy_db/files/e/b/f/dataset_ebf5e882-fe55-4104-adbc-95866436bcd5.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923669.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/f/c/8/dataset_fc86ee48-897d-4d85-bbf3-b6ffa0e4b5f0.dat'; then ln -s '/data/dnb12/galaxy_db/files/f/c/8/dataset_fc86ee48-897d-4d85-bbf3-b6ffa0e4b5f0.dat' 'multiqc_WDir/featureCounts_0/SRR1923679.summary'; else echo -e 'Status\\tSRR1923679' > 'multiqc_WDir/featureCounts_0/SRR1923679.summary'; cat '/data/dnb12/galaxy_db/files/f/c/8/dataset_fc86ee48-897d-4d85-bbf3-b6ffa0e4b5f0.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923679.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/a/3/4/dataset_a341f040-beb3-46b3-ba33-ecedf8f68003.dat'; then ln -s '/data/dnb12/galaxy_db/files/a/3/4/dataset_a341f040-beb3-46b3-ba33-ecedf8f68003.dat' 'multiqc_WDir/featureCounts_0/SRR1923680.summary'; else echo -e 'Status\\tSRR1923680' > 'multiqc_WDir/featureCounts_0/SRR1923680.summary'; cat '/data/dnb12/galaxy_db/files/a/3/4/dataset_a341f040-beb3-46b3-ba33-ecedf8f68003.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923680.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/9/7/c/dataset_97c4c06e-4e33-4767-a37b-5393f3cf797e.dat'; then ln -s '/data/dnb12/galaxy_db/files/9/7/c/dataset_97c4c06e-4e33-4767-a37b-5393f3cf797e.dat' 'multiqc_WDir/featureCounts_0/SRR1923681.summary'; else echo -e 'Status\\tSRR1923681' > 'multiqc_WDir/featureCounts_0/SRR1923681.summary'; cat '/data/dnb12/galaxy_db/files/9/7/c/dataset_97c4c06e-4e33-4767-a37b-5393f3cf797e.dat' >> 'multiqc_WDir/featureCounts_0/SRR1923681.summary'; fi &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" .
+
+<11ac94870d0bb33a704721345e91232b> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:02:10.792804"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646873"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/a/1/a/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/a/1/a/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat|SRR1923669|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029004/outputs/dataset_1c1a87ec-5df4-41b4-883d-240758f3bf3d.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/a/1/a/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat|SRR1923669|g' 'output.summary' > '/data/jwd08/main/094/029/94029004/outputs/dataset_ebf5e882-fe55-4104-adbc-95866436bcd5.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a8455304b702f62bc> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T19:02:33.164322"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T19:00:25.646866"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a ${FC_PATH}/annotation/mm10_RefSeq_exon.txt -F \"SAF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  0               --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0     '/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat|SRR1923667|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd08/main/094/029/94029002/outputs/dataset_08a4c719-c2e3-4866-9053-72383ce85ae8.dat'    && sed -e 's|/data/dnb12/galaxy_db/files/4/c/3/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat|SRR1923667|g' 'output.summary' > '/data/jwd08/main/094/029/94029002/outputs/dataset_afd8e494-b8c5-4fb7-8d18-f99cd57873be.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" .
+
+<11ac94870d0bb33a96b66f932bca0cdd> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:55:31.343619"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327390"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/e/2/d/dataset_e2d1bce2-0795-410f-a4b5-b82c833fa095.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012102/outputs/dataset_5b10fa15-26c0-4f1d-8512-50dc68bfbe74.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33a9c7753edccd24e3a> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T18:51:26.703613"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T18:50:36.522234"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8cbf4ff7b78ac6ce4> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/rseqc_0 &&    mkdir 'multiqc_WDir/rseqc_0/read_distribution_0' &&      grep -Pq 'Group               Total_bases         Tag_count           Tags/Kb' /data/dnb12/galaxy_db/files/3/e/9/dataset_3e9f7a77-7e0a-4ab8-8de8-931566c59788.dat || die \"Module 'rseqc: 'Group               Total_bases         Tag_count           Tags/Kb' not found in the file 'Read Distribution on data 94 and data 72_ stats _TXT_'\" && ln -s '/data/dnb12/galaxy_db/files/3/e/9/dataset_3e9f7a77-7e0a-4ab8-8de8-931566c59788.dat' 'multiqc_WDir/rseqc_0/read_distribution_0/Read Distribution on data 94 and data 72_ stats _TXT_'  &&      multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" .
+
+<11ac94870d0bb33ab8b81681f336fc2d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:59:56.275751"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327387"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/7/2/d/dataset_72d0b83c-4b86-4bb3-a9f7-fceb76bd5f2b.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012099/outputs/dataset_e305106b-27f9-4832-951b-99e313210078.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33abc1b952f7a8d0455> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T15:08:39.744692"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165265"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/7/2/d/dataset_72d0b83c-4b86-4bb3-a9f7-fceb76bd5f2b.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021452/outputs/dataset_a1a78fbb-d490-49ea-b8a6-77dbb3ae67a5.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33abc54090c329be206> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:58:35.930504"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165270"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/e/2/d/dataset_e2d1bce2-0795-410f-a4b5-b82c833fa095.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021455/outputs/dataset_f16c48c7-5087-421b-aec5-f252b6c5b146.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33abfffae4726025087> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:59:27.331897"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165268"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac86843dea2af97020b> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/a/9/5/dataset_a953f137-bc30-4c10-aef0-589ade4b05b9.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021454/outputs/dataset_a101c1da-e401-462d-90b1-61d4008f832f.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33acf4097f1c71aa5ed> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:41:38.479837"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327388"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/4/c/5/dataset_4c51efb1-a185-446f-84c5-6e0a5a54aaf9.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012100/outputs/dataset_a86c2ec6-0ca6-4772-a504-36837bce0631.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33aeaaad6d3d31cfac6> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:42:31.801133"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327382"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac879af659f2335ff35> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/6/e/5/dataset_6e5f1d06-c343-4b79-b471-76eb327c6395.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012097/outputs/dataset_e1db5bf1-0563-41c3-bd2b-53f0cf50dd12.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33af12e0dbd67fe1a46> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:41:49.555462"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:36:35.327385"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/5/b/8/dataset_5b8a0838-14a4-4b85-aa29-e56fc146885d.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/012/94012098/outputs/dataset_9a96d5db-018e-472b-afb4-2e8cd5da3d1a.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<11ac94870d0bb33af1b298d39addccaf> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T14:54:22.132305"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T14:48:07.165258"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac879af659f2335ff35> ;
+    prov:value "set -o pipefail;         ln -f -s '/data/dnb12/galaxy_db/files/6/e/5/dataset_6e5f1d06-c343-4b79-b471-76eb327c6395.dat' input_f.fastq.gz &&    hisat2  -p ${GALAXY_SLOTS:-1}  -x '/data/db/data_managers/mm10/hisat2_index/mm10/mm10'     -U 'input_f.fastq.gz'                             --new-summary  --summary-file summary.txt   | samtools sort --no-PG -l 0 -T \"${TMPDIR:-.}\" -O bam | samtools view --no-PG -O bam -@ ${GALAXY_SLOTS:-1} -o '/data/jwd08/main/094/021/94021450/outputs/dataset_4c329752-65f4-4737-91b0-43e83bf62f52.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" .
+
+<26c75dcccb616ac839fcb41169073c31> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac839fcb41169073c31",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac839fcb41169073c31/display",
+        "gencode.vM10.chr_patch_hapl_scaff.annotation.gtf.gz" ;
+    ns1:has_data ns1:data_1255 ;
+    ns1:has_format ns1:format_2306 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33af08e06d9324569ca> .
+
+<26c75dcccb616ac8683f63c8d829ea81> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8683f63c8d829ea81",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8683f63c8d829ea81/display",
+        "featureCounts on data 76: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a704721345e91232b> .
+
+<26c75dcccb616ac87e7482fdf1c53b53> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87e7482fdf1c53b53",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87e7482fdf1c53b53/display",
+        "featureCounts on data 78: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a46c42deff60876d4> .
+
+<26c75dcccb616ac8bc1b7954f682a19e> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bc1b7954f682a19e",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bc1b7954f682a19e/display",
+        "featureCounts on data 80: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a517ee058683f6d05> .
+
+<26c75dcccb616ac8d4fb4e6fc4bbb9d3> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d4fb4e6fc4bbb9d3",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d4fb4e6fc4bbb9d3/display",
+        "featureCounts on data 72: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8455304b702f62bc> .
+
+<26c75dcccb616ac8e569742db1a63a98> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e569742db1a63a98",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e569742db1a63a98/display",
+        "featureCounts on data 74: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a08dd75b7affcb9a8> .
+
+<26c75dcccb616ac8f9e3086fd8727e80> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f9e3086fd8727e80",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f9e3086fd8727e80/display",
+        "featureCounts on data 82: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a2519634b954b5e07> .
+
+<11ac94870d0bb33a37673a782a39798d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:08:25.771720"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218565"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/4/c/5/dataset_4c51efb1-a185-446f-84c5-6e0a5a54aaf9.dat' 'SRR1923679' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923679'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<11ac94870d0bb33a3d2f3b8a7efd7da6> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:05:33.200959"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218561"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/5/b/8/dataset_5b8a0838-14a4-4b85-aa29-e56fc146885d.dat' 'SRR1923668' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923668'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<11ac94870d0bb33a5b9be473b33c4d2d> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:05:35.949495"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218567"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac86843dea2af97020b> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/a/9/5/dataset_a953f137-bc30-4c10-aef0-589ade4b05b9.dat' 'SRR1923680' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923680'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<11ac94870d0bb33ab02e44262e3c5e34> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:06:43.250802"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218564"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/7/2/d/dataset_72d0b83c-4b86-4bb3-a9f7-fceb76bd5f2b.dat' 'SRR1923669' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923669'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<11ac94870d0bb33abf9b062e1920c13e> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:06:05.306559"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218554"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac879af659f2335ff35> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/6/e/5/dataset_6e5f1d06-c343-4b79-b471-76eb327c6395.dat' 'SRR1923667' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923667'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<11ac94870d0bb33aefba510090ff896f> a prov:Activity ;
+    prov:endedAtTime "2025-12-09T11:05:34.500685"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-09T11:03:41.218570"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/e/2/d/dataset_e2d1bce2-0795-410f-a4b5-b82c833fa095.dat' 'SRR1923681' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq.gz' 'SRR1923681'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" .
+
+<26c75dcccb616ac801764b3004c4bea7> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac801764b3004c4bea7",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac801764b3004c4bea7/display",
+        "Samtools idxstats on data 82" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8afc011fbca4c3520> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a0c5102267dd59945> .
+
+<26c75dcccb616ac8125e2287107531a0> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8125e2287107531a0",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8125e2287107531a0/display",
+        "HISAT2 on data 7: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a35a698a9ac5a8fb0> .
+
+<26c75dcccb616ac81edaa5b116ec5c60> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac81edaa5b116ec5c60",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac81edaa5b116ec5c60/display",
+        "featureCounts on data 76: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a704721345e91232b> .
+
+<26c75dcccb616ac82fb3327ad4493654> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82fb3327ad4493654",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82fb3327ad4493654/display",
+        "HISAT2 on data 8: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abc1b952f7a8d0455> .
+
+<26c75dcccb616ac82ff0b1d57397a5e6> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82ff0b1d57397a5e6",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82ff0b1d57397a5e6/display",
+        "featureCounts on data 74: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a08dd75b7affcb9a8> .
+
+<26c75dcccb616ac8521cf238b110b2f8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8521cf238b110b2f8",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8521cf238b110b2f8/display",
+        "Samtools idxstats on data 78" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac809ae6a52381828dc> ;
+    prov:wasGeneratedBy <11ac94870d0bb33afd850223f4417a94> .
+
+<26c75dcccb616ac85832a459d40a641a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac85832a459d40a641a",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac85832a459d40a641a/display",
+        "Samtools idxstats on data 74" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8241b92dba0c90646> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5411c025bc93575d> .
+
+<26c75dcccb616ac861192a551a8b712f> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac861192a551a8b712f",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac861192a551a8b712f/display",
+        "HISAT2 on data 11: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abc54090c329be206> .
+
+<26c75dcccb616ac862a08eeb7515ee3f> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac862a08eeb7515ee3f",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac862a08eeb7515ee3f/display",
+        "Falco on data 7: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3d2f3b8a7efd7da6> .
+
+<26c75dcccb616ac8658a12b6a1dfb4c5> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8658a12b6a1dfb4c5",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8658a12b6a1dfb4c5/display",
+        "Samtools idxstats on data 72" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a772b4c4a76f93155> .
+
+<26c75dcccb616ac870385f00a7871fc0> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac870385f00a7871fc0",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac870385f00a7871fc0/display",
+        "Falco on data 9: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a37673a782a39798d> .
+
+<26c75dcccb616ac88c68313c68bd3620> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac88c68313c68bd3620",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac88c68313c68bd3620/display",
+        "Samtools idxstats on data 80" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b29834fa315226b8> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a6c329b6ceb5b74fe> .
+
+<26c75dcccb616ac8a5ddd4169347a34b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a5ddd4169347a34b",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a5ddd4169347a34b/display",
+        "HISAT2 on data 6: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af1b298d39addccaf> .
+
+<26c75dcccb616ac8aafbcd097d47c752> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8aafbcd097d47c752",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8aafbcd097d47c752/display",
+        "featureCounts on data 80: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a517ee058683f6d05> .
+
+<26c75dcccb616ac8ab549ffc84f7831a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ab549ffc84f7831a",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ab549ffc84f7831a/display",
+        "Falco on data 11: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aefba510090ff896f> .
+
+<26c75dcccb616ac8ad8deeba34e7f894> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ad8deeba34e7f894",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ad8deeba34e7f894/display",
+        "Falco on data 8: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab02e44262e3c5e34> .
+
+<26c75dcccb616ac8b3dc304722904d18> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b3dc304722904d18",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b3dc304722904d18/display",
+        "Samtools idxstats on data 76" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8447185c64d55d3f9> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a0fbf4fd060253764> .
+
+<26c75dcccb616ac8bbd6c934192f665b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bbd6c934192f665b",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bbd6c934192f665b/display",
+        "featureCounts on data 72: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8455304b702f62bc> .
+
+<26c75dcccb616ac8be838481b5ad33c5> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8be838481b5ad33c5",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8be838481b5ad33c5/display",
+        "HISAT2 on data 9: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a380e0eba0283079d> .
+
+<26c75dcccb616ac8cbf4ff7b78ac6ce4> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8cbf4ff7b78ac6ce4",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8cbf4ff7b78ac6ce4/display",
+        "Read Distribution on data 94 and data 72: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8583947aa31a0b88f> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ae8ee1d9dfdf90778> .
+
+<26c75dcccb616ac8eac62b1cafe3f6c9> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8eac62b1cafe3f6c9",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8eac62b1cafe3f6c9/display",
+        "featureCounts on data 78: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a46c42deff60876d4> .
+
+<26c75dcccb616ac8ed0591c7f0e48b4a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ed0591c7f0e48b4a",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ed0591c7f0e48b4a/display",
+        "HISAT2 on data 10: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abfffae4726025087> .
+
+<26c75dcccb616ac8f207a761cb8dc9b8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f207a761cb8dc9b8",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f207a761cb8dc9b8/display",
+        "Falco on data 10: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5b9be473b33c4d2d> .
+
+<26c75dcccb616ac8f3ab29d1311fab34> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f3ab29d1311fab34",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f3ab29d1311fab34/display",
+        "Falco on data 6: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf9b062e1920c13e> .
+
+<26c75dcccb616ac8fda99133df8f9837> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8fda99133df8f9837",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8fda99133df8f9837/display",
+        "featureCounts on data 82: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a2519634b954b5e07> .
+
+<26c75dcccb616ac809ae6a52381828dc> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac809ae6a52381828dc",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac809ae6a52381828dc/display",
+        "HISAT2 on data 9: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a380e0eba0283079d> .
+
+<26c75dcccb616ac8241b92dba0c90646> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8241b92dba0c90646",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8241b92dba0c90646/display",
+        "HISAT2 on data 7: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a35a698a9ac5a8fb0> .
+
+<26c75dcccb616ac8447185c64d55d3f9> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8447185c64d55d3f9",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8447185c64d55d3f9/display",
+        "HISAT2 on data 8: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abc1b952f7a8d0455> .
+
+<26c75dcccb616ac8afc011fbca4c3520> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8afc011fbca4c3520",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8afc011fbca4c3520/display",
+        "HISAT2 on data 11: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abc54090c329be206> .
+
+<26c75dcccb616ac8b29834fa315226b8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b29834fa315226b8",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b29834fa315226b8/display",
+        "HISAT2 on data 10: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abfffae4726025087> .
+
+<26c75dcccb616ac827c5373544942f4a> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac827c5373544942f4a",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac827c5373544942f4a/display",
+        "HISAT2 on data 10: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a37c7773214af6a56> .
+
+<26c75dcccb616ac8583947aa31a0b88f> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8583947aa31a0b88f",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8583947aa31a0b88f/display",
+        "HISAT2 on data 6: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af1b298d39addccaf> .
+
+<26c75dcccb616ac863c8f2898f6b8890> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac863c8f2898f6b8890",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac863c8f2898f6b8890/display",
+        "HISAT2 on data 7: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af12e0dbd67fe1a46> .
+
+<26c75dcccb616ac893599c39ab6ca3a8> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac893599c39ab6ca3a8",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac893599c39ab6ca3a8/display",
+        "HISAT2 on data 11: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a96b66f932bca0cdd> .
+
+<26c75dcccb616ac8a40933362992b2ed> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a40933362992b2ed",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a40933362992b2ed/display",
+        "HISAT2 on data 9: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
+    prov:wasGeneratedBy <11ac94870d0bb33acf4097f1c71aa5ed> .
+
+<26c75dcccb616ac8b24e4986eedbf114> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b24e4986eedbf114",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b24e4986eedbf114/display",
+        "HISAT2 on data 8: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ab8b81681f336fc2d> .
+
+<26c75dcccb616ac8b5fc8c2c832a130c> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b5fc8c2c832a130c",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b5fc8c2c832a130c/display",
+        "HISAT2 on data 6: aligned reads (BAM)" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aeaaad6d3d31cfac6> .
+
+<11ac94870d0bb33a03a93f9ae7afe8b0> a prov:Activity ;
+    prov:endedAtTime "2025-12-08T18:14:37.694048"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-08T14:30:55.329356"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac84b963edb807657ce> ;
+    prov:value "set -o | grep -q pipefail && set -o pipefail;  mkdir -p ~/.ncbi && cp '/data/jwd08/main/093/955/93955868/configs/tmpdz7vd90q' ~/.ncbi/user-settings.mkfg &&   export SRA_PREFETCH_RETRIES=3 && export SRA_PREFETCH_ATTEMPT=1 &&    grep '^[[:space:]]*[E|S|D]RR[0-9]\\{1,\\}[[:space:]]*$' '/data/dnb12/galaxy_db/files/d/9/2/dataset_d92c079e-be94-4444-b977-04bb90c28cbf.dat' > accessions && for acc in $(cat ./accessions); do ( echo \"Downloading accession: $acc...\" &&  while [ $SRA_PREFETCH_ATTEMPT -le $SRA_PREFETCH_RETRIES ] ; do fasterq-dump \"$acc\" -e ${GALAXY_SLOTS:-1} -t ${TMPDIR} --seq-defline '@$ac.$sn/$ri' --qual-defline '+' --split-3 --skip-technical 2>&1 | tee -a '/data/jwd08/main/093/955/93955868/outputs/dataset_f6902a45-3858-4d5c-b27c-f21a3d203d94.dat'; if [ $? == 0 ] && [ $(ls *.fastq | wc -l) -ge 1 ]; then break ; else echo \"Prefetch attempt $SRA_PREFETCH_ATTEMPT of $SRA_PREFETCH_RETRIES exited with code $?\" ; SRA_PREFETCH_ATTEMPT=`expr $SRA_PREFETCH_ATTEMPT + 1` ; sleep 1 ; fi ; done && mkdir -p output && mkdir -p outputOther && count=\"$(ls *.fastq | wc -l)\" && echo \"There are $count fastq files\" && data=($(ls *.fastq)) && if [ \"$count\" -eq 1 ]; then pigz -cqp ${GALAXY_SLOTS:-1} \"${data[0]}\" > output/\"${acc}\"__single.fastqsanger.gz && rm \"${data[0]}\"; elif [ \"--split-3\" = \"--split-3\" ]; then if [ -e \"${acc}\".fastq ]; then pigz -cqp ${GALAXY_SLOTS:-1} \"${acc}\".fastq > outputOther/\"${acc}\"__single.fastqsanger.gz; fi && pigz -cqp ${GALAXY_SLOTS:-1} \"${acc}\"_1.fastq > output/\"${acc}\"_forward.fastqsanger.gz && pigz -cqp ${GALAXY_SLOTS:-1} \"${acc}\"_2.fastq > output/\"${acc}\"_reverse.fastqsanger.gz && rm \"${acc}\"*.fastq; elif [ \"$count\" -eq 2 ]; then pigz -cqp ${GALAXY_SLOTS:-1} \"${data[0]}\" > output/\"${acc}\"_forward.fastqsanger.gz && pigz -cqp ${GALAXY_SLOTS:-1} \"${data[1]}\" > output/\"${acc}\"_reverse.fastqsanger.gz && rm \"${data[0]}\" && rm \"${data[1]}\"; else for file in ${data[*]}; do pigz -cqp ${GALAXY_SLOTS:-1} \"$file\" > outputOther/\"$file\"sanger.gz && rm \"$file\"; done; fi;  ); done; echo \"Done with all accessions.\"" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" .
+
+<26c75dcccb616ac84b963edb807657ce> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac84b963edb807657ce",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac84b963edb807657ce/display",
+        "SRR_Acc_List.txt" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8e193ec0f3f2873b> .
+
+<26c75dcccb616ac80c53aeed5afa2893> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac80c53aeed5afa2893",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac80c53aeed5afa2893/display",
+        "SRR1923668" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac86843dea2af97020b> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac86843dea2af97020b",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac86843dea2af97020b/display",
+        "SRR1923680" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac879af659f2335ff35> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac879af659f2335ff35",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac879af659f2335ff35/display",
+        "SRR1923667" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac892bf1426c6e5a4ea> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac892bf1426c6e5a4ea",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac892bf1426c6e5a4ea/display",
+        "SRR1923669" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac8a2a0c21763a17aae> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a2a0c21763a17aae",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a2a0c21763a17aae/display",
+        "SRR1923679" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
+<26c75dcccb616ac8c9144171a4d36ea7> a prov:Entity ;
+    rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8c9144171a4d36ea7",
+        "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8c9144171a4d36ea7/display",
+        "SRR1923681" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
+    prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
+
