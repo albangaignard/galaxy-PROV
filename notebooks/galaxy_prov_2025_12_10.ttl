@@ -1,4 +1,5 @@
 @prefix ns1: <http://edamontology.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -6,6 +7,8 @@
 <26c75dcccb616ac805985cfe60cccb3d> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac805985cfe60cccb3d",
         "MultiQC on data 104: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac8cbf4ff7b78ac6ce4> ;
     prov:wasGeneratedBy <11ac94870d0bb33a9c7753edccd24e3a> .
@@ -13,6 +16,8 @@
 <26c75dcccb616ac80636a45eef4c433e> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac80636a45eef4c433e",
         "Falco on data 9: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
     prov:wasGeneratedBy <11ac94870d0bb33a37673a782a39798d> .
@@ -20,6 +25,8 @@
 <26c75dcccb616ac809f392345e22fb4e> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac809f392345e22fb4e",
         "Falco on data 8: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
     prov:wasGeneratedBy <11ac94870d0bb33ab02e44262e3c5e34> .
@@ -27,6 +34,8 @@
 <26c75dcccb616ac813f284a5871169a5> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac813f284a5871169a5",
         "Falco on data 7: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
     prov:wasGeneratedBy <11ac94870d0bb33a3d2f3b8a7efd7da6> .
@@ -34,6 +43,8 @@
 <26c75dcccb616ac8158736a5962a8723> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8158736a5962a8723",
         "MultiQC on data 104: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac8cbf4ff7b78ac6ce4> ;
     prov:wasGeneratedBy <11ac94870d0bb33a9c7753edccd24e3a> .
@@ -41,6 +52,8 @@
 <26c75dcccb616ac825851bb3d4a512e3> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac825851bb3d4a512e3",
         "Samtools idxstats on data 43" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
     prov:wasGeneratedBy <11ac94870d0bb33af09698d5c85053ac> .
@@ -48,6 +61,8 @@
 <26c75dcccb616ac82743b8b22c78b2cc> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82743b8b22c78b2cc",
         "Samtools idxstats on data 39" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
     prov:wasGeneratedBy <11ac94870d0bb33a6f574bb8f249bcf6> .
@@ -55,6 +70,8 @@
 <26c75dcccb616ac82b6bc37f5a147d99> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82b6bc37f5a147d99",
         "Read Distribution on data 94 and data 80: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b29834fa315226b8> ;
     prov:wasGeneratedBy <11ac94870d0bb33a1ec7736aff293bea> .
@@ -62,6 +79,8 @@
 <26c75dcccb616ac82fa359fad36e59ff> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac82fa359fad36e59ff",
         "Samtools idxstats on data 37" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
     prov:wasGeneratedBy <11ac94870d0bb33a33771f673efe181e> .
@@ -69,6 +88,8 @@
 <26c75dcccb616ac8304a16c3bb39031d> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8304a16c3bb39031d",
         "Samtools idxstats on data 39" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
     prov:wasGeneratedBy <11ac94870d0bb33ab46679c5521aad9a> .
@@ -76,6 +97,8 @@
 <26c75dcccb616ac830e3e6289a652bdb> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac830e3e6289a652bdb",
         "Read Distribution on data 94 and data 74: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8241b92dba0c90646> ;
     prov:wasGeneratedBy <11ac94870d0bb33a351b8541053cb99d> .
@@ -83,6 +106,8 @@
 <26c75dcccb616ac832e7a8600faea70a> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac832e7a8600faea70a",
         "Samtools idxstats on data 45" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
     prov:wasGeneratedBy <11ac94870d0bb33a863552fcfcc3ff1d> .
@@ -90,6 +115,8 @@
 <26c75dcccb616ac834504e4a0ea3f4f6> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac834504e4a0ea3f4f6",
         "MultiQC on data 83, data 81, and others: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac8125e2287107531a0>,
         <26c75dcccb616ac82fb3327ad4493654>,
@@ -102,6 +129,8 @@
 <26c75dcccb616ac836be2363a281d73f> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac836be2363a281d73f",
         "Samtools idxstats on data 45" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
     prov:wasGeneratedBy <11ac94870d0bb33a8e955df827de15a3> .
@@ -109,6 +138,8 @@
 <26c75dcccb616ac8413b94f300f5ec86> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8413b94f300f5ec86",
         "MultiQC on data 83, data 81, and others: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac8125e2287107531a0>,
         <26c75dcccb616ac82fb3327ad4493654>,
@@ -121,6 +152,8 @@
 <26c75dcccb616ac845bcd181762f4d5e> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac845bcd181762f4d5e",
         "Falco on data 11: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
     prov:wasGeneratedBy <11ac94870d0bb33aefba510090ff896f> .
@@ -128,6 +161,8 @@
 <26c75dcccb616ac846d1412d5834dba7> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac846d1412d5834dba7",
         "Read Distribution on data 94 and data 82: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8afc011fbca4c3520> ;
     prov:wasGeneratedBy <11ac94870d0bb33ad5bd5d376e36a896> .
@@ -135,6 +170,8 @@
 <26c75dcccb616ac847642611d2da917b> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac847642611d2da917b",
         "Falco on data 7: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
     prov:wasGeneratedBy <11ac94870d0bb33a3d2f3b8a7efd7da6> .
@@ -142,6 +179,8 @@
 <26c75dcccb616ac849ebd8bf7a1d2550> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac849ebd8bf7a1d2550",
         "Samtools idxstats on data 37" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
     prov:wasGeneratedBy <11ac94870d0bb33a26a0ec478190fdb2> .
@@ -149,6 +188,8 @@
 <26c75dcccb616ac851c94b9bec824472> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac851c94b9bec824472",
         "HISAT2 on data 10: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
     prov:wasGeneratedBy <11ac94870d0bb33a37c7773214af6a56> .
@@ -156,6 +197,8 @@
 <26c75dcccb616ac8548387acbb4d06dd> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8548387acbb4d06dd",
         "Falco on data 9: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
     prov:wasGeneratedBy <11ac94870d0bb33a37673a782a39798d> .
@@ -163,6 +206,8 @@
 <26c75dcccb616ac85ca52db5cddd037b> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac85ca52db5cddd037b",
         "MultiQC on data 31, data 28, and others: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac862a08eeb7515ee3f>,
         <26c75dcccb616ac870385f00a7871fc0>,
@@ -175,6 +220,8 @@
 <26c75dcccb616ac862a4a01b48f74fac> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac862a4a01b48f74fac",
         "HISAT2 on data 7: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac80c53aeed5afa2893> ;
     prov:wasGeneratedBy <11ac94870d0bb33af12e0dbd67fe1a46> .
@@ -182,6 +229,8 @@
 <26c75dcccb616ac8643438bda2cefd69> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8643438bda2cefd69",
         "Samtools idxstats on data 37" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac863c8f2898f6b8890> ;
     prov:wasGeneratedBy <11ac94870d0bb33a7adcedbc086bbdf6> .
@@ -189,6 +238,8 @@
 <26c75dcccb616ac865b5696704d06169> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac865b5696704d06169",
         "Samtools idxstats on data 45" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac893599c39ab6ca3a8> ;
     prov:wasGeneratedBy <11ac94870d0bb33aefb491fee9f9180d> .
@@ -196,6 +247,8 @@
 <26c75dcccb616ac86c8f6fc24ad121de> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac86c8f6fc24ad121de",
         "fasterq-dump log" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac84b963edb807657ce> ;
     prov:wasGeneratedBy <11ac94870d0bb33a03a93f9ae7afe8b0> .
@@ -203,6 +256,8 @@
 <26c75dcccb616ac87823d6fca89eaacb> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87823d6fca89eaacb",
         "MultiQC on data 120, data 118, and others: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac81edaa5b116ec5c60>,
         <26c75dcccb616ac82ff0b1d57397a5e6>,
@@ -215,6 +270,8 @@
 <26c75dcccb616ac8799dceac2f64fa4e> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8799dceac2f64fa4e",
         "MultiQC on data 92, data 91, and others: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac801764b3004c4bea7>,
         <26c75dcccb616ac8521cf238b110b2f8>,
@@ -227,6 +284,8 @@
 <26c75dcccb616ac87dcfac306332d0b3> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87dcfac306332d0b3",
         "MultiQC on data 31, data 28, and others: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac862a08eeb7515ee3f>,
         <26c75dcccb616ac870385f00a7871fc0>,
@@ -239,6 +298,8 @@
 <26c75dcccb616ac87de879c00e9698a8> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac87de879c00e9698a8",
         "Falco on data 6: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
     prov:wasGeneratedBy <11ac94870d0bb33abf9b062e1920c13e> .
@@ -246,12 +307,16 @@
 <26c75dcccb616ac883e216510647935a> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac883e216510647935a",
         "Convert GTF to BED12 on data 93: BED12" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3586 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357" ;
     prov:wasGeneratedBy <11ac94870d0bb33a988d13c1f7b02afe> .
 
 <26c75dcccb616ac8875861669987d6d4> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8875861669987d6d4",
         "Samtools idxstats on data 35" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
     prov:wasGeneratedBy <11ac94870d0bb33afe89f89ee5d61776> .
@@ -259,6 +324,8 @@
 <26c75dcccb616ac88d6aebcb2927c3dc> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac88d6aebcb2927c3dc",
         "Read Distribution on data 94 and data 78: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac809ae6a52381828dc> ;
     prov:wasGeneratedBy <11ac94870d0bb33a75f55974005b1d3c> .
@@ -266,6 +333,8 @@
 <26c75dcccb616ac890054bd723c176cf> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac890054bd723c176cf",
         "Samtools idxstats on data 43" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
     prov:wasGeneratedBy <11ac94870d0bb33a2e252e56cadd5b6b> .
@@ -273,6 +342,8 @@
 <26c75dcccb616ac8935390a57fd8b5d8> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8935390a57fd8b5d8",
         "Falco on data 10: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
     prov:wasGeneratedBy <11ac94870d0bb33a5b9be473b33c4d2d> .
@@ -280,6 +351,8 @@
 <26c75dcccb616ac895db2a4a48a505fb> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac895db2a4a48a505fb",
         "Falco on data 8: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
     prov:wasGeneratedBy <11ac94870d0bb33ab02e44262e3c5e34> .
@@ -287,6 +360,8 @@
 <26c75dcccb616ac8a01e576aa53c8a0b> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a01e576aa53c8a0b",
         "Falco on data 6: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
     prov:wasGeneratedBy <11ac94870d0bb33abf9b062e1920c13e> .
@@ -294,6 +369,8 @@
 <26c75dcccb616ac8a7b4609a882c0c6d> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8a7b4609a882c0c6d",
         "Falco on data 11: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
     prov:wasGeneratedBy <11ac94870d0bb33aefba510090ff896f> .
@@ -301,6 +378,8 @@
 <26c75dcccb616ac8acb786b32bde5cec> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8acb786b32bde5cec",
         "HISAT2 on data 8: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac892bf1426c6e5a4ea> ;
     prov:wasGeneratedBy <11ac94870d0bb33ab8b81681f336fc2d> .
@@ -308,6 +387,8 @@
 <26c75dcccb616ac8ae7605490717f05c> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ae7605490717f05c",
         "Read Distribution on data 94 and data 76: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8447185c64d55d3f9> ;
     prov:wasGeneratedBy <11ac94870d0bb33af8f01e0ce8c7301f> .
@@ -315,6 +396,8 @@
 <26c75dcccb616ac8b1b852c534ec9150> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8b1b852c534ec9150",
         "Samtools idxstats on data 35" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
     prov:wasGeneratedBy <11ac94870d0bb33a8d4b631e4bee215e> .
@@ -322,6 +405,8 @@
 <26c75dcccb616ac8bc787911ff7e374e> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bc787911ff7e374e",
         "Falco on data 10: SummaryData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac86843dea2af97020b> ;
     prov:wasGeneratedBy <11ac94870d0bb33a5b9be473b33c4d2d> .
@@ -329,6 +414,8 @@
 <26c75dcccb616ac8bd66ab7c27463ba3> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bd66ab7c27463ba3",
         "HISAT2 on data 9: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a2a0c21763a17aae> ;
     prov:wasGeneratedBy <11ac94870d0bb33acf4097f1c71aa5ed> .
@@ -336,6 +423,8 @@
 <26c75dcccb616ac8bf81785b9323b0d2> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8bf81785b9323b0d2",
         "Samtools idxstats on data 35" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b5fc8c2c832a130c> ;
     prov:wasGeneratedBy <11ac94870d0bb33a4df1b9003845bc49> .
@@ -343,6 +432,8 @@
 <26c75dcccb616ac8c077d5d1cc484f34> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8c077d5d1cc484f34",
         "Samtools idxstats on data 41" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
     prov:wasGeneratedBy <11ac94870d0bb33a5134d1f99f715aeb> .
@@ -350,6 +441,8 @@
 <26c75dcccb616ac8cca5c213faba945a> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8cca5c213faba945a",
         "MultiQC on data 92, data 91, and others: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac801764b3004c4bea7>,
         <26c75dcccb616ac8521cf238b110b2f8>,
@@ -362,6 +455,8 @@
 <26c75dcccb616ac8d2a0e44b38fe5a6b> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d2a0e44b38fe5a6b",
         "MultiQC on data 120, data 118, and others: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4" ;
     prov:wasDerivedFrom <26c75dcccb616ac81edaa5b116ec5c60>,
         <26c75dcccb616ac82ff0b1d57397a5e6>,
@@ -374,6 +469,8 @@
 <26c75dcccb616ac8d4377e1a98ece748> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d4377e1a98ece748",
         "Samtools idxstats on data 43" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac827c5373544942f4a> ;
     prov:wasGeneratedBy <11ac94870d0bb33a3cebacc1dad1e888> .
@@ -381,6 +478,8 @@
 <26c75dcccb616ac8d79926460e91fff2> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8d79926460e91fff2",
         "HISAT2 on data 6: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac879af659f2335ff35> ;
     prov:wasGeneratedBy <11ac94870d0bb33aeaaad6d3d31cfac6> .
@@ -388,6 +487,8 @@
 <26c75dcccb616ac8dcd19c7cc90723b0> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8dcd19c7cc90723b0",
         "Samtools idxstats on data 41" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
     prov:wasGeneratedBy <11ac94870d0bb33a68845f62f2ce5663> .
@@ -395,6 +496,8 @@
 <26c75dcccb616ac8e1756e2952decf2a> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e1756e2952decf2a",
         "Column join on data 119, data 117, and others" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3" ;
     prov:wasDerivedFrom <26c75dcccb616ac8683f63c8d829ea81>,
         <26c75dcccb616ac87e7482fdf1c53b53>,
@@ -407,6 +510,8 @@
 <26c75dcccb616ac8e8b6250901961534> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8e8b6250901961534",
         "Samtools idxstats on data 39" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8b24e4986eedbf114> ;
     prov:wasGeneratedBy <11ac94870d0bb33a53b44187dc65c189> .
@@ -414,6 +519,8 @@
 <26c75dcccb616ac8ec633e53f928bda1> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ec633e53f928bda1",
         "HISAT2 on data 11: Mapping summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1" ;
     prov:wasDerivedFrom <26c75dcccb616ac8c9144171a4d36ea7> ;
     prov:wasGeneratedBy <11ac94870d0bb33a96b66f932bca0cdd> .
@@ -421,6 +528,8 @@
 <26c75dcccb616ac8ef0ee0e5aa22ab23> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8ef0ee0e5aa22ab23",
         "Read Distribution on data 94 and data 72: stats (TXT)" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0" ;
     prov:wasDerivedFrom <26c75dcccb616ac8583947aa31a0b88f> ;
     prov:wasGeneratedBy <11ac94870d0bb33a1f3adce9639068b3> .
@@ -428,6 +537,8 @@
 <26c75dcccb616ac8f3c0f751fef4f3f7> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f3c0f751fef4f3f7",
         "Samtools idxstats on data 41" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
     prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8" ;
     prov:wasDerivedFrom <26c75dcccb616ac8a40933362992b2ed> ;
     prov:wasGeneratedBy <11ac94870d0bb33a1657ab41b0103e29> .
@@ -435,9 +546,71 @@
 <26c75dcccb616ac8f6d5ae7cf92922f6> a prov:Entity ;
     rdfs:label "/api/histories/11ac94870d0bb33a76b5f0b7b347b500/contents/26c75dcccb616ac8f6d5ae7cf92922f6",
         "gencode.vM10.chr_patch_hapl_scaff.annotation.gtf uncompressed" ;
+    ns1:has_data ns1:data_1255 ;
+    ns1:has_format ns1:format_2306 ;
     prov:wasAttributedTo "CONVERTER_gz_to_uncompressed" ;
     prov:wasDerivedFrom <26c75dcccb616ac839fcb41169073c31> ;
     prov:wasGeneratedBy <11ac94870d0bb33a3d8bce6f9e806500> .
+
+<CONVERTER_gz_to_uncompressed> a prov:Agent .
+
+<__DATA_FETCH__> a prov:Agent ;
+    ns1:has_operation ns1:operation_0224 .
+
+<toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.8> a prov:Agent ;
+    ns1:has_operation ns1:operation_0227,
+        ns1:operation_0335,
+        ns1:operation_0337,
+        ns1:operation_1812,
+        ns1:operation_3096,
+        ns1:operation_3695,
+        ns1:operation_3802 ;
+    ns1:has_topics ns1:topic_0080,
+        ns1:topic_0102,
+        ns1:topic_3168,
+        ns1:topic_3325 ;
+    owl:sameAs <https://bio.tools/samtools> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/collection_column_join/collection_column_join/0.0.3> a prov:Agent .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> a prov:Agent ;
+    ns1:has_operation ns1:operation_0337,
+        ns1:operation_3198,
+        ns1:operation_3218 ;
+    ns1:has_topics ns1:topic_0102,
+        ns1:topic_0769,
+        ns1:topic_3382 ;
+    owl:sameAs <https://bio.tools/falco> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> a prov:Agent ;
+    ns1:has_operation ns1:operation_3793 ;
+    ns1:has_topics ns1:topic_3168 ;
+    owl:sameAs <https://bio.tools/featurecounts> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357> a prov:Agent .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.2.1+galaxy1> a prov:Agent ;
+    ns1:has_operation ns1:operation_0292 ;
+    ns1:has_topics ns1:topic_3170 ;
+    owl:sameAs <https://bio.tools/hisat2> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> a prov:Agent ;
+    ns1:has_operation ns1:operation_2428 ;
+    ns1:has_topics ns1:topic_0091,
+        ns1:topic_3168 ;
+    owl:sameAs <https://bio.tools/multiqc> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/3.1.1+galaxy1> a prov:Agent ;
+    ns1:has_operation ns1:operation_0335,
+        ns1:operation_2422 ;
+    ns1:has_topics ns1:topic_0091,
+        ns1:topic_0622 ;
+    owl:sameAs <https://bio.tools/sra-tools> .
+
+<toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/5.0.3+galaxy0> a prov:Agent ;
+    ns1:has_operation ns1:operation_2409 ;
+    ns1:has_topics ns1:topic_3168 ;
+    owl:sameAs <https://bio.tools/rseqc> .
 
 <11ac94870d0bb33a0c5102267dd59945> a prov:Activity ;
     prov:endedAtTime "2025-12-09T17:57:31.127536"^^xsd:dateTime ;
