@@ -1,0 +1,7 @@
+# Tested with Python 3.12 and Graphviz 12.2 (system library required by pygraphviz)
+rdflib>=7.1,<8
+requests>=2.32
+tqdm>=4.67
+ipywidgets>=8.1
+pygraphviz>=1.14
+jupyterlab>=4.0

@@ -1,0 +1,533 @@
+@prefix ns1: <http://edamontology.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<4838ba20a6d8676518386e33e08f25d4> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676518386e33e08f25d4",
+        "limma on data 28, data 33, and data 26: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7f1c2067df9f6e12> .
+
+<4838ba20a6d8676518cd14f0743821eb> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676518cd14f0743821eb",
+        "limma on data 12, data 4, and data 9: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d867658bd76b90c69c3fa6> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a17aa46a2f9322778> .
+
+<4838ba20a6d8676519d19f4cac53a1b7> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676519d19f4cac53a1b7",
+        "annodata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad975bd3652b89b03> .
+
+<4838ba20a6d8676520e1a2f5738fb94b> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676520e1a2f5738fb94b",
+        "annodata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a77ec638befd02b40> .
+
+<4838ba20a6d867652a1caba0a3e251df> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867652a1caba0a3e251df",
+        "limma on data 28, data 33, and data 26: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af53268360221955e> .
+
+<4838ba20a6d867652fc69aad5154474b> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867652fc69aad5154474b",
+        "limma on data 28, data 32, and data 26: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d8676517cb60e65983b6e7>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a45348bd8b68a6fa3> .
+
+<4838ba20a6d8676532af06b8d5ae99c8> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676532af06b8d5ae99c8",
+        "Advanced Cut on data 3" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2" ;
+    prov:wasDerivedFrom <4838ba20a6d86765332cdd505c575ca6> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8fb189332e765b5d> .
+
+<4838ba20a6d867653767ff55542d8a73> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867653767ff55542d8a73",
+        "limma-voom_basalpregnant-basallactate" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7456a18e2bae80f1> .
+
+<4838ba20a6d867653a14b94fef1c1855> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867653a14b94fef1c1855",
+        "Replace Text on data 7" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1fe3435a1f5fb40f> .
+
+<4838ba20a6d867654348f83dfbc831eb> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867654348f83dfbc831eb",
+        "limma on data 28, data 27, and data 26: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765bf63ae1690db2275>,
+        <4838ba20a6d86765ff079c437c2d3c0d> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad76c10fc4bb80091> .
+
+<4838ba20a6d867654dcbfc22e01d6ef0> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867654dcbfc22e01d6ef0",
+        "limma on data 12, data 11, and data 9: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac82e1aa3e689e1a5> .
+
+<4838ba20a6d8676556dab8cc136e3add> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676556dab8cc136e3add",
+        "limma-voom_basalpregnant-basallactate" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765bf63ae1690db2275>,
+        <4838ba20a6d86765ff079c437c2d3c0d> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad76c10fc4bb80091> .
+
+<4838ba20a6d8676559e7859651eaf78f> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676559e7859651eaf78f",
+        "limma on data 12, data 11, and data 9: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3997bff1c9af1953> .
+
+<4838ba20a6d867656112b528b31a32e4> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867656112b528b31a32e4",
+        "limma on data 22, data 11, and data 9: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a8edb2310a3e0ae10> .
+
+<4838ba20a6d86765617d81941edaee2b> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765617d81941edaee2b",
+        "annotateMyIDs on data 9: Rscript" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf502f3f3dca472b> .
+
+<4838ba20a6d8676568ca1dc22828254d> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676568ca1dc22828254d",
+        "limma on data 28, data 33, and data 26: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7456a18e2bae80f1> .
+
+<4838ba20a6d86765a8b07987de0426ab> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765a8b07987de0426ab",
+        "GSE60450_Lactation-GenewiseCounts.txt" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a16b3fccd25615143> .
+
+<4838ba20a6d86765b07478f5adf422b0> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765b07478f5adf422b0",
+        "Formatted_GSE60450_Lactation-GenewiseCounts.txt" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad27a4ca1f4b01fd9> .
+
+<4838ba20a6d86765c46c150902b3512f> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765c46c150902b3512f",
+        "limma-voom_luminalpregnant-luminallactate" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7f1c2067df9f6e12> .
+
+<4838ba20a6d86765d4d3784b687d85e7> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765d4d3784b687d85e7",
+        "annotateMyIDs on data 9: Rscript" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad975bd3652b89b03> .
+
+<4838ba20a6d86765da3613a560941535> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765da3613a560941535",
+        "limma-voom_basalpregnant-basallactate" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af53268360221955e> .
+
+<4838ba20a6d86765ed6eecce0e1d0394> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765ed6eecce0e1d0394",
+        "limma on data 12, data 11, and data 9: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf65d8145915050f> .
+
+<4838ba20a6d86765efceeb446cc98b6a> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765efceeb446cc98b6a",
+        "limma-voom_basalpregnant-basallactate" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" ;
+    prov:wasDerivedFrom <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7f1c2067df9f6e12> .
+
+<4838ba20a6d86765f9baabd7defff3fd> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765f9baabd7defff3fd",
+        "iris.csv" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a76e446bf57905642> .
+
+<4838ba20a6d86765fcc8d0133a590a80> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765fcc8d0133a590a80",
+        "annodata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" ;
+    prov:wasGeneratedBy <11ac94870d0bb33abf502f3f3dca472b> .
+
+<__DATA_FETCH__> a prov:Agent ;
+    ns1:has_operation ns1:operation_0224 .
+
+<toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2> a prov:Agent .
+
+<toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1> a prov:Agent .
+
+<toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2> a prov:Agent .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0> a prov:Agent ;
+    ns1:has_operation ns1:operation_0226 ;
+    owl:sameAs <https://bio.tools/annotatemyids> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0> a prov:Agent ;
+    ns1:has_operation ns1:operation_3223,
+        ns1:operation_3563 ;
+    ns1:has_topics ns1:topic_3308 ;
+    owl:sameAs <https://bio.tools/limma> .
+
+<11ac94870d0bb33a16b3fccd25615143> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:30:58.081477"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:30:04.243950"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd05e/main/075/069/75069633/registry.xml' --request-version '1' --request '/data/jwd05e/main/075/069/75069633/configs/tmpzrye8xjy'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a17aa46a2f9322778> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:14:04.113964"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:12:28.780875"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d867658bd76b90c69c3fa6> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/070/75070580/outputs/dataset_91812e2f-e763-4bd4-bd60-a4cbd0ecaf01.dat' -o '/data/jwd02f/main/075/070/75070580/outputs/dataset_91812e2f-e763-4bd4-bd60-a4cbd0ecaf01_files'  -m '/data/dnb10/galaxy_db/files/7/0/5/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat' -f '/data/dnb10/galaxy_db/files/e/d/a/dataset_eda8ab26-bb0c-42f2-8bee-c5753587159f.dat'  -a '/data/dnb10/galaxy_db/files/0/a/5/dataset_0a5ba2e8-bd82-43e4-8e9d-8ae8f48e5871.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/070/75070580/outputs/dataset_91812e2f-e763-4bd4-bd60-a4cbd0ecaf01_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/070/75070580/outputs/dataset_91812e2f-e763-4bd4-bd60-a4cbd0ecaf01_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33a1fe3435a1f5fb40f> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:49:52.290790"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:49:06.179664"^^xsd:dateTime ;
+    prov:value "sed -r --sandbox -e 's/_B[A-Z0-9_]+//g' '/data/dnb10/galaxy_db/files/1/7/3/dataset_173702ee-53e8-4398-ac65-08285cafff55.dat' > '/data/jwd02f/main/075/070/75070018/outputs/dataset_d24d464e-75bb-479c-887e-26969478131f.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1" .
+
+<11ac94870d0bb33a3997bff1c9af1953> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:25:10.605815"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:23:28.537249"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd05e/main/075/071/75071108/outputs/dataset_c8cb86c4-a1c0-47f0-81fd-8830a451a4ad.dat' -o '/data/jwd05e/main/075/071/75071108/outputs/dataset_c8cb86c4-a1c0-47f0-81fd-8830a451a4ad_files'  -m '/data/dnb10/galaxy_db/files/7/0/5/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat' -f '/data/dnb10/galaxy_db/files/3/8/2/dataset_38212952-5f2c-4526-8824-79c9b6ba68f8.dat'  -a '/data/dnb10/galaxy_db/files/0/a/5/dataset_0a5ba2e8-bd82-43e4-8e9d-8ae8f48e5871.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd05e/main/075/071/75071108/outputs/dataset_c8cb86c4-a1c0-47f0-81fd-8830a451a4ad_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd05e/main/075/071/75071108/outputs/dataset_c8cb86c4-a1c0-47f0-81fd-8830a451a4ad_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33a423565daf9ac313f> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:55:10.074860"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:54:15.908543"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867656706af13e547e5a5> ;
+    prov:value "python /opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/dd40b1e9eebe/merge_cols/mergeCols.py \"/data/dnb10/galaxy_db/files/7/9/2/dataset_7922abe9-ca3c-4ae0-8cf4-ed6b3c7e86c2.dat\" \"/data/jwd05e/main/075/070/75070163/outputs/dataset_eca84899-3c2c-4e3a-a1de-99a939f0b76e.dat\" \"3\" \"4\"" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2" .
+
+<11ac94870d0bb33a45348bd8b68a6fa3> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:56:03.525774"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:54:13.510101"^^xsd:dateTime ;
+    prov:used <4838ba20a6d8676517cb60e65983b6e7>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/072/75072025/outputs/dataset_f94e025a-bb3d-4dc5-b31e-33c24409ba45.dat' -o '/data/jwd02f/main/075/072/75072025/outputs/dataset_f94e025a-bb3d-4dc5-b31e-33c24409ba45_files'  -m '/data/dnb10/galaxy_db/files/2/5/8/dataset_258ad01a-b11a-46fc-a3ac-90a4846ff107.dat' -f '/data/dnb10/galaxy_db/files/1/c/f/dataset_1cf375fb-1183-485a-86b8-8ca0c8b83003.dat'  -a '/data/dnb10/galaxy_db/files/e/6/3/dataset_e63a8676-efbd-4623-82bd-cfba6e5b3fdf.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/072/75072025/outputs/dataset_f94e025a-bb3d-4dc5-b31e-33c24409ba45_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/072/75072025/outputs/dataset_f94e025a-bb3d-4dc5-b31e-33c24409ba45_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33a4c7a7697c985ca73> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:50:43.645866"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:49:42.658154"^^xsd:dateTime ;
+    prov:value "sed -r --sandbox -e 's/-/./g' '/data/dnb10/galaxy_db/files/d/2/4/dataset_d24d464e-75bb-479c-887e-26969478131f.dat' > '/data/jwd05e/main/075/070/75070027/outputs/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1" .
+
+<11ac94870d0bb33a5adba6b37692a539> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:54:20.271050"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:53:14.129314"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd02f/main/075/071/75071989/registry.xml' --request-version '1' --request '/data/jwd02f/main/075/071/75071989/configs/tmp70x460s0'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a76e446bf57905642> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:35:43.168258"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:34:48.884581"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd02f/main/075/069/75069742/registry.xml' --request-version '1' --request '/data/jwd02f/main/075/069/75069742/configs/tmpdpuqzo27'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a77ec638befd02b40> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:37:33.062994"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:35:50.759509"^^xsd:dateTime ;
+    prov:value "Rscript '/data/jwd02f/main/075/071/75071487/configs/tmpaih6llvz'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" .
+
+<11ac94870d0bb33a8edb2310a3e0ae10> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:29:44.528364"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:28:29.225372"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/071/75071260/outputs/dataset_f47452a9-5a8b-4d4c-8810-a3a3d592a51c.dat' -o '/data/jwd02f/main/075/071/75071260/outputs/dataset_f47452a9-5a8b-4d4c-8810-a3a3d592a51c_files'  -m '/data/dnb10/galaxy_db/files/7/0/5/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat' -f '/data/dnb10/galaxy_db/files/3/8/2/dataset_38212952-5f2c-4526-8824-79c9b6ba68f8.dat'  -a '/data/dnb10/galaxy_db/files/d/d/4/dataset_dd43f734-0fb8-48d7-ba66-306cbbc3c530.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/071/75071260/outputs/dataset_f47452a9-5a8b-4d4c-8810-a3a3d592a51c_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/071/75071260/outputs/dataset_f47452a9-5a8b-4d4c-8810-a3a3d592a51c_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33a8fb189332e765b5d> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:48:49.313241"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:48:01.780740"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765332cdd505c575ca6> ;
+    prov:value "cut --complement -f '2' '/data/dnb10/galaxy_db/files/4/d/b/dataset_4dbaf800-d965-4c0b-a280-671db7110014.dat' > '/data/jwd02f/main/075/070/75070006/outputs/dataset_173702ee-53e8-4398-ac65-08285cafff55.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2" .
+
+<11ac94870d0bb33a99663afdeee866c0> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:52:52.462031"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:51:56.913707"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd05e/main/075/071/75071962/registry.xml' --request-version '1' --request '/data/jwd05e/main/075/071/75071962/configs/tmpn_x15a88'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a9c88241397385799> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:57:20.678122"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:56:29.564758"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765c861b66f6e079573> ;
+    prov:value "cut  -f '2,5' '/data/dnb10/galaxy_db/files/e/c/a/dataset_eca84899-3c2c-4e3a-a1de-99a939f0b76e.dat' > '/data/jwd05e/main/075/070/75070188/outputs/dataset_38212952-5f2c-4526-8824-79c9b6ba68f8.dat'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2" .
+
+<11ac94870d0bb33a9e1eef976bb2f6b1> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:39:49.614222"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:38:50.956921"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd05e/main/075/069/75069813/registry.xml' --request-version '1' --request '/data/jwd05e/main/075/069/75069813/configs/tmp37s0w5bx'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33abf65d8145915050f> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:17:20.847686"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:15:50.826823"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd05e/main/075/070/75070760/outputs/dataset_4e56118d-61ee-4613-a866-3d163eed5f8b.dat' -o '/data/jwd05e/main/075/070/75070760/outputs/dataset_4e56118d-61ee-4613-a866-3d163eed5f8b_files'  -m '/data/dnb10/galaxy_db/files/7/0/5/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat' -f '/data/dnb10/galaxy_db/files/3/8/2/dataset_38212952-5f2c-4526-8824-79c9b6ba68f8.dat'  -a '/data/dnb10/galaxy_db/files/0/a/5/dataset_0a5ba2e8-bd82-43e4-8e9d-8ae8f48e5871.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd05e/main/075/070/75070760/outputs/dataset_4e56118d-61ee-4613-a866-3d163eed5f8b_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd05e/main/075/070/75070760/outputs/dataset_4e56118d-61ee-4613-a866-3d163eed5f8b_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33ac0348709a8ff2f0c> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:39:41.893695"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:38:50.716405"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd05e/main/075/069/75069811/registry.xml' --request-version '1' --request '/data/jwd05e/main/075/069/75069811/configs/tmphimwkrbo'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33ac82e1aa3e689e1a5> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:20:26.828679"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:19:03.101364"^^xsd:dateTime ;
+    prov:used <4838ba20a6d867650a58fcac14cd1e92>,
+        <4838ba20a6d86765dd8a256a77f448fb> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd05e/main/075/071/75071002/outputs/dataset_0a28d16c-fe38-4f76-94fc-a4fa4b167fc5.dat' -o '/data/jwd05e/main/075/071/75071002/outputs/dataset_0a28d16c-fe38-4f76-94fc-a4fa4b167fc5_files'  -m '/data/dnb10/galaxy_db/files/7/0/5/dataset_7056d920-03e7-4fa5-88d6-3504b33474c4.dat' -f '/data/dnb10/galaxy_db/files/3/8/2/dataset_38212952-5f2c-4526-8824-79c9b6ba68f8.dat'  -a '/data/dnb10/galaxy_db/files/0/a/5/dataset_0a5ba2e8-bd82-43e4-8e9d-8ae8f48e5871.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd05e/main/075/071/75071002/outputs/dataset_0a28d16c-fe38-4f76-94fc-a4fa4b167fc5_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd05e/main/075/071/75071002/outputs/dataset_0a28d16c-fe38-4f76-94fc-a4fa4b167fc5_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33ad27a4ca1f4b01fd9> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:43:25.357547"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:42:39.749313"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd05e/main/075/069/75069890/registry.xml' --request-version '1' --request '/data/jwd05e/main/075/069/75069890/configs/tmpjljll6n6'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33aebeb111362d5b2af> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T10:43:30.224534"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:42:40.012883"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd02f/main/075/069/75069891/registry.xml' --request-version '1' --request '/data/jwd02f/main/075/069/75069891/configs/tmp70em19jt'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33a7456a18e2bae80f1> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:59:33.492047"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:57:16.984472"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/072/75072092/outputs/dataset_6147e197-286d-40fa-ae5e-00abcfd30eb7.dat' -o '/data/jwd02f/main/075/072/75072092/outputs/dataset_6147e197-286d-40fa-ae5e-00abcfd30eb7_files'  -m '/data/dnb10/galaxy_db/files/2/5/8/dataset_258ad01a-b11a-46fc-a3ac-90a4846ff107.dat' -f '/data/dnb10/galaxy_db/files/e/9/5/dataset_e9519cb4-3ecb-4632-9f63-c923ba68f6c6.dat'  -a '/data/dnb10/galaxy_db/files/e/6/3/dataset_e63a8676-efbd-4623-82bd-cfba6e5b3fdf.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i,d,c,b,x,m,h,s       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/072/75072092/outputs/dataset_6147e197-286d-40fa-ae5e-00abcfd30eb7_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/072/75072092/outputs/dataset_6147e197-286d-40fa-ae5e-00abcfd30eb7_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33a959f722a2c109f07> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:35:05.850058"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:34:15.852604"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd02f/main/075/071/75071459/registry.xml' --request-version '1' --request '/data/jwd02f/main/075/071/75071459/configs/tmpdsdbrczs'" ;
+    prov:wasAssociatedWith "__DATA_FETCH__" .
+
+<11ac94870d0bb33abf502f3f3dca472b> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:01:03.917639"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T10:58:48.316497"^^xsd:dateTime ;
+    prov:value "cp '/data/jwd02f/main/075/070/75070294/configs/tmpzn6r3b5d' '/data/jwd02f/main/075/070/75070294/outputs/dataset_be893572-d38b-4a3f-bc30-41b0a4ac2b1e.dat' && Rscript '/data/jwd02f/main/075/070/75070294/configs/tmpzn6r3b5d'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" .
+
+<11ac94870d0bb33ad76c10fc4bb80091> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:40:14.231463"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:38:26.681504"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765bf63ae1690db2275>,
+        <4838ba20a6d86765ff079c437c2d3c0d> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/071/75071567/outputs/dataset_0a1ef42f-b111-4c57-9cb4-400c6b3b069c.dat' -o '/data/jwd02f/main/075/071/75071567/outputs/dataset_0a1ef42f-b111-4c57-9cb4-400c6b3b069c_files'  -m '/data/dnb10/galaxy_db/files/2/5/8/dataset_258ad01a-b11a-46fc-a3ac-90a4846ff107.dat' -f '/data/dnb10/galaxy_db/files/c/a/a/dataset_caabcca7-107a-43df-bba6-5ca7855949bb.dat'  -a '/data/dnb10/galaxy_db/files/e/6/3/dataset_e63a8676-efbd-4623-82bd-cfba6e5b3fdf.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i       -l '0.0' -p '0.05' -d 'BH' -G '10'   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/071/75071567/outputs/dataset_0a1ef42f-b111-4c57-9cb4-400c6b3b069c_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/071/75071567/outputs/dataset_0a1ef42f-b111-4c57-9cb4-400c6b3b069c_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<11ac94870d0bb33ad975bd3652b89b03> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T11:26:49.547641"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T11:25:07.803396"^^xsd:dateTime ;
+    prov:value "cp '/data/jwd05e/main/075/071/75071163/configs/tmpmysv68us' '/data/jwd05e/main/075/071/75071163/outputs/dataset_84d753ac-77c8-4251-b6fb-1767ada722b8.dat' && Rscript '/data/jwd05e/main/075/071/75071163/configs/tmpmysv68us'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/annotatemyids/annotatemyids/3.18.0+galaxy0" .
+
+<11ac94870d0bb33af53268360221955e> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T12:43:06.883843"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T12:40:06.415135"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/077/75077950/outputs/dataset_06ef6509-5d9a-488a-b3bd-69a326d92051.dat' -o '/data/jwd02f/main/075/077/75077950/outputs/dataset_06ef6509-5d9a-488a-b3bd-69a326d92051_files'  -m '/data/dnb10/galaxy_db/files/2/5/8/dataset_258ad01a-b11a-46fc-a3ac-90a4846ff107.dat' -f '/data/dnb10/galaxy_db/files/e/9/5/dataset_e9519cb4-3ecb-4632-9f63-c923ba68f6c6.dat'  -a '/data/dnb10/galaxy_db/files/e/6/3/dataset_e63a8676-efbd-4623-82bd-cfba6e5b3fdf.dat'  -D 'basalpregnant-basallactate'  -c '0.5' -s '2'  -P i,d,c,b,x,m,h,s       -l '0.58' -p '0.01' -d 'BH' -G '10' -T   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/077/75077950/outputs/dataset_06ef6509-5d9a-488a-b3bd-69a326d92051_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/077/75077950/outputs/dataset_06ef6509-5d9a-488a-b3bd-69a326d92051_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<4838ba20a6d8676517cb60e65983b6e7> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676517cb60e65983b6e7",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d8676517cb60e65983b6e7/display",
+        "factordata_fixed" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a99663afdeee866c0> .
+
+<4838ba20a6d86765332cdd505c575ca6> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765332cdd505c575ca6",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765332cdd505c575ca6/display",
+        "countdata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac0348709a8ff2f0c> .
+
+<4838ba20a6d867656706af13e547e5a5> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867656706af13e547e5a5",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867656706af13e547e5a5/display",
+        "Formatted_SampleInfo.txt" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33aebeb111362d5b2af> .
+
+<4838ba20a6d867658bd76b90c69c3fa6> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867658bd76b90c69c3fa6",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867658bd76b90c69c3fa6/display",
+        "factordata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a9e1eef976bb2f6b1> .
+
+<4838ba20a6d86765c861b66f6e079573> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765c861b66f6e079573",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765c861b66f6e079573/display",
+        "Merge Columns on data 6" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2" ;
+    prov:wasDerivedFrom <4838ba20a6d867656706af13e547e5a5> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a423565daf9ac313f> .
+
+<11ac94870d0bb33a7f1c2067df9f6e12> a prov:Activity ;
+    prov:endedAtTime "2024-10-31T12:53:03.050460"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-31T12:50:06.576724"^^xsd:dateTime ;
+    prov:used <4838ba20a6d86765b3aa64b9d6d7800f>,
+        <4838ba20a6d86765bf63ae1690db2275> ;
+    prov:value "Rscript '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/119b069fc845/limma_voom/limma_voom.R'  -R '/data/jwd02f/main/075/078/75078401/outputs/dataset_91cec06b-2d7d-4743-9002-bc3cffdef27e.dat' -o '/data/jwd02f/main/075/078/75078401/outputs/dataset_91cec06b-2d7d-4743-9002-bc3cffdef27e_files'  -m '/data/dnb10/galaxy_db/files/2/5/8/dataset_258ad01a-b11a-46fc-a3ac-90a4846ff107.dat' -f '/data/dnb10/galaxy_db/files/e/9/5/dataset_e9519cb4-3ecb-4632-9f63-c923ba68f6c6.dat'  -a '/data/dnb10/galaxy_db/files/e/6/3/dataset_e63a8676-efbd-4623-82bd-cfba6e5b3fdf.dat'  -D 'basalpregnant-basallactate,luminalpregnant-luminallactate'  -c '0.5' -s '2'  -P i,d,c,b,x,m,h,s       -l '0.58' -p '0.01' -d 'BH' -G '10' -T   -n 'TMM'  -b  && mkdir ./output_dir  && cp '/data/jwd02f/main/075/078/75078401/outputs/dataset_91cec06b-2d7d-4743-9002-bc3cffdef27e_files'/*tsv output_dir/  && cp -r ./glimma* '/data/jwd02f/main/075/078/75078401/outputs/dataset_91cec06b-2d7d-4743-9002-bc3cffdef27e_files'" ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/limma_voom/limma_voom/3.58.1+galaxy0" .
+
+<4838ba20a6d86765ff079c437c2d3c0d> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765ff079c437c2d3c0d",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765ff079c437c2d3c0d/display",
+        "factordata.tsv" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a959f722a2c109f07> .
+
+<4838ba20a6d86765dd8a256a77f448fb> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765dd8a256a77f448fb",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765dd8a256a77f448fb/display",
+        "factordata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/9.3+galaxy2" ;
+    prov:wasDerivedFrom <4838ba20a6d86765c861b66f6e079573> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a9c88241397385799> .
+
+<4838ba20a6d867650a58fcac14cd1e92> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867650a58fcac14cd1e92",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d867650a58fcac14cd1e92/display",
+        "countdata" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/9.3+galaxy1" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a4c7a7697c985ca73> .
+
+<4838ba20a6d86765b3aa64b9d6d7800f> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765b3aa64b9d6d7800f",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765b3aa64b9d6d7800f/display",
+        "factordata_fixed" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a5adba6b37692a539> .
+
+<4838ba20a6d86765bf63ae1690db2275> a prov:Entity ;
+    rdfs:label "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765bf63ae1690db2275",
+        "/api/histories/50b6ae34a811c9ba/contents/4838ba20a6d86765bf63ae1690db2275/display",
+        "countdata.tsv" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    prov:wasAttributedTo "__DATA_FETCH__" ;
+    prov:wasGeneratedBy <11ac94870d0bb33a959f722a2c109f07> .
+

@@ -1,0 +1,889 @@
+@prefix ns1: <http://edamontology.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<26c75dcccb616ac80277803c15506800> a prov:Entity ;
+    rdfs:label "MultiQC on data 54 and data 46: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac80277803c15506800" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac88f4d4095f2000d1e>,
+        <26c75dcccb616ac89785c89531c9dd22> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aec26852194f4cbcc> .
+
+<26c75dcccb616ac80e2cc6e439f71ba8> a prov:Entity ;
+    rdfs:label "Falco on data 11: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac80e2cc6e439f71ba8" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac88185164882850508> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aad4b5e82690ef7f3> .
+
+<26c75dcccb616ac813e0ebfdcc28efa2> a prov:Entity ;
+    rdfs:label "Falco on data 12: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac813e0ebfdcc28efa2" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac834b5ffe958f34081> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a939d5bcbc9c34b4e> .
+
+<26c75dcccb616ac8157895476b354163> a prov:Entity ;
+    rdfs:label "Falco on data 13: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8157895476b354163" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8be33e43a3a9a80e1> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a0c963be6cc9f4721> .
+
+<26c75dcccb616ac816b92fe0cb4d6121> a prov:Entity ;
+    rdfs:label "MultiQC on data 24, data 22, and others: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac816b92fe0cb4d6121" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac810cee65081d3647e>,
+        <26c75dcccb616ac852eaf2b99a42e9f0>,
+        <26c75dcccb616ac866abbf5f9353cfae>,
+        <26c75dcccb616ac8f992e9c516919cca> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1a936e8861e59145> .
+
+<26c75dcccb616ac82b6045ac843a2d93> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: Coverage Uniquely + Multiple mapped strand 1" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac82b6045ac843a2d93" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac83ddd6406c53170bc> a prov:Entity ;
+    rdfs:label "GSM461177_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83ddd6406c53170bc" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac83f4d9aa84a16262c> a prov:Entity ;
+    rdfs:label "MultiQC on data 24, data 22, and others: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83f4d9aa84a16262c" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac810cee65081d3647e>,
+        <26c75dcccb616ac852eaf2b99a42e9f0>,
+        <26c75dcccb616ac866abbf5f9353cfae>,
+        <26c75dcccb616ac8f992e9c516919cca> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1a936e8861e59145> .
+
+<26c75dcccb616ac840000b87fd4736dd> a prov:Entity ;
+    rdfs:label "MultiQC on data 34 and data 31: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac840000b87fd4736dd" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8dca73d33954136f9>,
+        <26c75dcccb616ac8e45548465715937c> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3e0b9cfa1f5c68a6> .
+
+<26c75dcccb616ac84852403516294b47> a prov:Entity ;
+    rdfs:label "MultiQC on data 79 and data 76: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac84852403516294b47" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac865676282c2df2d7f>,
+        <26c75dcccb616ac8a14e8399bf17140a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af05ddb647fa95550> .
+
+<26c75dcccb616ac84ac12ddd80d295de> a prov:Entity ;
+    rdfs:label "Infer Experiment on data 68 and data 56: RNA-seq experiment configuration" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac84ac12ddd80d295de" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac82f55a9ead8e06ed7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a71681bbf14fe39c0> .
+
+<26c75dcccb616ac84ed6ec5a6dd6b081> a prov:Entity ;
+    rdfs:label "Falco on data 10: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac84ed6ec5a6dd6b081" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b219e49de55159a4> ;
+    prov:wasGeneratedBy <11ac94870d0bb33afa107922854d7640> .
+
+<26c75dcccb616ac850da749a35c6daa9> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: splice junctions.bed" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac850da749a35c6daa9" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac86e65bcd29901a588> a prov:Entity ;
+    rdfs:label "GSM461180_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac86e65bcd29901a588" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac876d11d932655c36c> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 56: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac876d11d932655c36c" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7fe10c738769b4bc> .
+
+<26c75dcccb616ac883d9bc5cf0eef361> a prov:Entity ;
+    rdfs:label "MultiQC on data 57 and data 49: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac883d9bc5cf0eef361" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac82f0027edfc071639>,
+        <26c75dcccb616ac8544e15662ac5d27b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad97c58d2024bd66e> .
+
+<26c75dcccb616ac88cdd4822280d0076> a prov:Entity ;
+    rdfs:label "Convert GTF to BED12 on data 35: BED12" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3586 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac88cdd4822280d0076" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3a01b20415266576> .
+
+<26c75dcccb616ac899ea5a3e20bd6d35> a prov:Entity ;
+    rdfs:label "JBrowse2 on data 35, data 56, and data 48" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac899ea5a3e20bd6d35" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33acf548a958673a34b> .
+
+<26c75dcccb616ac8a4713d527efd0c48> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: splice junctions.bed" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a4713d527efd0c48" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac8a89a18750fd426ca> a prov:Entity ;
+    rdfs:label "MultiQC on data 34 and data 31: Webpage" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2331 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a89a18750fd426ca" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8dca73d33954136f9>,
+        <26c75dcccb616ac8e45548465715937c> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a3e0b9cfa1f5c68a6> .
+
+<26c75dcccb616ac8af2d9819b82679cf> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 48: Feature lengths" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8af2d9819b82679cf" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a33d77659574ec300> .
+
+<26c75dcccb616ac8b6c6ef606e7aa504> a prov:Entity ;
+    rdfs:label "GSM461177_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8b6c6ef606e7aa504" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac8c4dfacbd4a8a0492> a prov:Entity ;
+    rdfs:label "MultiQC on data 57 and data 49: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8c4dfacbd4a8a0492" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac82f0027edfc071639>,
+        <26c75dcccb616ac8544e15662ac5d27b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ad97c58d2024bd66e> .
+
+<26c75dcccb616ac8ca9b442d3bcbff5a> a prov:Entity ;
+    rdfs:label "GSM461180_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8ca9b442d3bcbff5a" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac8cc65a1c39f6104eb> a prov:Entity ;
+    rdfs:label "Infer Experiment on data 68 and data 48: RNA-seq experiment configuration" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8cc65a1c39f6104eb" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8364e41b3a4196171> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a58d7d5522644ce8e> .
+
+<26c75dcccb616ac8cfcc1aba1139393c> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: Coverage Uniquely + Multiple mapped strand 2" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8cfcc1aba1139393c" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac8d6f81754dfc352fe> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 56: Feature lengths" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8d6f81754dfc352fe" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7fe10c738769b4bc> .
+
+<26c75dcccb616ac8dbf661eca487aaec> a prov:Entity ;
+    rdfs:label "MultiQC on data 79 and data 76: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8dbf661eca487aaec" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac865676282c2df2d7f>,
+        <26c75dcccb616ac8a14e8399bf17140a> ;
+    prov:wasGeneratedBy <11ac94870d0bb33af05ddb647fa95550> .
+
+<26c75dcccb616ac8dc837e2b36fa2a01> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 48: Counts" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8dc837e2b36fa2a01" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a33d77659574ec300> .
+
+<26c75dcccb616ac8df4b0dfe425b56f4> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: Coverage Uniquely + Multiple mapped strand 1" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8df4b0dfe425b56f4" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac8df73bd5e4c491e50> a prov:Entity ;
+    rdfs:label "pyGenomeTracks on [data 35, data 60, and others]: Plot" ;
+    ns1:has_data ns1:data_2968 ;
+    ns1:has_format ns1:format_3603 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8df73bd5e4c491e50" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.9+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8052702e95ce7f71c>,
+        <26c75dcccb616ac85d4dad234aaf3498>,
+        <26c75dcccb616ac87df9e81ff195374a>,
+        <26c75dcccb616ac89da9ec27d52c8355>,
+        <26c75dcccb616ac8a23990b4f54b976b> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ae3cd6a7bb0b418a2> .
+
+<26c75dcccb616ac8dfd8fdfb9e61b784> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: Coverage Uniquely + Multiple mapped strand 2" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8dfd8fdfb9e61b784" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac8ee65223554be4ce8> a prov:Entity ;
+    rdfs:label "MultiQC on data 54 and data 46: Stats" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8ee65223554be4ce8" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> ;
+    prov:wasDerivedFrom <26c75dcccb616ac88f4d4095f2000d1e>,
+        <26c75dcccb616ac89785c89531c9dd22> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aec26852194f4cbcc> .
+
+<11ac94870d0bb33a1bd82d135053904a> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:57:08.904756"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:54:56.913935"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd07/main/094/670/94670346/registry.xml' --request-version '1' --request '/data/jwd07/main/094/670/94670346/configs/tmpol42cegs'" ;
+    prov:wasAssociatedWith <__DATA_FETCH__> .
+
+<11ac94870d0bb33a3a01b20415266576> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:25:47.685794"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:25:00.597330"^^xsd:dateTime ;
+    prov:value "gtfToGenePred '/data/dnb12/galaxy_db/files/2/3/7/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat' 'temp.genePred' && genePredToBed 'temp.genePred' '/data/jwd07/main/094/711/94711679/outputs/dataset_2d7d95eb-d658-4888-90bc-3227c3af5d69.dat'" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357> .
+
+<11ac94870d0bb33a58d7d5522644ce8e> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:27:01.196785"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:26:17.332731"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8364e41b3a4196171> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/2/4/0/dataset_2408e8fc-bc66-4449-beeb-bd138fe09ac4.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/d/a/8/metadata_da8dc226-a00d-480f-9fce-065c2b7d27a1.dat' 'input.bam.bai' &&  infer_experiment.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/2/d/7/dataset_2d7d95eb-d658-4888-90bc-3227c3af5d69.dat' --sample-size 200000 --mapq 30 > '/data/jwd08/main/094/711/94711742/outputs/dataset_7b30e97c-a7af-445a-831d-2ad29ca07f14.dat'" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0> .
+
+<11ac94870d0bb33a71681bbf14fe39c0> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:26:54.175755"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:26:17.332737"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac82f55a9ead8e06ed7> ;
+    prov:value "ln -s -f '/data/dnb12/galaxy_db/files/9/5/0/dataset_95075e06-30c0-4d92-8329-5a27ebdbd8e1.dat' 'input.bam' && ln -s -f '/data/dnb12/galaxy_db/files/_metadata_files/1/8/9/metadata_18987d28-6f8e-4866-83e6-6b18eb80302e.dat' 'input.bam.bai' &&  infer_experiment.py -i 'input.bam' -r '/data/dnb12/galaxy_db/files/2/d/7/dataset_2d7d95eb-d658-4888-90bc-3227c3af5d69.dat' --sample-size 200000 --mapq 30 > '/data/jwd08/main/094/711/94711743/outputs/dataset_f99bdfad-9a0f-432b-8ad2-4f2d200e6f44.dat'" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0> .
+
+<11ac94870d0bb33a789e3fb18e434508> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T07:03:10.012289"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T07:02:36.949227"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8c7fc7a7edbd0bd2f> ;
+    prov:value "cp '/data/jwd07/main/094/670/94670413/configs/tmpziyq10c4' 'galaxy.json' && gzip -dcf '/data/dnb12/galaxy_db/files/a/6/6/dataset_a660eea4-fa91-48a6-8d0f-2b5118c1749f.dat' > '/data/jwd07/main/094/670/94670413/outputs/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat'" ;
+    prov:wasAssociatedWith <CONVERTER_gz_to_uncompressed> .
+
+<11ac94870d0bb33acf548a958673a34b> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:10:00.812390"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:08:37.629319"^^xsd:dateTime ;
+    prov:value "mkdir -p '/data/jwd07/main/094/711/94711381/outputs/dataset_c45fcaa0-f107-4f86-81d8-e08248697f7d_files/data';   cp '/data/jwd07/main/094/711/94711381/configs/tmpw6hlyh86' '/data/jwd07/main/094/711/94711381/outputs/dataset_c45fcaa0-f107-4f86-81d8-e08248697f7d_files/galaxy.xml';  export JBROWSE2_SOURCE_DIR=$(dirname $(which jbrowse))/../opt/jbrowse2;  python '/opt/galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/bd903fbbc26e/jbrowse2/jbrowse2.py' --jbrowse ${JBROWSE2_SOURCE_DIR}   --outdir '/data/jwd07/main/094/711/94711381/outputs/dataset_c45fcaa0-f107-4f86-81d8-e08248697f7d_files' '/data/jwd07/main/094/711/94711381/configs/tmpw6hlyh86';  cp '/data/jwd07/main/094/711/94711381/outputs/dataset_c45fcaa0-f107-4f86-81d8-e08248697f7d_files/index.html' '/data/jwd07/main/094/711/94711381/outputs/dataset_c45fcaa0-f107-4f86-81d8-e08248697f7d.dat';" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0> .
+
+<11ac94870d0bb33ae3cd6a7bb0b418a2> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:21:45.382698"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:19:27.298148"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8052702e95ce7f71c>,
+        <26c75dcccb616ac85d4dad234aaf3498>,
+        <26c75dcccb616ac87df9e81ff195374a>,
+        <26c75dcccb616ac89da9ec27d52c8355>,
+        <26c75dcccb616ac8a23990b4f54b976b> ;
+    prov:value "sed '/^$/d' '/data/jwd08/main/094/711/94711554/configs/tmpyxm6ny6f' && pyGenomeTracks --tracks '/data/jwd08/main/094/711/94711554/configs/tmpyxm6ny6f' --region 'chr4:540,000-560,000' --width 40.0 --fontSize 12 --dpi 72 --trackLabelFraction 0.05 --trackLabelHAlign left --outFileName plot.png  && mv plot.png plot" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.9+galaxy0> .
+
+<11ac94870d0bb33a0c963be6cc9f4721> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:50:26.080293"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:48:53.405207"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8be33e43a3a9a80e1> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/4/2/6/dataset_426f808a-9fed-4a28-81aa-1961ea023fb0.dat' 'GSM461177_reverse' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq' 'GSM461177_reverse'   -skip-summary" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> .
+
+<11ac94870d0bb33a1a936e8861e59145> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:52:57.413155"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:51:55.174393"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac810cee65081d3647e>,
+        <26c75dcccb616ac852eaf2b99a42e9f0>,
+        <26c75dcccb616ac866abbf5f9353cfae>,
+        <26c75dcccb616ac8f992e9c516919cca> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/fastqc_0 &&    mkdir 'multiqc_WDir/fastqc_0/data_0' &&  mkdir 'multiqc_WDir/fastqc_0/data_0/file_0' && ln -s '/data/dnb12/galaxy_db/files/0/0/7/dataset_007c2641-8f6e-458c-931d-490087486a53.dat' 'multiqc_WDir/fastqc_0/data_0/file_0/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_1' && ln -s '/data/dnb12/galaxy_db/files/e/4/d/dataset_e4da2a6a-9462-45ff-adec-7ebb210723e5.dat' 'multiqc_WDir/fastqc_0/data_0/file_1/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_2' && ln -s '/data/dnb12/galaxy_db/files/d/e/8/dataset_de8ba041-8838-4d57-8582-dd76d6996956.dat' 'multiqc_WDir/fastqc_0/data_0/file_2/fastqc_data.txt' && mkdir 'multiqc_WDir/fastqc_0/data_0/file_3' && ln -s '/data/dnb12/galaxy_db/files/0/0/f/dataset_00f0d80a-c4a4-41dd-95e8-212c691a3c5a.dat' 'multiqc_WDir/fastqc_0/data_0/file_3/fastqc_data.txt' &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> .
+
+<11ac94870d0bb33a3e0b9cfa1f5c68a6> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T07:00:58.673116"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:59:32.399570"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8dca73d33954136f9>,
+        <26c75dcccb616ac8e45548465715937c> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/cutadapt_0 &&     ln -s '/data/dnb12/galaxy_db/files/5/8/2/dataset_58234b58-cb1e-4bf2-99c3-f17349af1851.dat' 'multiqc_WDir/cutadapt_0/GSM461180.txt' && sed -i.old 's/You are running/This is/' 'multiqc_WDir/cutadapt_0/GSM461180.txt' && grep -q \"This is cutadapt\" 'multiqc_WDir/cutadapt_0/GSM461180.txt' || die \"'This is cutadapt' or 'You are running cutadapt' not found in the file\" &&    ln -s '/data/dnb12/galaxy_db/files/c/6/1/dataset_c6182d04-dc64-4083-93b9-e035487efe8e.dat' 'multiqc_WDir/cutadapt_0/GSM461177.txt' && sed -i.old 's/You are running/This is/' 'multiqc_WDir/cutadapt_0/GSM461177.txt' && grep -q \"This is cutadapt\" 'multiqc_WDir/cutadapt_0/GSM461177.txt' || die \"'This is cutadapt' or 'You are running cutadapt' not found in the file\" &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> .
+
+<11ac94870d0bb33a939d5bcbc9c34b4e> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:49:43.573353"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:48:53.405206"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac834b5ffe958f34081> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/2/c/8/dataset_2c89ced2-b5ab-477b-a050-327f9cc7f1ad.dat' 'GSM461177_forward' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq' 'GSM461177_forward'   -skip-summary" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> .
+
+<11ac94870d0bb33aad4b5e82690ef7f3> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:49:54.360877"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:48:53.405204"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac88185164882850508> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/e/f/f/dataset_eff46571-4b79-401f-9f36-9f01d626ce75.dat' 'GSM461180_reverse' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq' 'GSM461180_reverse'   -skip-summary" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> .
+
+<11ac94870d0bb33ad97c58d2024bd66e> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:24:45.598202"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:21:58.584093"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac82f0027edfc071639>,
+        <26c75dcccb616ac8544e15662ac5d27b> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/star_0 &&    mkdir 'multiqc_WDir/star_0/genecounts_0' &&     ln -s '/data/dnb12/galaxy_db/files/1/d/a/dataset_1daf10e5-b11e-496b-9336-ff12ad9d2ee2.dat' 'multiqc_WDir/star_0/genecounts_0/GSM461180_ReadsPerGene.out.tab' &&    ln -s '/data/dnb12/galaxy_db/files/8/1/0/dataset_810c93d9-3f20-41b9-ac4d-20b57a3c7c6b.dat' 'multiqc_WDir/star_0/genecounts_0/GSM461177_ReadsPerGene.out.tab' &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> .
+
+<11ac94870d0bb33aec26852194f4cbcc> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T14:37:37.975497"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T14:37:06.082575"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac88f4d4095f2000d1e>,
+        <26c75dcccb616ac89785c89531c9dd22> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/star_0 &&    mkdir 'multiqc_WDir/star_0/log_0' &&     ln -s '/data/dnb12/galaxy_db/files/d/2/4/dataset_d24449bf-4db1-4a33-9537-b74bc2ecfd4b.dat' 'multiqc_WDir/star_0/log_0/GSM461180_Log.final.out' &&    ln -s '/data/dnb12/galaxy_db/files/f/3/9/dataset_f3967856-81e8-4624-af66-8e4d707ee6b6.dat' 'multiqc_WDir/star_0/log_0/GSM461177_Log.final.out' &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> .
+
+<11ac94870d0bb33af05ddb647fa95550> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:42:08.258958"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:41:21.523677"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac865676282c2df2d7f>,
+        <26c75dcccb616ac8a14e8399bf17140a> ;
+    prov:value "die() { echo \"$@\" 1>&2 ; exit 1; } &&  mkdir multiqc_WDir &&   mkdir multiqc_WDir/featureCounts_0 &&     if grep -qw Status '/data/dnb12/galaxy_db/files/6/6/b/dataset_66be570a-9450-46e3-a281-a3381d58c842.dat'; then ln -s '/data/dnb12/galaxy_db/files/6/6/b/dataset_66be570a-9450-46e3-a281-a3381d58c842.dat' 'multiqc_WDir/featureCounts_0/GSM461180.summary'; else echo -e 'Status\\tGSM461180' > 'multiqc_WDir/featureCounts_0/GSM461180.summary'; cat '/data/dnb12/galaxy_db/files/6/6/b/dataset_66be570a-9450-46e3-a281-a3381d58c842.dat' >> 'multiqc_WDir/featureCounts_0/GSM461180.summary'; fi &&    if grep -qw Status '/data/dnb12/galaxy_db/files/5/e/1/dataset_5e1ff612-4960-4ddf-a814-9ef6f2dfa1d6.dat'; then ln -s '/data/dnb12/galaxy_db/files/5/e/1/dataset_5e1ff612-4960-4ddf-a814-9ef6f2dfa1d6.dat' 'multiqc_WDir/featureCounts_0/GSM461177.summary'; else echo -e 'Status\\tGSM461177' > 'multiqc_WDir/featureCounts_0/GSM461177.summary'; cat '/data/dnb12/galaxy_db/files/5/e/1/dataset_5e1ff612-4960-4ddf-a814-9ef6f2dfa1d6.dat' >> 'multiqc_WDir/featureCounts_0/GSM461177.summary'; fi &&    multiqc multiqc_WDir --filename 'report'       && mkdir -p ./plots && ls -l ./report_data/ && cp ./report_data/*plot*.txt ./plots/ | true" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> .
+
+<11ac94870d0bb33afa107922854d7640> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:49:42.319503"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:48:53.405199"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8b219e49de55159a4> ;
+    prov:value "ln -s '/data/dnb12/galaxy_db/files/a/7/9/dataset_a79f2a97-5f62-4b91-ad4e-c82ea066c463.dat' 'GSM461180_forward' && falco   --threads ${GALAXY_SLOTS:-2} --quiet  -f 'fastq' 'GSM461180_forward'   -skip-summary" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> .
+
+<26c75dcccb616ac8052702e95ce7f71c> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: Coverage Uniquely mapped strand 1" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8052702e95ce7f71c",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8052702e95ce7f71c/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac82f55a9ead8e06ed7> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: mapped.bam" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac82f55a9ead8e06ed7",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac82f55a9ead8e06ed7/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac8364e41b3a4196171> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: mapped.bam" ;
+    ns1:has_data ns1:data_0863 ;
+    ns1:has_format ns1:format_2572 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8364e41b3a4196171",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8364e41b3a4196171/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac85d4dad234aaf3498> a prov:Entity ;
+    rdfs:label "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf uncompressed" ;
+    ns1:has_data ns1:data_1255 ;
+    ns1:has_format ns1:format_2306 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac85d4dad234aaf3498",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac85d4dad234aaf3498/display" ;
+    prov:wasAttributedTo <CONVERTER_gz_to_uncompressed> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8c7fc7a7edbd0bd2f> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a789e3fb18e434508> .
+
+<26c75dcccb616ac87df9e81ff195374a> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: Coverage Uniquely mapped strand 1" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac87df9e81ff195374a",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac87df9e81ff195374a/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac89da9ec27d52c8355> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: Coverage Uniquely mapped strand 2" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89da9ec27d52c8355",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89da9ec27d52c8355/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac8a23990b4f54b976b> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: Coverage Uniquely mapped strand 2" ;
+    ns1:has_data ns1:data_3002 ;
+    ns1:has_format ns1:format_3583 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a23990b4f54b976b",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a23990b4f54b976b/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac8c7fc7a7edbd0bd2f> a prov:Entity ;
+    rdfs:label "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz" ;
+    ns1:has_data ns1:data_1255 ;
+    ns1:has_format ns1:format_2306 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8c7fc7a7edbd0bd2f",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8c7fc7a7edbd0bd2f/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a1bd82d135053904a> .
+
+<CONVERTER_gz_to_uncompressed> a prov:Agent ;
+    rdfs:label "Convert gz compressed file to uncompressed." .
+
+<toolshed.g2.bx.psu.edu/repos/fubar/jbrowse2/jbrowse2/3.7.0+galaxy0> a prov:Agent ;
+    rdfs:label "JBrowse2" ;
+    ns1:has_operation ns1:operation_0564,
+        ns1:operation_0573 ;
+    ns1:has_topic ns1:topic_0092,
+        ns1:topic_3307 ;
+    rdfs:comment "genome browser" ;
+    owl:sameAs <https://bio.tools/jbrowse_2> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357> a prov:Agent ;
+    rdfs:label "Convert GTF to BED12" .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.9+galaxy0> a prov:Agent ;
+    rdfs:label "pyGenomeTracks" ;
+    ns1:has_operation ns1:operation_0335,
+        ns1:operation_0337 ;
+    ns1:has_topic ns1:topic_0621,
+        ns1:topic_0769,
+        ns1:topic_3382 ;
+    rdfs:comment "plot genomic data tracks" ;
+    owl:sameAs <https://bio.tools/pygenometracks> .
+
+<11ac94870d0bb33a33d77659574ec300> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:40:19.259337"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:39:16.077426"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a '/data/dnb12/galaxy_db/files/2/3/7/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat' -F \"GTF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  10     -t 'exon' -g 'gene_id'            --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0    -p  -C --countReadPairs  '/data/dnb12/galaxy_db/files/2/4/0/dataset_2408e8fc-bc66-4449-beeb-bd138fe09ac4.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/2/4/0/dataset_2408e8fc-bc66-4449-beeb-bd138fe09ac4.dat|GSM461180|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd07/main/094/712/94712644/outputs/dataset_5155596c-b991-4a7f-985e-615757c91ac4.dat'  && cut -f 1,6 body.txt > '/data/jwd07/main/094/712/94712644/outputs/dataset_7929a781-b257-4d35-906c-92b752fa7d96.dat'   && sed -e 's|/data/dnb12/galaxy_db/files/2/4/0/dataset_2408e8fc-bc66-4449-beeb-bd138fe09ac4.dat|GSM461180|g' 'output.summary' > '/data/jwd07/main/094/712/94712644/outputs/dataset_66be570a-9450-46e3-a281-a3381d58c842.dat'" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> .
+
+<11ac94870d0bb33a704a5d627ea0b89f> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:56:16.386154"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:53:34.817300"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac83214deb8fdc3f59f>,
+        <26c75dcccb616ac854c258774622d0d7> ;
+    prov:value "ln -f -s '/data/dnb12/galaxy_db/files/a/7/9/dataset_a79f2a97-5f62-4b91-ad4e-c82ea066c463.dat' 'GSM461180_1.fq' && ln -f -s '/data/dnb12/galaxy_db/files/e/f/f/dataset_eff46571-4b79-401f-9f36-9f01d626ce75.dat' 'GSM461180_2.fq' &&  cutadapt  -j=${GALAXY_SLOTS:-4}     --error-rate=0.1 --times=1 --overlap=3    --action=trim   --quality-cutoff=20       --minimum-length=20      -o 'out1.fq' -p 'out2.fq'  'GSM461180_1.fq' 'GSM461180_2.fq'  > report.txt" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> .
+
+<11ac94870d0bb33a7fe10c738769b4bc> a prov:Activity ;
+    prov:endedAtTime "2025-12-25T15:40:11.218696"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-25T15:39:16.077430"^^xsd:dateTime ;
+    prov:value "export FC_PATH=$(command -v featureCounts | sed 's@/bin/featureCounts$@@') &&  featureCounts  -a '/data/dnb12/galaxy_db/files/2/3/7/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat' -F \"GTF\"  -o \"output\" -T ${GALAXY_SLOTS:-2}  -s  0  -Q  10     -t 'exon' -g 'gene_id'            --minOverlap  1 --fracOverlap 0 --fracOverlapFeature 0    -p  -C --countReadPairs  '/data/dnb12/galaxy_db/files/9/5/0/dataset_95075e06-30c0-4d92-8329-5a27ebdbd8e1.dat'  && grep -v \"^#\" \"output\" | sed -e 's|/data/dnb12/galaxy_db/files/9/5/0/dataset_95075e06-30c0-4d92-8329-5a27ebdbd8e1.dat|GSM461177|g' > body.txt && cut -f 1,7 body.txt > '/data/jwd07/main/094/712/94712645/outputs/dataset_052d184f-8d2f-4a22-82ef-daf754ab3de5.dat'  && cut -f 1,6 body.txt > '/data/jwd07/main/094/712/94712645/outputs/dataset_f46b6628-593a-48a9-bce7-404e0019a432.dat'   && sed -e 's|/data/dnb12/galaxy_db/files/9/5/0/dataset_95075e06-30c0-4d92-8329-5a27ebdbd8e1.dat|GSM461177|g' 'output.summary' > '/data/jwd07/main/094/712/94712645/outputs/dataset_5e1ff612-4960-4ddf-a814-9ef6f2dfa1d6.dat'" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> .
+
+<11ac94870d0bb33aed0845a37e0c9212> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T06:56:41.604174"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T06:53:34.817305"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac89ee54f561476bf0f>,
+        <26c75dcccb616ac8d9753deaefb44938> ;
+    prov:value "ln -f -s '/data/dnb12/galaxy_db/files/2/c/8/dataset_2c89ced2-b5ab-477b-a050-327f9cc7f1ad.dat' 'GSM461177_1.fq' && ln -f -s '/data/dnb12/galaxy_db/files/4/2/6/dataset_426f808a-9fed-4a28-81aa-1961ea023fb0.dat' 'GSM461177_2.fq' &&  cutadapt  -j=${GALAXY_SLOTS:-4}     --error-rate=0.1 --times=1 --overlap=3    --action=trim   --quality-cutoff=20       --minimum-length=20      -o 'out1.fq' -p 'out2.fq'  'GSM461177_1.fq' 'GSM461177_2.fq'  > report.txt" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> .
+
+<26c75dcccb616ac810cee65081d3647e> a prov:Entity ;
+    rdfs:label "Falco on data 13: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac810cee65081d3647e",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac810cee65081d3647e/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8be33e43a3a9a80e1> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a0c963be6cc9f4721> .
+
+<26c75dcccb616ac82f0027edfc071639> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: reads per gene" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac82f0027edfc071639",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac82f0027edfc071639/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac834b5ffe958f34081> a prov:Entity ;
+    rdfs:label "GSM461177_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac834b5ffe958f34081",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac834b5ffe958f34081/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac852eaf2b99a42e9f0> a prov:Entity ;
+    rdfs:label "Falco on data 11: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac852eaf2b99a42e9f0",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac852eaf2b99a42e9f0/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac88185164882850508> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aad4b5e82690ef7f3> .
+
+<26c75dcccb616ac8544e15662ac5d27b> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: reads per gene" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8544e15662ac5d27b",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8544e15662ac5d27b/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac865676282c2df2d7f> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 56: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac865676282c2df2d7f",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac865676282c2df2d7f/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a7fe10c738769b4bc> .
+
+<26c75dcccb616ac866abbf5f9353cfae> a prov:Entity ;
+    rdfs:label "Falco on data 10: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac866abbf5f9353cfae",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac866abbf5f9353cfae/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8b219e49de55159a4> ;
+    prov:wasGeneratedBy <11ac94870d0bb33afa107922854d7640> .
+
+<26c75dcccb616ac88185164882850508> a prov:Entity ;
+    rdfs:label "GSM461180_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac88185164882850508",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac88185164882850508/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac88f4d4095f2000d1e> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 30, and data 29: log" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac88f4d4095f2000d1e",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac88f4d4095f2000d1e/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac8095758a6490f6c> .
+
+<26c75dcccb616ac89785c89531c9dd22> a prov:Entity ;
+    rdfs:label "RNA STAR on data 35, data 33, and data 32: log" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89785c89531c9dd22",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89785c89531c9dd22/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a90a11675b01e23df> .
+
+<26c75dcccb616ac8a14e8399bf17140a> a prov:Entity ;
+    rdfs:label "featureCounts on data 35 and data 48: Summary" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_3475 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a14e8399bf17140a",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8a14e8399bf17140a/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a33d77659574ec300> .
+
+<26c75dcccb616ac8b219e49de55159a4> a prov:Entity ;
+    rdfs:label "GSM461180_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8b219e49de55159a4",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8b219e49de55159a4/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac8be33e43a3a9a80e1> a prov:Entity ;
+    rdfs:label "GSM461177_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8be33e43a3a9a80e1",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8be33e43a3a9a80e1/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac8dca73d33954136f9> a prov:Entity ;
+    rdfs:label "Cutadapt on data 8 and data 7: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8dca73d33954136f9",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8dca73d33954136f9/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac89ee54f561476bf0f>,
+        <26c75dcccb616ac8d9753deaefb44938> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aed0845a37e0c9212> .
+
+<26c75dcccb616ac8e45548465715937c> a prov:Entity ;
+    rdfs:label "Cutadapt on data 6 and data 5: Report" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8e45548465715937c",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8e45548465715937c/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83214deb8fdc3f59f>,
+        <26c75dcccb616ac854c258774622d0d7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a704a5d627ea0b89f> .
+
+<26c75dcccb616ac8f992e9c516919cca> a prov:Entity ;
+    rdfs:label "Falco on data 12: RawData" ;
+    ns1:has_data ns1:data_0006 ;
+    ns1:has_format ns1:format_2330 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8f992e9c516919cca",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8f992e9c516919cca/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac834b5ffe958f34081> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a939d5bcbc9c34b4e> .
+
+<26c75dcccb616ac83214deb8fdc3f59f> a prov:Entity ;
+    rdfs:label "GSM461180_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83214deb8fdc3f59f",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83214deb8fdc3f59f/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac854c258774622d0d7> a prov:Entity ;
+    rdfs:label "GSM461180_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac854c258774622d0d7",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac854c258774622d0d7/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac89ee54f561476bf0f> a prov:Entity ;
+    rdfs:label "GSM461177_1.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89ee54f561476bf0f",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89ee54f561476bf0f/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<26c75dcccb616ac8d9753deaefb44938> a prov:Entity ;
+    rdfs:label "GSM461177_2.fastqsanger" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8d9753deaefb44938",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8d9753deaefb44938/display" ;
+    prov:wasAttributedTo <__DATA_FETCH__> ;
+    prov:wasGeneratedBy <11ac94870d0bb33ac9eb2a2bcaef628c> .
+
+<toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/5.0.3+galaxy0> a prov:Agent ;
+    rdfs:label "Infer Experiment" ;
+    ns1:has_operation ns1:operation_2409 ;
+    ns1:has_topic ns1:topic_3168 ;
+    rdfs:comment "speculates how RNA-seq were configured" ;
+    owl:sameAs <https://bio.tools/rseqc> .
+
+<11ac94870d0bb33a90a11675b01e23df> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T07:08:11.136572"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T07:02:37.129307"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac83f1bc32cd1676f97>,
+        <26c75dcccb616ac89b56d86a9e10b03e> ;
+    prov:value "STAR  --runThreadN ${GALAXY_SLOTS:-4} --genomeLoad NoSharedMemory --genomeDir '/data/db/data_managers/rnastar/2.7.4a/dm6/dm6full/dataset_73f8ae73-a83e-42ef-93e9-4509ab6685b6_files' --sjdbOverhang 36 --sjdbGTFfile '/data/dnb12/galaxy_db/files/2/3/7/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat' --sjdbGTFfeatureExon 'exon'   --readFilesIn '/data/dnb12/galaxy_db/files/f/f/4/dataset_ff429d31-1560-4b14-9c97-06b0f67dcacb.dat' '/data/dnb12/galaxy_db/files/e/6/b/dataset_e6be7c3b-58fc-4b1a-9a21-5c82a0ce3bf8.dat'   --outSAMtype BAM SortedByCoordinate  --twopassMode None  --quantMode GeneCounts   --outSAMattrIHstart 1 --outSAMattributes NH HI AS nM ch  --outSAMprimaryFlag OneBestScore  --outSAMmapqUnique 60    --outSAMunmapped Within     --outBAMsortingThreadN ${GALAXY_SLOTS:-4} --outBAMsortingBinsN 50 --winAnchorMultimapNmax 50 --limitBAMsortRAM $((${GALAXY_MEMORY_MB:-0}*1000000))     --outWigType 'bedGraph' '' --outWigStrand 'Stranded' --outWigReferencesPrefix '-' --outWigNorm 'RPM'  && samtools view -b -o '/data/jwd07/main/094/670/94670415/outputs/dataset_95075e06-30c0-4d92-8329-5a27ebdbd8e1.dat' Aligned.sortedByCoord.out.bam  && mv Signal.Unique.str1.out.bg Signal.Unique.str1.out && mv Signal.UniqueMultiple.str1.out.bg Signal.UniqueMultiple.str1.out && mv Signal.Unique.str2.out.bg Signal.Unique.str2.out && mv Signal.UniqueMultiple.str2.out.bg Signal.UniqueMultiple.str2.out" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> .
+
+<11ac94870d0bb33ac8095758a6490f6c> a prov:Activity ;
+    prov:endedAtTime "2025-12-24T07:08:28.189917"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-24T07:02:37.129304"^^xsd:dateTime ;
+    prov:used <26c75dcccb616ac8327e59126a635673>,
+        <26c75dcccb616ac8ec18fe3db7ac14b2> ;
+    prov:value "STAR  --runThreadN ${GALAXY_SLOTS:-4} --genomeLoad NoSharedMemory --genomeDir '/data/db/data_managers/rnastar/2.7.4a/dm6/dm6full/dataset_73f8ae73-a83e-42ef-93e9-4509ab6685b6_files' --sjdbOverhang 36 --sjdbGTFfile '/data/dnb12/galaxy_db/files/2/3/7/dataset_237b5632-1821-4fe6-875a-38b16d28f625.dat' --sjdbGTFfeatureExon 'exon'   --readFilesIn '/data/dnb12/galaxy_db/files/9/4/0/dataset_940b6c3a-e28f-4a2e-80a8-37ad04cdfb11.dat' '/data/dnb12/galaxy_db/files/d/5/d/dataset_d5d4d4e4-8464-4287-b821-4759a55d4ea2.dat'   --outSAMtype BAM SortedByCoordinate  --twopassMode None  --quantMode GeneCounts   --outSAMattrIHstart 1 --outSAMattributes NH HI AS nM ch  --outSAMprimaryFlag OneBestScore  --outSAMmapqUnique 60    --outSAMunmapped Within     --outBAMsortingThreadN ${GALAXY_SLOTS:-4} --outBAMsortingBinsN 50 --winAnchorMultimapNmax 50 --limitBAMsortRAM $((${GALAXY_MEMORY_MB:-0}*1000000))     --outWigType 'bedGraph' '' --outWigStrand 'Stranded' --outWigReferencesPrefix '-' --outWigNorm 'RPM'  && samtools view -b -o '/data/jwd07/main/094/670/94670414/outputs/dataset_2408e8fc-bc66-4449-beeb-bd138fe09ac4.dat' Aligned.sortedByCoord.out.bam  && mv Signal.Unique.str1.out.bg Signal.Unique.str1.out && mv Signal.UniqueMultiple.str1.out.bg Signal.UniqueMultiple.str1.out && mv Signal.Unique.str2.out.bg Signal.Unique.str2.out && mv Signal.UniqueMultiple.str2.out.bg Signal.UniqueMultiple.str2.out" ;
+    prov:wasAssociatedWith <toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/2.1.1+galaxy0> a prov:Agent ;
+    rdfs:label "featureCounts" ;
+    ns1:has_operation ns1:operation_3793 ;
+    ns1:has_topic ns1:topic_3168 ;
+    rdfs:comment "Measure gene expression in RNA-Seq experiments from SAM or BAM files" ;
+    owl:sameAs <https://bio.tools/featurecounts> .
+
+<toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> a prov:Agent ;
+    rdfs:label "Cutadapt" ;
+    ns1:has_operation ns1:operation_0231 ;
+    ns1:has_topic ns1:topic_0632 ;
+    rdfs:comment "Remove adapter sequences from FASTQ/FASTA" ;
+    owl:sameAs <https://bio.tools/cutadapt> .
+
+<26c75dcccb616ac8327e59126a635673> a prov:Entity ;
+    rdfs:label "Cutadapt on data 6 and data 5" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8327e59126a635673",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8327e59126a635673/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83214deb8fdc3f59f>,
+        <26c75dcccb616ac854c258774622d0d7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a704a5d627ea0b89f> .
+
+<26c75dcccb616ac83f1bc32cd1676f97> a prov:Entity ;
+    rdfs:label "Cutadapt on data 8 and data 7" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83f1bc32cd1676f97",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac83f1bc32cd1676f97/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac89ee54f561476bf0f>,
+        <26c75dcccb616ac8d9753deaefb44938> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aed0845a37e0c9212> .
+
+<26c75dcccb616ac89b56d86a9e10b03e> a prov:Entity ;
+    rdfs:label "Cutadapt on data 8 and data 7" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89b56d86a9e10b03e",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac89b56d86a9e10b03e/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac89ee54f561476bf0f>,
+        <26c75dcccb616ac8d9753deaefb44938> ;
+    prov:wasGeneratedBy <11ac94870d0bb33aed0845a37e0c9212> .
+
+<26c75dcccb616ac8ec18fe3db7ac14b2> a prov:Entity ;
+    rdfs:label "Cutadapt on data 6 and data 5" ;
+    ns1:has_data ns1:data_2044 ;
+    ns1:has_format ns1:format_1932 ;
+    rdfs:seeAlso "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8ec18fe3db7ac14b2",
+        "/api/histories/11ac94870d0bb33a534996fe140ec000/contents/26c75dcccb616ac8ec18fe3db7ac14b2/display" ;
+    prov:wasAttributedTo <toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/5.2+galaxy0> ;
+    prov:wasDerivedFrom <26c75dcccb616ac83214deb8fdc3f59f>,
+        <26c75dcccb616ac854c258774622d0d7> ;
+    prov:wasGeneratedBy <11ac94870d0bb33a704a5d627ea0b89f> .
+
+<11ac94870d0bb33ac9eb2a2bcaef628c> a prov:Activity ;
+    prov:endedAtTime "2025-12-23T19:14:35.790118"^^xsd:dateTime ;
+    prov:startedAtTime "2025-12-23T16:54:45.756906"^^xsd:dateTime ;
+    prov:value "python '/opt/galaxy/server/lib/galaxy/tools/data_fetch.py' --galaxy-root '/opt/galaxy/server' --datatypes-registry '/data/jwd08/main/094/655/94655482/registry.xml' --request-version '1' --request '/data/jwd08/main/094/655/94655482/configs/tmpcav_pbyf'" ;
+    prov:wasAssociatedWith <__DATA_FETCH__> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/falco/falco/1.2.4+galaxy0> a prov:Agent ;
+    rdfs:label "Falco" ;
+    ns1:has_operation ns1:operation_0337,
+        ns1:operation_3198,
+        ns1:operation_3218 ;
+    ns1:has_topic ns1:topic_0102,
+        ns1:topic_0769,
+        ns1:topic_3382 ;
+    rdfs:comment "An alternative, more performant implementation of FastQC for high throughput sequence quality control" ;
+    owl:sameAs <https://bio.tools/falco> .
+
+<__DATA_FETCH__> a prov:Agent ;
+    rdfs:label "Data Fetch" ;
+    ns1:has_operation ns1:operation_0224 .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.27+galaxy4> a prov:Agent ;
+    rdfs:label "MultiQC" ;
+    ns1:has_operation ns1:operation_2428 ;
+    ns1:has_topic ns1:topic_0091,
+        ns1:topic_3168 ;
+    rdfs:comment "aggregate results from bioinformatics analyses into a single report" ;
+    owl:sameAs <https://bio.tools/multiqc> .
+
+<toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.7.11b+galaxy0> a prov:Agent ;
+    rdfs:label "RNA STAR" ;
+    ns1:has_operation ns1:operation_0292 ;
+    ns1:has_topic ns1:topic_3170,
+        ns1:topic_3308 ;
+    rdfs:comment "Gapped-read mapper for RNA-seq data" ;
+    owl:sameAs <https://bio.tools/star> .
+
