@@ -1,0 +1,192 @@
+@base         <http://fr.symetric> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sym:   <http://fr.symetric/vocab#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> 
+   a prov:Bundle, prov:Entity;
+   prov:wasAttributedTo <#galaxy2prov>;
+   prov:generatedAtTime "2020-09-22T13:27:39.000991"^^xsd:dateTime;
+. 
+
+<#0009f3cc173e3f2f>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-24T23:17:10.362950"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:17:45.931357"^^xsd:dateTime; 
+.
+
+<#d25f1d7811ccfadf>
+    a prov:Entity;
+    prov:wasGeneratedBy <#0009f3cc173e3f2f>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "S_nt.fna";
+.
+
+<#304c858382829322>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: transeq101/5.0.0" ;
+    prov:startedAtTime "2020-03-24T23:18:09.749508"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:18:37.675054"^^xsd:dateTime; 
+    prov:used <#f2dc1b74b655809a>;
+.
+
+<#f2dc1b74b655809a>
+    a prov:Entity;
+    rdfs:label "S_nt.fna";
+    rdfs:label "/api/histories/2b5a42e310d9ecec/contents/f2dc1b74b655809a/display";
+
+.
+<#1b9c73ca833a097a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#304c858382829322>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: transeq101/5.0.0" ;
+    rdfs:label "transeq on data 1";
+    prov:wasDerivedFrom <#f2dc1b74b655809a>;
+.
+
+<#b3c9839dc223ab58>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3" ;
+    prov:startedAtTime "2020-03-24T23:18:10.300203"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:19:05.284511"^^xsd:dateTime; 
+    prov:used <#9f292fab33235b35>;
+.
+
+<#9f292fab33235b35>
+    a prov:Entity;
+    rdfs:label "transeq on data 1";
+    rdfs:label "/api/histories/2b5a42e310d9ecec/contents/9f292fab33235b35/display";
+
+.
+<#17a64a2985f36797>
+    a prov:Entity;
+    prov:wasGeneratedBy <#b3c9839dc223ab58>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3" ;
+    rdfs:label "MAFFT on data 2";
+    prov:wasDerivedFrom <#9f292fab33235b35>;
+.
+
+<#d33d0c7e6c564e5f>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: tranalign100/5.0.0" ;
+    prov:startedAtTime "2020-03-24T23:18:10.793824"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:19:32.968290"^^xsd:dateTime; 
+    prov:used <#3633e7ca12b1b189>;
+    prov:used <#f2dc1b74b655809a>;
+.
+
+<#3633e7ca12b1b189>
+    a prov:Entity;
+    rdfs:label "MAFFT on data 2";
+    rdfs:label "/api/histories/2b5a42e310d9ecec/contents/3633e7ca12b1b189/display";
+
+.
+<#8a05061e37b22de9>
+    a prov:Entity;
+    prov:wasGeneratedBy <#d33d0c7e6c564e5f>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/emboss_5/EMBOSS: tranalign100/5.0.0" ;
+    rdfs:label "tranalign on data 3 and data 1";
+    prov:wasDerivedFrom <#3633e7ca12b1b189>;
+    prov:wasDerivedFrom <#f2dc1b74b655809a>;
+.
+
+<#cfb1653efae59c09>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1" ;
+    prov:startedAtTime "2020-03-24T23:18:11.196407"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:19:56.370730"^^xsd:dateTime; 
+    prov:used <#f118e94634d25003>;
+.
+
+<#f118e94634d25003>
+    a prov:Entity;
+    rdfs:label "tranalign on data 3 and data 1";
+    rdfs:label "/api/histories/2b5a42e310d9ecec/contents/f118e94634d25003/display";
+
+.
+<#c2ebf9a3bec023c8>
+    a prov:Entity;
+    prov:wasGeneratedBy <#cfb1653efae59c09>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1" ;
+    rdfs:label "FASTTREE on data 4:tree.nhx";
+    prov:wasDerivedFrom <#f118e94634d25003>;
+.
+
+<#a7b32df0cf926cfd>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    prov:startedAtTime "2020-03-24T23:18:11.886280"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-25T06:10:28.536133"^^xsd:dateTime; 
+    prov:used <#f118e94634d25003>;
+.
+
+<#f6ceb0ffdb5be75e>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a7b32df0cf926cfd>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    rdfs:label "HyPhy-GARD on data 4";
+    prov:wasDerivedFrom <#f118e94634d25003>;
+.
+
+<#a7b32df0cf926cfd>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    prov:startedAtTime "2020-03-24T23:18:11.886280"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-25T06:10:28.536133"^^xsd:dateTime; 
+    prov:used <#f118e94634d25003>;
+.
+
+<#ebcf32e0bcfc4609>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a7b32df0cf926cfd>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    rdfs:label "HyPhy-GARD on data 4";
+    prov:wasDerivedFrom <#f118e94634d25003>;
+.
+
+<#a7b32df0cf926cfd>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    prov:startedAtTime "2020-03-24T23:18:11.886280"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-25T06:10:28.536133"^^xsd:dateTime; 
+    prov:used <#f118e94634d25003>;
+.
+
+<#f3f7286116c46b18>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a7b32df0cf926cfd>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_gard/hyphy_gard/2.5.4+galaxy0" ;
+    rdfs:label "HyPhy-GARD on data 4";
+    prov:wasDerivedFrom <#f118e94634d25003>;
+.
+
+<#b6a527630352d910>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_absrel/hyphy_absrel/2.5.4+galaxy0" ;
+    prov:startedAtTime "2020-03-24T23:18:12.517626"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:27:02.867702"^^xsd:dateTime; 
+    prov:used <#f118e94634d25003>;
+    prov:used <#5bd46309c64988c0>;
+.
+
+<#5bd46309c64988c0>
+    a prov:Entity;
+    rdfs:label "FASTTREE on data 4:tree.nhx";
+    rdfs:label "/api/histories/2b5a42e310d9ecec/contents/5bd46309c64988c0/display";
+
+.
+<#0b08e7782cdc2554>
+    a prov:Entity;
+    prov:wasGeneratedBy <#b6a527630352d910>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/hyphy_absrel/hyphy_absrel/2.5.4+galaxy0" ;
+    rdfs:label "HyPhy-aBSREL on data 5 and data 4";
+    prov:wasDerivedFrom <#f118e94634d25003>;
+    prov:wasDerivedFrom <#5bd46309c64988c0>;
+.
+
+

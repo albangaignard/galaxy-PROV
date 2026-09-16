@@ -1,0 +1,2614 @@
+@base         <http://fr.symetric> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sym:   <http://fr.symetric/vocab#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> 
+   a prov:Bundle, prov:Entity;
+   prov:wasAttributedTo <#galaxy2prov>;
+   prov:generatedAtTime "2020-09-22T13:20:52.000986"^^xsd:dateTime;
+. 
+
+<#8bde377a4b808a1b>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-23T09:25:05.269606"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T09:25:39.804826"^^xsd:dateTime; 
+.
+
+<#d9668491570f682d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#8bde377a4b808a1b>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "acc_date.csv";
+.
+
+<#b2df4bf6531eed5d>
+    a prov:Activity ;
+    prov:wasAssociatedWith "Remove beginning1" ;
+    prov:startedAtTime "2020-03-23T21:14:16.314090"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:14:42.563523"^^xsd:dateTime; 
+    prov:used <#5637efd5c2853d57>;
+.
+
+<#5637efd5c2853d57>
+    a prov:Entity;
+    rdfs:label "acc_date.csv";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5637efd5c2853d57/display";
+
+.
+<#a54bd980b97dcd3b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#b2df4bf6531eed5d>;
+    prov:wasAttributedTo "Remove beginning1" ;
+    rdfs:label "Remove beginning on data 1";
+    prov:wasDerivedFrom <#5637efd5c2853d57>;
+.
+
+<#a57e4e16f30fbfe5>
+    a prov:Activity ;
+    prov:wasAssociatedWith "Convert characters1" ;
+    prov:startedAtTime "2020-03-23T21:14:16.854142"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:15:08.184005"^^xsd:dateTime; 
+    prov:used <#5fd0536917de0ff8>;
+.
+
+<#5fd0536917de0ff8>
+    a prov:Entity;
+    rdfs:label "Remove beginning on data 1";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5fd0536917de0ff8/display";
+
+.
+<#66be631f138e4732>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a57e4e16f30fbfe5>;
+    prov:wasAttributedTo "Convert characters1" ;
+    rdfs:label "Convert on data 2";
+    prov:wasDerivedFrom <#5fd0536917de0ff8>;
+.
+
+<#add309b40d78cbd7>
+    a prov:Activity ;
+    prov:wasAssociatedWith "Cut1" ;
+    prov:startedAtTime "2020-03-23T21:14:17.412802"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:15:26.547683"^^xsd:dateTime; 
+    prov:used <#f91db147216506a7>;
+.
+
+<#f91db147216506a7>
+    a prov:Entity;
+    rdfs:label "Convert on data 2";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f91db147216506a7/display";
+
+.
+<#eeadeba42120abdb>
+    a prov:Entity;
+    prov:wasGeneratedBy <#add309b40d78cbd7>;
+    prov:wasAttributedTo "Cut1" ;
+    rdfs:label "Cut on data 3";
+    prov:wasDerivedFrom <#f91db147216506a7>;
+.
+
+<#4535f665350f0d86>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-02T18:51:28.699298"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-02T18:52:21.330313"^^xsd:dateTime; 
+.
+
+<#049a4966731c743c>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4535f665350f0d86>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "NCBI Accession Download on data 4: Downloaded Files";
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#7fed34210cd05e76>
+    a prov:Entity;
+    rdfs:label "Cut on data 3";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/7fed34210cd05e76/display";
+
+.
+<#af0d19985bd7d828>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "NCBI Accession Download on data 4: Log";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#e6a49ab39d707fdc>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN938384";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#9380df7d6f699a33>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN975262";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#cbcb5ced7e771dc5>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN985325";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#36728437ad9b17b2>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN988668";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#3431ca494021f1bd>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN988669";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#95db0b6057c83db5>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN988713";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#f3810327aff3ab88>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN994467";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#4b22312452168332>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN994468";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#1edd24feaaefa0ae>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN996527";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#7056e1f6c0c5222c>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN996528";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#08c7aad70fa77be5>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN996529";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#ba55715999118a6b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN996530";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#ba3a3a31ef79c49a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN996531";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#cc164f39dd934546>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MN997409";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#cf34f6655f2102c9>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT007544";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#8419c54f7eaa1c2a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT019529";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#602bba06b346f40e>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT019530";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#df783865dcc2f156>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT019531";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#1b7023e1cae23ecf>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT019532";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#44c18ca2c2f0c313>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT019533";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#1d774c09e2d4f695>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT020781";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#e0cde012e4e64a37>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT020880";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#d7fbb051c4cb1cd2>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT020881";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#b58d8da3bd77f500>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT027062";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#528173f18742b941>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT027063";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#93372f032eb2c4f5>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT027064";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#d1636d424e39affc>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT039873";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#1856791ada4cfb77>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT039887";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#0cd32d18f73ec7cb>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT039888";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#db4741a117d8552e>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT044257";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#18155db20f9edd4b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT044258";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#dc510de223ef72ea>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT049951";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#46a6fa9b76ae3d21>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT066175";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#7266bfbd4a1e2cd8>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT066176";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#a8736effd44ce122>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    prov:startedAtTime "2020-03-23T21:14:17.687847"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:18:46.698415"^^xsd:dateTime; 
+    prov:used <#7fed34210cd05e76>;
+.
+
+<#31dd3475a7dc386b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a8736effd44ce122>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/ncbi_acc_download/ncbi_acc_download/0.2.5+galaxy0" ;
+    rdfs:label "MT072688";
+    prov:wasDerivedFrom <#7fed34210cd05e76>;
+.
+
+<#93877dad646bab01>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-02T18:51:31.217033"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-02T18:52:21.077669"^^xsd:dateTime; 
+.
+
+<#ced14be9e6c19870>
+    a prov:Entity;
+    prov:wasGeneratedBy <#93877dad646bab01>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "NormalizeFasta on collection 5: Normalized FASTA dataset";
+.
+
+<#3f6a1adca3784645>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:49.549292"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:24.209870"^^xsd:dateTime; 
+    prov:used <#ffe137dad5ab1277>;
+.
+
+<#ffe137dad5ab1277>
+    a prov:Entity;
+    rdfs:label "MN938384";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ffe137dad5ab1277/display";
+
+.
+<#d26958b3c42c877a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#3f6a1adca3784645>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 7: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ffe137dad5ab1277>;
+.
+
+<#66753a7bb7440c95>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:49.792422"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:22.927266"^^xsd:dateTime; 
+    prov:used <#9c509bee84e91c36>;
+.
+
+<#9c509bee84e91c36>
+    a prov:Entity;
+    rdfs:label "MN975262";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/9c509bee84e91c36/display";
+
+.
+<#dcbd7dc899bc4aa4>
+    a prov:Entity;
+    prov:wasGeneratedBy <#66753a7bb7440c95>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 8: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#9c509bee84e91c36>;
+.
+
+<#33e71d036c249369>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:50.117463"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:24.357200"^^xsd:dateTime; 
+    prov:used <#a80f491b1ea939f4>;
+.
+
+<#a80f491b1ea939f4>
+    a prov:Entity;
+    rdfs:label "MN985325";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a80f491b1ea939f4/display";
+
+.
+<#54165bf162b7d4c9>
+    a prov:Entity;
+    prov:wasGeneratedBy <#33e71d036c249369>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 9: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#a80f491b1ea939f4>;
+.
+
+<#99229217fe05889a>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:50.907937"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:23.200036"^^xsd:dateTime; 
+    prov:used <#ed6fe9ddab93adee>;
+.
+
+<#ed6fe9ddab93adee>
+    a prov:Entity;
+    rdfs:label "MN988668";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ed6fe9ddab93adee/display";
+
+.
+<#ee2432b0c59d5fe7>
+    a prov:Entity;
+    prov:wasGeneratedBy <#99229217fe05889a>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 10: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ed6fe9ddab93adee>;
+.
+
+<#62793a9ab67f599c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:51.798489"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:27.856237"^^xsd:dateTime; 
+    prov:used <#a4f8cdcde43a3df7>;
+.
+
+<#a4f8cdcde43a3df7>
+    a prov:Entity;
+    rdfs:label "MN988669";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a4f8cdcde43a3df7/display";
+
+.
+<#b4df5b18dce1a449>
+    a prov:Entity;
+    prov:wasGeneratedBy <#62793a9ab67f599c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 11: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#a4f8cdcde43a3df7>;
+.
+
+<#4af3c88a41b35a5c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:52.244871"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:32.800174"^^xsd:dateTime; 
+    prov:used <#a9cba5b50a40119e>;
+.
+
+<#a9cba5b50a40119e>
+    a prov:Entity;
+    rdfs:label "MN988713";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a9cba5b50a40119e/display";
+
+.
+<#ac372f033e7f834d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4af3c88a41b35a5c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 12: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#a9cba5b50a40119e>;
+.
+
+<#5e63d9b6cc84b065>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:52.543771"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:29.012407"^^xsd:dateTime; 
+    prov:used <#829fe58baf7d988f>;
+.
+
+<#829fe58baf7d988f>
+    a prov:Entity;
+    rdfs:label "MN994467";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/829fe58baf7d988f/display";
+
+.
+<#11e1b822f539a8dd>
+    a prov:Entity;
+    prov:wasGeneratedBy <#5e63d9b6cc84b065>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 13: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#829fe58baf7d988f>;
+.
+
+<#f594df7904d73d55>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:52.892133"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:27.159518"^^xsd:dateTime; 
+    prov:used <#375f91666922a907>;
+.
+
+<#375f91666922a907>
+    a prov:Entity;
+    rdfs:label "MN994468";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/375f91666922a907/display";
+
+.
+<#6f06874f3f5a83fe>
+    a prov:Entity;
+    prov:wasGeneratedBy <#f594df7904d73d55>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 14: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#375f91666922a907>;
+.
+
+<#7776071ce5bd22bc>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:53.804231"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:29.384032"^^xsd:dateTime; 
+    prov:used <#11297ec94fb3e788>;
+.
+
+<#11297ec94fb3e788>
+    a prov:Entity;
+    rdfs:label "MN996527";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/11297ec94fb3e788/display";
+
+.
+<#645dac82260fc6ff>
+    a prov:Entity;
+    prov:wasGeneratedBy <#7776071ce5bd22bc>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 15: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#11297ec94fb3e788>;
+.
+
+<#af07402318e6a381>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:55.430735"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:27.717470"^^xsd:dateTime; 
+    prov:used <#09da44a191ed1157>;
+.
+
+<#09da44a191ed1157>
+    a prov:Entity;
+    rdfs:label "MN996528";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/09da44a191ed1157/display";
+
+.
+<#14b70d107dc7d450>
+    a prov:Entity;
+    prov:wasGeneratedBy <#af07402318e6a381>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 16: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#09da44a191ed1157>;
+.
+
+<#b6c06570658dced8>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:55.860641"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:29.688009"^^xsd:dateTime; 
+    prov:used <#131df1fb561fd4ca>;
+.
+
+<#131df1fb561fd4ca>
+    a prov:Entity;
+    rdfs:label "MN996529";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/131df1fb561fd4ca/display";
+
+.
+<#5d8a2d0f875e3647>
+    a prov:Entity;
+    prov:wasGeneratedBy <#b6c06570658dced8>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 17: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#131df1fb561fd4ca>;
+.
+
+<#4acb31da911ccd2c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:56.391751"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:32.688766"^^xsd:dateTime; 
+    prov:used <#3e358cf8f5732808>;
+.
+
+<#3e358cf8f5732808>
+    a prov:Entity;
+    rdfs:label "MN996530";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/3e358cf8f5732808/display";
+
+.
+<#0ea6e52dea7c7471>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4acb31da911ccd2c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 18: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#3e358cf8f5732808>;
+.
+
+<#400bc7f757a9eb93>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:56.880962"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:32.217116"^^xsd:dateTime; 
+    prov:used <#20523828aa1634be>;
+.
+
+<#20523828aa1634be>
+    a prov:Entity;
+    rdfs:label "MN996531";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/20523828aa1634be/display";
+
+.
+<#f2af63a1555d7aa6>
+    a prov:Entity;
+    prov:wasGeneratedBy <#400bc7f757a9eb93>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 19: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#20523828aa1634be>;
+.
+
+<#0daa11a6148b60d9>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:58.227526"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:28.421211"^^xsd:dateTime; 
+    prov:used <#5cd532d34d556749>;
+.
+
+<#5cd532d34d556749>
+    a prov:Entity;
+    rdfs:label "MN997409";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5cd532d34d556749/display";
+
+.
+<#31d1ca87a3c113cc>
+    a prov:Entity;
+    prov:wasGeneratedBy <#0daa11a6148b60d9>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 20: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#5cd532d34d556749>;
+.
+
+<#2db0829a5e14395f>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:18:59.493793"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:32.601698"^^xsd:dateTime; 
+    prov:used <#3b952bb208777c96>;
+.
+
+<#3b952bb208777c96>
+    a prov:Entity;
+    rdfs:label "MT007544";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/3b952bb208777c96/display";
+
+.
+<#7a976e4c362fa78b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#2db0829a5e14395f>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 21: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#3b952bb208777c96>;
+.
+
+<#6bdda219d46dedb5>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:00.400456"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:33.525081"^^xsd:dateTime; 
+    prov:used <#05be7c7b8f9f10d0>;
+.
+
+<#05be7c7b8f9f10d0>
+    a prov:Entity;
+    rdfs:label "MT019529";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/05be7c7b8f9f10d0/display";
+
+.
+<#aa00324a4e17750c>
+    a prov:Entity;
+    prov:wasGeneratedBy <#6bdda219d46dedb5>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 22: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#05be7c7b8f9f10d0>;
+.
+
+<#002134ee22ff6271>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:01.740575"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:32.490873"^^xsd:dateTime; 
+    prov:used <#6b91e05b0c7f3bd9>;
+.
+
+<#6b91e05b0c7f3bd9>
+    a prov:Entity;
+    rdfs:label "MT019530";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/6b91e05b0c7f3bd9/display";
+
+.
+<#a3b5b7606d2bc146>
+    a prov:Entity;
+    prov:wasGeneratedBy <#002134ee22ff6271>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 23: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#6b91e05b0c7f3bd9>;
+.
+
+<#a786ed0d6f9e963c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:02.607111"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:29.181311"^^xsd:dateTime; 
+    prov:used <#a0ee6fe8c9eda5fb>;
+.
+
+<#a0ee6fe8c9eda5fb>
+    a prov:Entity;
+    rdfs:label "MT019531";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a0ee6fe8c9eda5fb/display";
+
+.
+<#94fc100b7605676f>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a786ed0d6f9e963c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 24: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#a0ee6fe8c9eda5fb>;
+.
+
+<#5b747e27de6ae981>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:03.030474"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:35.547460"^^xsd:dateTime; 
+    prov:used <#d54914738bac5e2c>;
+.
+
+<#d54914738bac5e2c>
+    a prov:Entity;
+    rdfs:label "MT019532";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/d54914738bac5e2c/display";
+
+.
+<#f7b32a559de8342d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#5b747e27de6ae981>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 25: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#d54914738bac5e2c>;
+.
+
+<#8240b6a056f55709>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:03.457354"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:35.466678"^^xsd:dateTime; 
+    prov:used <#22610786c8982e84>;
+.
+
+<#22610786c8982e84>
+    a prov:Entity;
+    rdfs:label "MT019533";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/22610786c8982e84/display";
+
+.
+<#f94ea9305447f3aa>
+    a prov:Entity;
+    prov:wasGeneratedBy <#8240b6a056f55709>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 26: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#22610786c8982e84>;
+.
+
+<#993f8f233ff45019>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:04.181940"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:35.578579"^^xsd:dateTime; 
+    prov:used <#ebbd93bd56e22be0>;
+.
+
+<#ebbd93bd56e22be0>
+    a prov:Entity;
+    rdfs:label "MT020781";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ebbd93bd56e22be0/display";
+
+.
+<#60322f82ad8ec68c>
+    a prov:Entity;
+    prov:wasGeneratedBy <#993f8f233ff45019>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 27: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ebbd93bd56e22be0>;
+.
+
+<#1e24dc2f2d9bf444>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:04.750846"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:35.691503"^^xsd:dateTime; 
+    prov:used <#ca41f4538f304dc8>;
+.
+
+<#ca41f4538f304dc8>
+    a prov:Entity;
+    rdfs:label "MT020880";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ca41f4538f304dc8/display";
+
+.
+<#2f76a86f3b19c0b0>
+    a prov:Entity;
+    prov:wasGeneratedBy <#1e24dc2f2d9bf444>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 28: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ca41f4538f304dc8>;
+.
+
+<#e09e6e19885499be>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:05.346318"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:39.246924"^^xsd:dateTime; 
+    prov:used <#f8d68b158e47913e>;
+.
+
+<#f8d68b158e47913e>
+    a prov:Entity;
+    rdfs:label "MT020881";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f8d68b158e47913e/display";
+
+.
+<#2ac853160379257d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e09e6e19885499be>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 29: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#f8d68b158e47913e>;
+.
+
+<#fbb5339ec8159dda>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:05.994824"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:37.374318"^^xsd:dateTime; 
+    prov:used <#1bef5006ee62d893>;
+.
+
+<#1bef5006ee62d893>
+    a prov:Entity;
+    rdfs:label "MT027062";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/1bef5006ee62d893/display";
+
+.
+<#6c761ba3010fdc9f>
+    a prov:Entity;
+    prov:wasGeneratedBy <#fbb5339ec8159dda>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 30: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#1bef5006ee62d893>;
+.
+
+<#1715e354bc7432e6>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:06.329423"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:41.777757"^^xsd:dateTime; 
+    prov:used <#00bde2f7387bd929>;
+.
+
+<#00bde2f7387bd929>
+    a prov:Entity;
+    rdfs:label "MT027063";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/00bde2f7387bd929/display";
+
+.
+<#8c0364b5c23e72ca>
+    a prov:Entity;
+    prov:wasGeneratedBy <#1715e354bc7432e6>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 31: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#00bde2f7387bd929>;
+.
+
+<#6e1acbcf7dd8b185>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:06.526129"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:47.843642"^^xsd:dateTime; 
+    prov:used <#eb47adf96768ddc2>;
+.
+
+<#eb47adf96768ddc2>
+    a prov:Entity;
+    rdfs:label "MT027064";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/eb47adf96768ddc2/display";
+
+.
+<#f7d058e567a918b6>
+    a prov:Entity;
+    prov:wasGeneratedBy <#6e1acbcf7dd8b185>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 32: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#eb47adf96768ddc2>;
+.
+
+<#8f3fb5082e08536c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:07.203342"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:48.013247"^^xsd:dateTime; 
+    prov:used <#2b265f6eb99ac1e7>;
+.
+
+<#2b265f6eb99ac1e7>
+    a prov:Entity;
+    rdfs:label "MT039873";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/2b265f6eb99ac1e7/display";
+
+.
+<#25c68119a6206a3f>
+    a prov:Entity;
+    prov:wasGeneratedBy <#8f3fb5082e08536c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 33: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#2b265f6eb99ac1e7>;
+.
+
+<#c3642ef847a4f95a>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:08.183423"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:45.052399"^^xsd:dateTime; 
+    prov:used <#7789e9f372a5873c>;
+.
+
+<#7789e9f372a5873c>
+    a prov:Entity;
+    rdfs:label "MT039887";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/7789e9f372a5873c/display";
+
+.
+<#2d4c701e13ec345f>
+    a prov:Entity;
+    prov:wasGeneratedBy <#c3642ef847a4f95a>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 34: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#7789e9f372a5873c>;
+.
+
+<#8f95b65c6b4bb6d6>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:08.868024"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:02.466181"^^xsd:dateTime; 
+    prov:used <#d8105ad5d82d0dff>;
+.
+
+<#d8105ad5d82d0dff>
+    a prov:Entity;
+    rdfs:label "MT039888";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/d8105ad5d82d0dff/display";
+
+.
+<#ff0c23d35db96dbe>
+    a prov:Entity;
+    prov:wasGeneratedBy <#8f95b65c6b4bb6d6>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 35: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#d8105ad5d82d0dff>;
+.
+
+<#aa7efe84b4026c9c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:09.458685"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:56.901609"^^xsd:dateTime; 
+    prov:used <#d5657578405fbf9c>;
+.
+
+<#d5657578405fbf9c>
+    a prov:Entity;
+    rdfs:label "MT044257";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/d5657578405fbf9c/display";
+
+.
+<#9fc6497c5bf4beef>
+    a prov:Entity;
+    prov:wasGeneratedBy <#aa7efe84b4026c9c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 36: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#d5657578405fbf9c>;
+.
+
+<#61eaea528c71e625>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:10.275935"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:58.297812"^^xsd:dateTime; 
+    prov:used <#f1ffbd2ec13c1bb6>;
+.
+
+<#f1ffbd2ec13c1bb6>
+    a prov:Entity;
+    rdfs:label "MT044258";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f1ffbd2ec13c1bb6/display";
+
+.
+<#c25f9e34b1e3a703>
+    a prov:Entity;
+    prov:wasGeneratedBy <#61eaea528c71e625>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 37: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#f1ffbd2ec13c1bb6>;
+.
+
+<#4964f2af5c6538c8>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:10.967944"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:56.960545"^^xsd:dateTime; 
+    prov:used <#a95056c921ea5b68>;
+.
+
+<#a95056c921ea5b68>
+    a prov:Entity;
+    rdfs:label "MT049951";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a95056c921ea5b68/display";
+
+.
+<#eff0321870b46a6b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4964f2af5c6538c8>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 38: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#a95056c921ea5b68>;
+.
+
+<#e0bb11c0e49e3c1d>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:11.238673"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:02.510408"^^xsd:dateTime; 
+    prov:used <#ace073237296d044>;
+.
+
+<#ace073237296d044>
+    a prov:Entity;
+    rdfs:label "MT066175";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ace073237296d044/display";
+
+.
+<#34bf4b4d3d30e79a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e0bb11c0e49e3c1d>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 39: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ace073237296d044>;
+.
+
+<#1eb92e66551b16c8>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:11.467730"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:03.487630"^^xsd:dateTime; 
+    prov:used <#ca19ce2c42c0eef6>;
+.
+
+<#ca19ce2c42c0eef6>
+    a prov:Entity;
+    rdfs:label "MT066176";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ca19ce2c42c0eef6/display";
+
+.
+<#a728cabf5a9556a8>
+    a prov:Entity;
+    prov:wasGeneratedBy <#1eb92e66551b16c8>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 40: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#ca19ce2c42c0eef6>;
+.
+
+<#4662a5e51190ed8e>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    prov:startedAtTime "2020-03-23T21:19:11.651342"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:14.625375"^^xsd:dateTime; 
+    prov:used <#c00a2a5e37cf966e>;
+.
+
+<#c00a2a5e37cf966e>
+    a prov:Entity;
+    rdfs:label "MT072688";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/c00a2a5e37cf966e/display";
+
+.
+<#234aa0005d634814>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4662a5e51190ed8e>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/2.18.2.1" ;
+    rdfs:label "NormalizeFasta on data 41: Normalized FASTA dataset";
+    prov:wasDerivedFrom <#c00a2a5e37cf966e>;
+.
+
+<#767a7b54439ec972>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-02T18:51:33.854697"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-02T18:52:21.575891"^^xsd:dateTime; 
+.
+
+<#fa8e6ff7d7f0c91d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#767a7b54439ec972>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "Text transformation on collection 42";
+.
+
+<#c7e23af2143ee737>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:12.860035"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:04.417521"^^xsd:dateTime; 
+    prov:used <#8ceced7ed6ce5090>;
+.
+
+<#8ceced7ed6ce5090>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 7: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/8ceced7ed6ce5090/display";
+
+.
+<#ba5838c45ba16211>
+    a prov:Entity;
+    prov:wasGeneratedBy <#c7e23af2143ee737>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 43";
+    prov:wasDerivedFrom <#8ceced7ed6ce5090>;
+.
+
+<#0f8b69d7f2bc45e5>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:13.769985"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:19:48.106263"^^xsd:dateTime; 
+    prov:used <#bebf973525f7a615>;
+.
+
+<#bebf973525f7a615>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 8: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/bebf973525f7a615/display";
+
+.
+<#8518daa54e56c6b9>
+    a prov:Entity;
+    prov:wasGeneratedBy <#0f8b69d7f2bc45e5>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 44";
+    prov:wasDerivedFrom <#bebf973525f7a615>;
+.
+
+<#70f51268bf7c912f>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:14.044738"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:03.849210"^^xsd:dateTime; 
+    prov:used <#16db743ec9fbc947>;
+.
+
+<#16db743ec9fbc947>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 9: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/16db743ec9fbc947/display";
+
+.
+<#4219a222d944b872>
+    a prov:Entity;
+    prov:wasGeneratedBy <#70f51268bf7c912f>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 45";
+    prov:wasDerivedFrom <#16db743ec9fbc947>;
+.
+
+<#6342554b204920c9>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:14.283796"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:18.349640"^^xsd:dateTime; 
+    prov:used <#2a198eccdeb21899>;
+.
+
+<#2a198eccdeb21899>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 10: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/2a198eccdeb21899/display";
+
+.
+<#f6aa601e098251a1>
+    a prov:Entity;
+    prov:wasGeneratedBy <#6342554b204920c9>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 46";
+    prov:wasDerivedFrom <#2a198eccdeb21899>;
+.
+
+<#a57e461908018adb>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:14.441313"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:11.783319"^^xsd:dateTime; 
+    prov:used <#bb50fa222b9b791d>;
+.
+
+<#bb50fa222b9b791d>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 11: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/bb50fa222b9b791d/display";
+
+.
+<#810497c7b62ea25c>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a57e461908018adb>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 47";
+    prov:wasDerivedFrom <#bb50fa222b9b791d>;
+.
+
+<#a96952a74d9d19fd>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:14.629189"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:17.963633"^^xsd:dateTime; 
+    prov:used <#25841ac7e407757d>;
+.
+
+<#25841ac7e407757d>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 12: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/25841ac7e407757d/display";
+
+.
+<#6be9d6277bdaafcf>
+    a prov:Entity;
+    prov:wasGeneratedBy <#a96952a74d9d19fd>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 48";
+    prov:wasDerivedFrom <#25841ac7e407757d>;
+.
+
+<#e791f62d0cd2d67b>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:14.817758"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:09.193861"^^xsd:dateTime; 
+    prov:used <#b9d5f42993e3f17e>;
+.
+
+<#b9d5f42993e3f17e>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 13: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/b9d5f42993e3f17e/display";
+
+.
+<#8ebe27ea52176cf9>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e791f62d0cd2d67b>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 49";
+    prov:wasDerivedFrom <#b9d5f42993e3f17e>;
+.
+
+<#e61ae953e97bd007>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:15.113353"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:14.787379"^^xsd:dateTime; 
+    prov:used <#e2e9d59901c106ee>;
+.
+
+<#e2e9d59901c106ee>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 14: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/e2e9d59901c106ee/display";
+
+.
+<#58d7eddf84921be3>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e61ae953e97bd007>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 50";
+    prov:wasDerivedFrom <#e2e9d59901c106ee>;
+.
+
+<#ac7fbc426693702f>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:15.539470"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:14.190251"^^xsd:dateTime; 
+    prov:used <#11f9148e7b5172ba>;
+.
+
+<#11f9148e7b5172ba>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 15: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/11f9148e7b5172ba/display";
+
+.
+<#ee6017a1d362ec6e>
+    a prov:Entity;
+    prov:wasGeneratedBy <#ac7fbc426693702f>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 51";
+    prov:wasDerivedFrom <#11f9148e7b5172ba>;
+.
+
+<#dfa7f68568aac705>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:16.030585"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:09.279948"^^xsd:dateTime; 
+    prov:used <#4de13ef4475fd3a8>;
+.
+
+<#4de13ef4475fd3a8>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 16: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/4de13ef4475fd3a8/display";
+
+.
+<#f04f34a61451dd73>
+    a prov:Entity;
+    prov:wasGeneratedBy <#dfa7f68568aac705>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 52";
+    prov:wasDerivedFrom <#4de13ef4475fd3a8>;
+.
+
+<#895b5ed272f3f6eb>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:16.630526"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:17.218210"^^xsd:dateTime; 
+    prov:used <#4966984a831f7461>;
+.
+
+<#4966984a831f7461>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 17: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/4966984a831f7461/display";
+
+.
+<#815f7849dfd4eef1>
+    a prov:Entity;
+    prov:wasGeneratedBy <#895b5ed272f3f6eb>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 53";
+    prov:wasDerivedFrom <#4966984a831f7461>;
+.
+
+<#0367f9e5e4a379cc>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:17.125035"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:18.570864"^^xsd:dateTime; 
+    prov:used <#3d0af910d3b4ef24>;
+.
+
+<#3d0af910d3b4ef24>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 18: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/3d0af910d3b4ef24/display";
+
+.
+<#966ad208a1727422>
+    a prov:Entity;
+    prov:wasGeneratedBy <#0367f9e5e4a379cc>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 54";
+    prov:wasDerivedFrom <#3d0af910d3b4ef24>;
+.
+
+<#75dc9cda741c611a>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:17.417902"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:17.301459"^^xsd:dateTime; 
+    prov:used <#ccfa85195ad720ef>;
+.
+
+<#ccfa85195ad720ef>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 19: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ccfa85195ad720ef/display";
+
+.
+<#a3d1850c2bc7f436>
+    a prov:Entity;
+    prov:wasGeneratedBy <#75dc9cda741c611a>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 55";
+    prov:wasDerivedFrom <#ccfa85195ad720ef>;
+.
+
+<#37e1a1f615890206>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:17.590689"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:19.702827"^^xsd:dateTime; 
+    prov:used <#0973c61e3f42ad6f>;
+.
+
+<#0973c61e3f42ad6f>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 20: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/0973c61e3f42ad6f/display";
+
+.
+<#1cbe5d219eed78a3>
+    a prov:Entity;
+    prov:wasGeneratedBy <#37e1a1f615890206>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 56";
+    prov:wasDerivedFrom <#0973c61e3f42ad6f>;
+.
+
+<#5fe563c02d0eaadf>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:17.782926"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:06.009457"^^xsd:dateTime; 
+    prov:used <#061910294696f370>;
+.
+
+<#061910294696f370>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 21: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/061910294696f370/display";
+
+.
+<#9b302eacf52424a7>
+    a prov:Entity;
+    prov:wasGeneratedBy <#5fe563c02d0eaadf>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 57";
+    prov:wasDerivedFrom <#061910294696f370>;
+.
+
+<#dd81d14c281f41de>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:17.963400"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:20.238438"^^xsd:dateTime; 
+    prov:used <#4c2dae5101f07fdf>;
+.
+
+<#4c2dae5101f07fdf>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 22: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/4c2dae5101f07fdf/display";
+
+.
+<#77e3ed2642b1b4ff>
+    a prov:Entity;
+    prov:wasGeneratedBy <#dd81d14c281f41de>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 58";
+    prov:wasDerivedFrom <#4c2dae5101f07fdf>;
+.
+
+<#21e73e177c57be52>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:18.269312"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:09.484590"^^xsd:dateTime; 
+    prov:used <#edf4cb41e1f2be00>;
+.
+
+<#edf4cb41e1f2be00>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 23: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/edf4cb41e1f2be00/display";
+
+.
+<#730bf43bb0df4bc3>
+    a prov:Entity;
+    prov:wasGeneratedBy <#21e73e177c57be52>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 59";
+    prov:wasDerivedFrom <#edf4cb41e1f2be00>;
+.
+
+<#4c7e61ff9fb9b946>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:18.674412"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:20.277963"^^xsd:dateTime; 
+    prov:used <#5d8cb71a1b02c5c3>;
+.
+
+<#5d8cb71a1b02c5c3>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 24: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5d8cb71a1b02c5c3/display";
+
+.
+<#e3c9f977f7d08989>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4c7e61ff9fb9b946>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 60";
+    prov:wasDerivedFrom <#5d8cb71a1b02c5c3>;
+.
+
+<#da2478255d7a917d>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:19.660242"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:18.848047"^^xsd:dateTime; 
+    prov:used <#5f1ae07e794266fa>;
+.
+
+<#5f1ae07e794266fa>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 25: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5f1ae07e794266fa/display";
+
+.
+<#61f5231502aa9f7a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#da2478255d7a917d>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 61";
+    prov:wasDerivedFrom <#5f1ae07e794266fa>;
+.
+
+<#4a9acc12d40a9b1a>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:19.989338"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:20.831142"^^xsd:dateTime; 
+    prov:used <#d5575205d6c503d5>;
+.
+
+<#d5575205d6c503d5>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 26: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/d5575205d6c503d5/display";
+
+.
+<#e022f3638b2ec669>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4a9acc12d40a9b1a>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 62";
+    prov:wasDerivedFrom <#d5575205d6c503d5>;
+.
+
+<#69bba25f06405681>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:20.246867"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:18.862381"^^xsd:dateTime; 
+    prov:used <#8ab1d1df88442a2e>;
+.
+
+<#8ab1d1df88442a2e>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 27: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/8ab1d1df88442a2e/display";
+
+.
+<#2fbc327ede79a744>
+    a prov:Entity;
+    prov:wasGeneratedBy <#69bba25f06405681>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 63";
+    prov:wasDerivedFrom <#8ab1d1df88442a2e>;
+.
+
+<#101627f7d00d2139>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:20.588495"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:30.197385"^^xsd:dateTime; 
+    prov:used <#c74bc825901068c3>;
+.
+
+<#c74bc825901068c3>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 28: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/c74bc825901068c3/display";
+
+.
+<#98ef4ed9005ccfa1>
+    a prov:Entity;
+    prov:wasGeneratedBy <#101627f7d00d2139>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 64";
+    prov:wasDerivedFrom <#c74bc825901068c3>;
+.
+
+<#f0826d755da07077>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:20.998064"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:22.300251"^^xsd:dateTime; 
+    prov:used <#e574dc12dda64a81>;
+.
+
+<#e574dc12dda64a81>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 29: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/e574dc12dda64a81/display";
+
+.
+<#213dcae2cf2974cf>
+    a prov:Entity;
+    prov:wasGeneratedBy <#f0826d755da07077>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 65";
+    prov:wasDerivedFrom <#e574dc12dda64a81>;
+.
+
+<#9eb782d1b9a061bd>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:21.285297"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:25.899153"^^xsd:dateTime; 
+    prov:used <#e1f6ca582062ce83>;
+.
+
+<#e1f6ca582062ce83>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 30: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/e1f6ca582062ce83/display";
+
+.
+<#0b6e6949dc3847dc>
+    a prov:Entity;
+    prov:wasGeneratedBy <#9eb782d1b9a061bd>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 66";
+    prov:wasDerivedFrom <#e1f6ca582062ce83>;
+.
+
+<#94f3dfee6ff1ac2b>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:21.560856"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:30.655256"^^xsd:dateTime; 
+    prov:used <#75f9cd2c8d2b18ef>;
+.
+
+<#75f9cd2c8d2b18ef>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 31: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/75f9cd2c8d2b18ef/display";
+
+.
+<#9959ba5d4ecab2de>
+    a prov:Entity;
+    prov:wasGeneratedBy <#94f3dfee6ff1ac2b>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 67";
+    prov:wasDerivedFrom <#75f9cd2c8d2b18ef>;
+.
+
+<#e9448632b4d0df1b>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:22.012389"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:33.046726"^^xsd:dateTime; 
+    prov:used <#43b5c053c4472518>;
+.
+
+<#43b5c053c4472518>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 32: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/43b5c053c4472518/display";
+
+.
+<#ebca8742ea79082b>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e9448632b4d0df1b>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 68";
+    prov:wasDerivedFrom <#43b5c053c4472518>;
+.
+
+<#74904f06e1536488>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:23.282610"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:32.108767"^^xsd:dateTime; 
+    prov:used <#33006ab6c58604a7>;
+.
+
+<#33006ab6c58604a7>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 33: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/33006ab6c58604a7/display";
+
+.
+<#3138c366a4ee2b4f>
+    a prov:Entity;
+    prov:wasGeneratedBy <#74904f06e1536488>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 69";
+    prov:wasDerivedFrom <#33006ab6c58604a7>;
+.
+
+<#7f1d6f3db4122971>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:24.309914"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:33.181159"^^xsd:dateTime; 
+    prov:used <#c972e06b963481bd>;
+.
+
+<#c972e06b963481bd>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 34: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/c972e06b963481bd/display";
+
+.
+<#592b2b0d12137a88>
+    a prov:Entity;
+    prov:wasGeneratedBy <#7f1d6f3db4122971>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 70";
+    prov:wasDerivedFrom <#c972e06b963481bd>;
+.
+
+<#af4f072d10cca09c>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:25.434456"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:30.713382"^^xsd:dateTime; 
+    prov:used <#a9fd58ff43689e16>;
+.
+
+<#a9fd58ff43689e16>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 35: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a9fd58ff43689e16/display";
+
+.
+<#b0624f9118204536>
+    a prov:Entity;
+    prov:wasGeneratedBy <#af4f072d10cca09c>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 71";
+    prov:wasDerivedFrom <#a9fd58ff43689e16>;
+.
+
+<#74bd0a3acce736d8>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:26.604766"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:34.863447"^^xsd:dateTime; 
+    prov:used <#5eb7948d4d751cca>;
+.
+
+<#5eb7948d4d751cca>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 36: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5eb7948d4d751cca/display";
+
+.
+<#907911aee18d05e6>
+    a prov:Entity;
+    prov:wasGeneratedBy <#74bd0a3acce736d8>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 72";
+    prov:wasDerivedFrom <#5eb7948d4d751cca>;
+.
+
+<#84ad6ed7f5ea89ac>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:29.047737"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:32.314519"^^xsd:dateTime; 
+    prov:used <#42c97db99541d0ad>;
+.
+
+<#42c97db99541d0ad>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 37: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/42c97db99541d0ad/display";
+
+.
+<#5c43c07755c5578d>
+    a prov:Entity;
+    prov:wasGeneratedBy <#84ad6ed7f5ea89ac>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 73";
+    prov:wasDerivedFrom <#42c97db99541d0ad>;
+.
+
+<#4f8905a2b580de4d>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:30.392574"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:21:35.850427"^^xsd:dateTime; 
+    prov:used <#0d5beea655ece64a>;
+.
+
+<#0d5beea655ece64a>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 38: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/0d5beea655ece64a/display";
+
+.
+<#5f52d6a5dee470fb>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4f8905a2b580de4d>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 74";
+    prov:wasDerivedFrom <#0d5beea655ece64a>;
+.
+
+<#6e7fa71dcc537103>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:33.281322"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:32.397650"^^xsd:dateTime; 
+    prov:used <#e64751caf3f68c94>;
+.
+
+<#e64751caf3f68c94>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 39: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/e64751caf3f68c94/display";
+
+.
+<#8a36627e63c72a98>
+    a prov:Entity;
+    prov:wasGeneratedBy <#6e7fa71dcc537103>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 75";
+    prov:wasDerivedFrom <#e64751caf3f68c94>;
+.
+
+<#e35a45787cae91f2>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:35.594755"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:37.062233"^^xsd:dateTime; 
+    prov:used <#63025a14e8f0a343>;
+.
+
+<#63025a14e8f0a343>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 40: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/63025a14e8f0a343/display";
+
+.
+<#05f928166c883309>
+    a prov:Entity;
+    prov:wasGeneratedBy <#e35a45787cae91f2>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 76";
+    prov:wasDerivedFrom <#63025a14e8f0a343>;
+.
+
+<#47402eb5416ac8e1>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    prov:startedAtTime "2020-03-23T21:19:37.209995"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:20:34.789175"^^xsd:dateTime; 
+    prov:used <#9eac58b8f3fe11ad>;
+.
+
+<#9eac58b8f3fe11ad>
+    a prov:Entity;
+    rdfs:label "NormalizeFasta on data 41: Normalized FASTA dataset";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/9eac58b8f3fe11ad/display";
+
+.
+<#e49330ad5c89e2f1>
+    a prov:Entity;
+    prov:wasGeneratedBy <#47402eb5416ac8e1>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sed_tool/1.1.1" ;
+    rdfs:label "Text transformation on data 77";
+    prov:wasDerivedFrom <#9eac58b8f3fe11ad>;
+.
+
+<#d39165482958fd07>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1" ;
+    prov:startedAtTime "2020-03-23T21:19:45.276324"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:21:54.441933"^^xsd:dateTime; 
+    prov:used <#605b943b774cbe86>;
+    prov:used <#d855adc680eef731>;
+    prov:used <#63841704208bc87c>;
+    prov:used <#f8509a29876bdb71>;
+    prov:used <#82d7f33ba80c1db1>;
+    prov:used <#ee4d3fec2a99ecd4>;
+    prov:used <#c6b7816458bf2830>;
+    prov:used <#2ac1db1b022a9126>;
+    prov:used <#605b943b774cbe86>;
+    prov:used <#af6c0cb5a1b7cbec>;
+    prov:used <#810c0c2342148d65>;
+    prov:used <#939359d87f18f696>;
+    prov:used <#5ce39eebe5f76da0>;
+    prov:used <#3b101a774ef5a6f2>;
+    prov:used <#f70f8c56e6af2004>;
+    prov:used <#7962c9b558e8473a>;
+    prov:used <#bc7a142affb4533f>;
+    prov:used <#6e90fdd375c02621>;
+    prov:used <#622d187476433d7e>;
+    prov:used <#a506edebe0e213fd>;
+    prov:used <#9bd43548f8b7abc4>;
+    prov:used <#a23129abd2fbd601>;
+    prov:used <#ee0dbc962056a8d7>;
+    prov:used <#082056cea81fcae5>;
+    prov:used <#9bc4f179fb21ba75>;
+    prov:used <#ce41faf38f15fb1f>;
+    prov:used <#4e81bfe1d02c8c5d>;
+    prov:used <#f758239714ca366e>;
+    prov:used <#a54ebbb8bbfaaa66>;
+    prov:used <#b945ac1ba46d2aae>;
+    prov:used <#7302fd78d0e7f308>;
+    prov:used <#dedf65e17ede588c>;
+    prov:used <#ede652c96068fc57>;
+    prov:used <#a913422331c254e0>;
+    prov:used <#03d3081c35a9e2af>;
+    prov:used <#46d72fa9206addbf>;
+.
+
+<#605b943b774cbe86>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 43";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/605b943b774cbe86/display";
+
+.
+<#d855adc680eef731>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 51";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/d855adc680eef731/display";
+
+.
+<#63841704208bc87c>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 48";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/63841704208bc87c/display";
+
+.
+<#f8509a29876bdb71>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 49";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f8509a29876bdb71/display";
+
+.
+<#82d7f33ba80c1db1>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 46";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/82d7f33ba80c1db1/display";
+
+.
+<#ee4d3fec2a99ecd4>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 47";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ee4d3fec2a99ecd4/display";
+
+.
+<#c6b7816458bf2830>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 44";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/c6b7816458bf2830/display";
+
+.
+<#2ac1db1b022a9126>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 45";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/2ac1db1b022a9126/display";
+
+.
+<#af6c0cb5a1b7cbec>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 60";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/af6c0cb5a1b7cbec/display";
+
+.
+<#810c0c2342148d65>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 61";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/810c0c2342148d65/display";
+
+.
+<#939359d87f18f696>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 76";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/939359d87f18f696/display";
+
+.
+<#5ce39eebe5f76da0>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 77";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/5ce39eebe5f76da0/display";
+
+.
+<#3b101a774ef5a6f2>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 74";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/3b101a774ef5a6f2/display";
+
+.
+<#f70f8c56e6af2004>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 75";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f70f8c56e6af2004/display";
+
+.
+<#7962c9b558e8473a>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 72";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/7962c9b558e8473a/display";
+
+.
+<#bc7a142affb4533f>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 73";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/bc7a142affb4533f/display";
+
+.
+<#6e90fdd375c02621>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 52";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/6e90fdd375c02621/display";
+
+.
+<#622d187476433d7e>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 53";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/622d187476433d7e/display";
+
+.
+<#a506edebe0e213fd>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 54";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a506edebe0e213fd/display";
+
+.
+<#9bd43548f8b7abc4>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 50";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/9bd43548f8b7abc4/display";
+
+.
+<#a23129abd2fbd601>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 56";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a23129abd2fbd601/display";
+
+.
+<#ee0dbc962056a8d7>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 57";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ee0dbc962056a8d7/display";
+
+.
+<#082056cea81fcae5>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 58";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/082056cea81fcae5/display";
+
+.
+<#9bc4f179fb21ba75>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 59";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/9bc4f179fb21ba75/display";
+
+.
+<#ce41faf38f15fb1f>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 55";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ce41faf38f15fb1f/display";
+
+.
+<#4e81bfe1d02c8c5d>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 63";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/4e81bfe1d02c8c5d/display";
+
+.
+<#f758239714ca366e>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 62";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/f758239714ca366e/display";
+
+.
+<#a54ebbb8bbfaaa66>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 65";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a54ebbb8bbfaaa66/display";
+
+.
+<#b945ac1ba46d2aae>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 64";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/b945ac1ba46d2aae/display";
+
+.
+<#7302fd78d0e7f308>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 67";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/7302fd78d0e7f308/display";
+
+.
+<#dedf65e17ede588c>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 66";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/dedf65e17ede588c/display";
+
+.
+<#ede652c96068fc57>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 69";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/ede652c96068fc57/display";
+
+.
+<#a913422331c254e0>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 68";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/a913422331c254e0/display";
+
+.
+<#03d3081c35a9e2af>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 71";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/03d3081c35a9e2af/display";
+
+.
+<#46d72fa9206addbf>
+    a prov:Entity;
+    rdfs:label "Text transformation on data 70";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/46d72fa9206addbf/display";
+
+.
+<#69af492d8b21b7ac>
+    a prov:Entity;
+    prov:wasGeneratedBy <#d39165482958fd07>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.1" ;
+    rdfs:label "Collapse Collection on data 113, data 112, and others";
+    prov:wasDerivedFrom <#605b943b774cbe86>;
+    prov:wasDerivedFrom <#d855adc680eef731>;
+    prov:wasDerivedFrom <#63841704208bc87c>;
+    prov:wasDerivedFrom <#f8509a29876bdb71>;
+    prov:wasDerivedFrom <#82d7f33ba80c1db1>;
+    prov:wasDerivedFrom <#ee4d3fec2a99ecd4>;
+    prov:wasDerivedFrom <#c6b7816458bf2830>;
+    prov:wasDerivedFrom <#2ac1db1b022a9126>;
+    prov:wasDerivedFrom <#605b943b774cbe86>;
+    prov:wasDerivedFrom <#af6c0cb5a1b7cbec>;
+    prov:wasDerivedFrom <#810c0c2342148d65>;
+    prov:wasDerivedFrom <#939359d87f18f696>;
+    prov:wasDerivedFrom <#5ce39eebe5f76da0>;
+    prov:wasDerivedFrom <#3b101a774ef5a6f2>;
+    prov:wasDerivedFrom <#f70f8c56e6af2004>;
+    prov:wasDerivedFrom <#7962c9b558e8473a>;
+    prov:wasDerivedFrom <#bc7a142affb4533f>;
+    prov:wasDerivedFrom <#6e90fdd375c02621>;
+    prov:wasDerivedFrom <#622d187476433d7e>;
+    prov:wasDerivedFrom <#a506edebe0e213fd>;
+    prov:wasDerivedFrom <#9bd43548f8b7abc4>;
+    prov:wasDerivedFrom <#a23129abd2fbd601>;
+    prov:wasDerivedFrom <#ee0dbc962056a8d7>;
+    prov:wasDerivedFrom <#082056cea81fcae5>;
+    prov:wasDerivedFrom <#9bc4f179fb21ba75>;
+    prov:wasDerivedFrom <#ce41faf38f15fb1f>;
+    prov:wasDerivedFrom <#4e81bfe1d02c8c5d>;
+    prov:wasDerivedFrom <#f758239714ca366e>;
+    prov:wasDerivedFrom <#a54ebbb8bbfaaa66>;
+    prov:wasDerivedFrom <#b945ac1ba46d2aae>;
+    prov:wasDerivedFrom <#7302fd78d0e7f308>;
+    prov:wasDerivedFrom <#dedf65e17ede588c>;
+    prov:wasDerivedFrom <#ede652c96068fc57>;
+    prov:wasDerivedFrom <#a913422331c254e0>;
+    prov:wasDerivedFrom <#03d3081c35a9e2af>;
+    prov:wasDerivedFrom <#46d72fa9206addbf>;
+.
+
+<#93f3509211f38ca9>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3" ;
+    prov:startedAtTime "2020-03-23T21:19:46.224826"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:22:23.139597"^^xsd:dateTime; 
+    prov:used <#e2d6f487a212f4c6>;
+.
+
+<#e2d6f487a212f4c6>
+    a prov:Entity;
+    rdfs:label "Collapse Collection on data 113, data 112, and others";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/e2d6f487a212f4c6/display";
+
+.
+<#0bb9b1e415483fca>
+    a prov:Entity;
+    prov:wasGeneratedBy <#93f3509211f38ca9>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3" ;
+    rdfs:label "MAFFT on data 114";
+    prov:wasDerivedFrom <#e2d6f487a212f4c6>;
+.
+
+<#ac9368acdfdb64dc>
+    a prov:Activity ;
+    prov:wasAssociatedWith "toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1" ;
+    prov:startedAtTime "2020-03-23T21:19:47.012885"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-23T21:23:13.138324"^^xsd:dateTime; 
+    prov:used <#590786d7938c81e6>;
+.
+
+<#590786d7938c81e6>
+    a prov:Entity;
+    rdfs:label "MAFFT on data 114";
+    rdfs:label "/api/histories/dd556073bbe312b8/contents/590786d7938c81e6/display";
+
+.
+<#15c220d0e56af466>
+    a prov:Entity;
+    prov:wasGeneratedBy <#ac9368acdfdb64dc>;
+    prov:wasAttributedTo "toolshed.g2.bx.psu.edu/repos/iuc/fasttree/fasttree/2.1.10+galaxy1" ;
+    rdfs:label "FASTTREE on data 115:tree.nhx";
+    prov:wasDerivedFrom <#590786d7938c81e6>;
+.
+
+<#4f039f7aa0870e13>
+    a prov:Activity ;
+    prov:wasAssociatedWith "upload1" ;
+    prov:startedAtTime "2020-03-24T23:33:24.550317"^^xsd:dateTime; 
+    prov:endedAtTime "2020-03-24T23:34:09.541025"^^xsd:dateTime; 
+.
+
+<#480633635449be8a>
+    a prov:Entity;
+    prov:wasGeneratedBy <#4f039f7aa0870e13>;
+    prov:wasAttributedTo "upload1" ;
+    rdfs:label "MCRA_estimation_Jupyter_Notebook";
+.
+
+

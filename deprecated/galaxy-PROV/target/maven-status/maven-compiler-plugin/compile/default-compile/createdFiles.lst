@@ -1,0 +1,11 @@
+fr/univnantes/galaxyld/GHistFactory.class
+fr/univnantes/galaxyld/pojo/Step.class
+fr/univnantes/galaxyld/GalaxyProvenanceException.class
+fr/univnantes/galaxyld/pojo/JobTime.class
+fr/univnantes/galaxyld/pojo/Dataset.class
+fr/univnantes/galaxyld/pojo/Output.class
+fr/univnantes/galaxyld/GHistAPI.class
+fr/univnantes/galaxyld/Util.class
+fr/univnantes/galaxyld/Main.class
+fr/univnantes/galaxyld/pojo/Workflow.class
+fr/univnantes/galaxyld/pojo/Connection.class
