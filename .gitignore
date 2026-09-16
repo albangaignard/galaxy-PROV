@@ -17,3 +17,5 @@ hs_err_pid*
 .vscode
 .ipynb_checkpoints
 .DS_Store
+*.index
+*.swp
