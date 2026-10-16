@@ -88,8 +88,6 @@ conda activate galaxy-prov
 export GALAXY_API_KEY=<your-api-key>
 ```
 
-> ⚠️ Never write your API key into the notebook or commit it. The notebook only reads it from the environment.
-
 To use another Galaxy instance, change `galaxy_url` in section 1 of the notebook.
 
 ### Usage
